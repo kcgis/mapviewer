@@ -11167,15 +11167,10 @@
       "index": 1,
       "isSplash": false,
       "label": "Zoning Guide",
-      "interactionType": "NO_BUTTON",
-      "interactionStyles": {
-        "text": "",
-        "textSize": "13px",
-        "buttonText": "",
-        "buttonTextSize": "16px"
-      },
-      "confirmBeforeClose": false,
-      "alwaysShowConfirmation": true,
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
       "effect": {
         "type": "FLOAT_IN",
         "option": {
@@ -11208,15 +11203,10 @@
       "index": 2,
       "isSplash": false,
       "label": "CAMA and Sales Guide",
-      "interactionType": "NO_BUTTON",
-      "interactionStyles": {
-        "text": "",
-        "textSize": "13px",
-        "buttonText": "",
-        "buttonTextSize": "16px"
-      },
-      "confirmBeforeClose": false,
-      "alwaysShowConfirmation": true,
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
       "effect": {
         "type": "FLOAT_IN",
         "option": {
@@ -11249,15 +11239,10 @@
       "index": 3,
       "isSplash": false,
       "label": "Property Information Guide",
-      "interactionType": "NO_BUTTON",
-      "interactionStyles": {
-        "text": "",
-        "textSize": "13px",
-        "buttonText": "",
-        "buttonTextSize": "16px"
-      },
-      "confirmBeforeClose": false,
-      "alwaysShowConfirmation": true,
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
       "closeWhenClickOverlay": true,
       "effect": {
         "type": "FLOAT_IN",
@@ -11290,15 +11275,10 @@
       "index": 4,
       "isSplash": false,
       "label": "Voting Map Guide",
-      "interactionType": "NO_BUTTON",
-      "interactionStyles": {
-        "text": "",
-        "textSize": "13px",
-        "buttonText": "",
-        "buttonTextSize": "16px"
-      },
-      "confirmBeforeClose": false,
-      "alwaysShowConfirmation": true,
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
       "closeWhenClickOverlay": true,
       "effect": {
         "type": "FLOAT_IN",
@@ -11331,15 +11311,10 @@
       "index": 5,
       "isSplash": false,
       "label": "Explore Guide",
-      "interactionType": "NO_BUTTON",
-      "interactionStyles": {
-        "text": "",
-        "textSize": "13px",
-        "buttonText": "",
-        "buttonTextSize": "16px"
-      },
-      "confirmBeforeClose": false,
-      "alwaysShowConfirmation": true,
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
       "closeWhenClickOverlay": true,
       "effect": {
         "type": "FLOAT_IN",
@@ -11953,5 +11928,5 @@
       }
     }
   },
-  "timestamp": 1621649407006
+  "timestamp": 1621650202420
 }
