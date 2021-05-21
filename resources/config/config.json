@@ -9170,7 +9170,7 @@
       "version": "1.4.0",
       "label": "CAMA Sales Guide Title",
       "config": {
-        "text": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">﻿</strong><strong style=\"font-size: 18px; color: var(--dark-800);\">Zoning Map Guide</strong></p>",
+        "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿</strong><strong style=\"color: var(--dark-800); font-size: 18px;\">CAMA &amp; Sales Guide</strong></p>",
         "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
@@ -12028,7 +12028,8 @@
           "direction": "RIGHT",
           "configType": "GENTLE"
         }
-      }
+      },
+      "closeWhenClickOverlay": true
     },
     "dialog_10": {
       "id": "dialog_10",
@@ -12708,5 +12709,5 @@
       }
     }
   },
-  "timestamp": 1621640414243
+  "timestamp": 1621641225501
 }
