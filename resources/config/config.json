@@ -13,7 +13,7 @@
       "label": "Explore",
       "header": true,
       "footer": true,
-      "autoOpenDialogId": "dialog_13"
+      "autoOpenDialogId": ""
     },
     "page_1": {
       "id": "page_1",
@@ -29,7 +29,7 @@
       "label": "Zoning",
       "header": true,
       "footer": true,
-      "autoOpenDialogId": "dialog_9",
+      "autoOpenDialogId": "",
       "oneByOneEffect": {
         "type": "NONE",
         "option": {
@@ -48,10 +48,10 @@
       },
       "isDefault": false,
       "isVisible": true,
-      "label": "CAMA / Sales",
+      "label": "CAMA & Sales",
       "header": true,
       "footer": true,
-      "autoOpenDialogId": "dialog_10"
+      "autoOpenDialogId": ""
     },
     "page_3": {
       "id": "page_3",
@@ -67,7 +67,7 @@
       "label": "Voting",
       "header": true,
       "footer": true,
-      "autoOpenDialogId": "dialog_12"
+      "autoOpenDialogId": ""
     },
     "page_4": {
       "id": "page_4",
@@ -83,7 +83,7 @@
       "label": "Property Information",
       "header": true,
       "footer": true,
-      "autoOpenDialogId": "dialog_11",
+      "autoOpenDialogId": "",
       "oneByOneEffect": {
         "type": "NONE",
         "option": {
@@ -9170,7 +9170,7 @@
       "version": "1.4.0",
       "label": "CAMA Sales Guide Title",
       "config": {
-        "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿</strong><strong style=\"color: var(--dark-800); font-size: 18px;\">CAMA &amp; Sales Guide</strong></p>",
+        "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿</strong><strong style=\"color: var(--dark-800); font-size: 18px;\">CAMA and Sales Guide</strong></p>",
         "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
@@ -12053,7 +12053,7 @@
       },
       "index": 2,
       "isSplash": false,
-      "label": "CAMA / Sales Guide",
+      "label": "CAMA and Sales Guide",
       "interactionType": "NO_BUTTON",
       "interactionStyles": {
         "text": "",
@@ -12636,6 +12636,49 @@
           "version": "1.4.0"
         }
       ]
+    },
+    "messageConfig_6": {
+      "id": "messageConfig_6",
+      "widgetId": "widget_67",
+      "messageType": "EXTENT_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1621624200732",
+          "messageWidgetId": "widget_67",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": null,
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_6-17402270ab8-layer-14",
+              "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
+              "rootDataSourceId": "dataSource_6"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.4.0"
+        },
+        {
+          "actionId": "filter-data-record-action-1621624215716",
+          "messageWidgetId": "widget_67",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": null,
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_6-174021ad290-layer-13",
+              "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
+              "rootDataSourceId": "dataSource_6"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.4.0"
+        }
+      ]
     }
   },
   "pageStructure": [
@@ -12709,5 +12752,5 @@
       }
     }
   },
-  "timestamp": 1621641225501
+  "timestamp": 1621642675219
 }
