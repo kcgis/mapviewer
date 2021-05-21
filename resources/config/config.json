@@ -1925,56 +1925,32 @@
       "type": "FIXED",
       "label": "First",
       "order": [
-        "0",
-        "1"
+        "2"
       ],
       "content": {
-        "0": {
-          "sectionId": "section_3",
-          "type": "SECTION",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "55.00px",
-            "bottom": "-0.0%",
-            "width": "100.0%",
-            "height": "87.8%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "1": {
+        "2": {
           "type": "WIDGET",
           "setting": {
             "style": {},
             "autoProps": {
-              "left": false,
-              "right": true,
+              "right": false,
+              "left": true,
               "top": false,
-              "bottom": true,
-              "width": "STRETCH",
-              "height": "CUSTOM"
-            }
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
           },
           "bbox": {
-            "left": "2.5%",
-            "right": "2.5%",
-            "top": "10.00px",
-            "bottom": "90.0%",
-            "width": "95.0%",
-            "height": "35.00px"
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "-0.0%",
+            "bottom": "50.8%",
+            "width": "100.0%",
+            "height": "100.00%"
           },
-          "widgetId": "widget_102"
+          "widgetId": "widget_106",
+          "isPending": false
         }
       }
     },
@@ -2086,145 +2062,6 @@
           }
         }
       }
-    },
-    "layout_59": {
-      "type": "FIXED",
-      "order": [
-        "0"
-      ],
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_105",
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      }
-    },
-    "layout_60": {
-      "type": "FIXED",
-      "order": [
-        "0"
-      ],
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_104",
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      }
-    },
-    "layout_61": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "width": "300px",
-            "height": "600px"
-          },
-          "widgetId": "widget_103"
-        },
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "width": "300px",
-            "height": "400.00px"
-          },
-          "widgetId": "widget_101"
-        }
-      },
-      "order": [
-        "0",
-        "1"
-      ]
-    },
-    "layout_62": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "width": "400px",
-            "height": "653px"
-          },
-          "widgetId": "widget_96"
-        },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "width": "350px",
-            "height": "400px"
-          },
-          "widgetId": "widget_106",
-          "setting": {
-            "autoProps": {
-              "height": "AUTO"
-            }
-          }
-        }
-      },
-      "order": [
-        "0",
-        "1"
-      ]
     },
     "layout_63": {
       "type": "FIXED",
@@ -3786,198 +3623,8 @@
     "layout_93": {
       "type": "FIXED",
       "label": "First",
-      "content": {
-        "0": {
-          "sectionId": "section_3",
-          "type": "SECTION",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "55.00px",
-            "bottom": "-0.0%",
-            "width": "100.0%",
-            "height": "87.8%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": false,
-              "bottom": true,
-              "width": "STRETCH",
-              "height": "CUSTOM"
-            }
-          },
-          "bbox": {
-            "left": "2.5%",
-            "right": "2.5%",
-            "top": "10.00px",
-            "bottom": "90.0%",
-            "width": "95.0%",
-            "height": "35.00px"
-          },
-          "widgetId": "widget_102"
-        }
-      },
-      "order": [
-        "0",
-        "1"
-      ]
-    },
-    "layout_94": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_182",
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_95": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "width": "400px",
-            "height": "653px"
-          },
-          "widgetId": "widget_96"
-        },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "width": "350px",
-            "height": "400px"
-          },
-          "widgetId": "widget_106",
-          "setting": {
-            "autoProps": {
-              "height": "AUTO"
-            }
-          }
-        }
-      },
-      "order": [
-        "0",
-        "1"
-      ]
-    },
-    "layout_96": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_183",
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_97": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "width": "300px",
-            "height": "600px"
-          },
-          "widgetId": "widget_103"
-        },
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "width": "300px",
-            "height": "400.00px"
-          },
-          "widgetId": "widget_101"
-        }
-      },
-      "order": [
-        "0",
-        "1"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_98": {
       "type": "FIXED",
@@ -4827,198 +4474,8 @@
     "layout_118": {
       "type": "FIXED",
       "label": "First",
-      "content": {
-        "0": {
-          "sectionId": "section_3",
-          "type": "SECTION",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "55.00px",
-            "bottom": "-0.0%",
-            "width": "100.0%",
-            "height": "87.8%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": false,
-              "bottom": true,
-              "width": "STRETCH",
-              "height": "CUSTOM"
-            }
-          },
-          "bbox": {
-            "left": "2.5%",
-            "right": "2.5%",
-            "top": "10.00px",
-            "bottom": "90.0%",
-            "width": "95.0%",
-            "height": "35.00px"
-          },
-          "widgetId": "widget_102"
-        }
-      },
-      "order": [
-        "0",
-        "1"
-      ]
-    },
-    "layout_119": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_189",
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_120": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "width": "400px",
-            "height": "653px"
-          },
-          "widgetId": "widget_96"
-        },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "width": "350px",
-            "height": "400px"
-          },
-          "widgetId": "widget_106",
-          "setting": {
-            "autoProps": {
-              "height": "AUTO"
-            }
-          }
-        }
-      },
-      "order": [
-        "0",
-        "1"
-      ]
-    },
-    "layout_121": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_190",
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_122": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "width": "300px",
-            "height": "600px"
-          },
-          "widgetId": "widget_103"
-        },
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "width": "300px",
-            "height": "400.00px"
-          },
-          "widgetId": "widget_101"
-        }
-      },
-      "order": [
-        "0",
-        "1"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_123": {
       "type": "FIXED",
@@ -7140,140 +6597,6 @@
       "id": "widget_93",
       "useDataSources": []
     },
-    "widget_96": {
-      "uri": "widgets/common/filter/",
-      "version": "1.4.0",
-      "label": "Sales Filter",
-      "config": {
-        "groupByLayer": false,
-        "logicalOperator": "AND",
-        "custom": false,
-        "resetAll": false,
-        "turnOffAll": false,
-        "arrangeType": "BLOCK",
-        "triggerType": "TOGGLE",
-        "omitInternalStyle": false,
-        "filterItems": [
-          {
-            "icon": {
-              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1621280789969.png",
-              "properties": {
-                "filename": "1621280789969.png",
-                "originalName": "Double-barred_dollar_sign.svg.png",
-                "path": "${appResourceUrl}/images/icon_picker_in_setting/1621280789969.png",
-                "inlineSvg": false
-              }
-            },
-            "name": "Attribute Filters",
-            "useDataSource": {
-              "dataSourceId": "dataSource_6-17402270ab8-layer-14",
-              "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
-              "rootDataSourceId": "dataSource_6",
-              "fields": [
-                "sale_date",
-                "sale_amount",
-                "valid_sale"
-              ]
-            },
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "sale_date",
-                  "operator": "DATE_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_DATE_PICKER",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "sale_amount",
-                  "operator": "NUMBER_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_NUMBER_SELECTOR",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "valid_sale",
-                  "operator": "NUMBER_OPERATOR_IS",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "UNIQUE_PREDEFINED",
-                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
-                    "value": [
-                      {
-                        "value": 0,
-                        "label": "0",
-                        "alias": "No",
-                        "selected": false
-                      },
-                      {
-                        "value": 1,
-                        "label": "1",
-                        "alias": "Yes",
-                        "selected": true
-                      }
-                    ]
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": "NONE"
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "((valid_sale = 1))",
-              "displaySQL": "(Sale Date is between ? and ?) and (Sale Amount is between ? and ?) and (Arm's Length Sale = Yes)"
-            },
-            "autoApplyWhenWidgetOpen": true,
-            "collapseFilterExprs": false
-          }
-        ]
-      },
-      "id": "widget_96",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_6-17402270ab8-layer-14",
-          "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
-          "rootDataSourceId": "dataSource_6",
-          "fields": [
-            "sale_date",
-            "sale_amount",
-            "valid_sale"
-          ]
-        }
-      ]
-    },
     "widget_97": {
       "uri": "widgets/common/table/",
       "version": "1.4.0",
@@ -8363,44 +7686,122 @@
       },
       "id": "widget_98"
     },
-    "widget_101": {
+    "widget_106": {
       "uri": "widgets/arcgis/query/",
       "version": "1.4.0",
-      "label": "Query 1",
+      "label": "CAMA Sales Query",
       "config": {
         "queryItems": [
           {
-            "configId": "958029483802989",
+            "configId": "1888993088343447",
             "icon": {
-              "svg": "<svg viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2 5.055V11h2V8a1 1 0 011-1h2a1 1 0 011 1v3h2V4.969L6.043 1 2 5.055zM1 6.058l-.149.15a.497.497 0 01-.705 0 .501.501 0 010-.708L5.338.293a.995.995 0 011.41 0l5.106 5.121a.501.501 0 010 .707.497.497 0 01-.705 0L11 5.971V11a1 1 0 01-1 1H2a1 1 0 01-1-1V6.058zM5 11h2V8H5v3z\" fill=\"#000\" fill-rule=\"nonzero\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1621280947336.png",
               "properties": {
-                "filename": "home.svg",
-                "originalName": "home.svg",
-                "path": [
-                  "general",
-                  "home"
-                ],
-                "inlineSvg": true
+                "filename": "1621280947336.png",
+                "originalName": "Double-barred_dollar_sign.svg.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1621280947336.png",
+                "inlineSvg": false
               }
             },
-            "name": "Spatial Filter",
+            "name": "Sales Filter",
             "displayLabel": true,
             "useDataSource": {
-              "dataSourceId": "dataSource_6-174021ad290-layer-13",
-              "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
+              "dataSourceId": "dataSource_6-17402270ab8-layer-14",
+              "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
               "rootDataSourceId": "dataSource_6",
               "fields": [
-                "struct_type"
+                "sale_date",
+                "sale_amount",
+                "valid_sale"
               ]
             },
-            "outputDataSourceId": "widget_101_output_958029483802989",
-            "sqlExprObj": null,
+            "outputDataSourceId": "widget_106_output_1888993088343447",
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "sale_date",
+                  "operator": "DATE_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_PICKER",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "sale_amount",
+                  "operator": "NUMBER_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_NUMBER_SELECTOR",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "valid_sale",
+                  "operator": "NUMBER_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE_PREDEFINED",
+                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
+                    "value": [
+                      {
+                        "value": 0,
+                        "label": "0",
+                        "alias": "No",
+                        "selected": false
+                      },
+                      {
+                        "value": 1,
+                        "label": "1",
+                        "alias": "Yes",
+                        "selected": true
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "((valid_sale = 1))",
+              "displaySQL": "(Sale Date is between ? and ?) and (Sale Amount is between ? and ?) and (Arm's Length Sale = Yes)"
+            },
             "spatialMapWidgetIds": [
               "widget_67"
             ],
             "spatialFilterTypes": [
-              "InteractiveDrawMode",
-              "CurrentMapExtent"
+              "CurrentMapExtent",
+              "InteractiveDrawMode"
             ],
             "spatialInteractiveCreateToolTypes": [
               "Point",
@@ -8450,7 +7851,13 @@
             },
             "resultAllowChangeSymbol": false,
             "allowExport": false,
-            "sortOptions": [],
+            "sortOptions": [
+              {
+                "jimuFieldName": "sale_date",
+                "order": "DESC",
+                "itemKey": "0"
+              }
+            ],
             "itemSizeMap": {
               "arrangementHorizontalPopper": {
                 "minSize": {
@@ -8462,123 +7869,13 @@
                   "height": 480
                 }
               }
-            }
-          }
-        ],
-        "arrangeType": "BLOCK",
-        "arrangeWrap": false,
-        "sizeMap": {
-          "arrangementIconPopper": {
-            "minSize": {
-              "width": 300,
-              "height": 300
             },
-            "defaultSize": {
-              "width": 360,
-              "height": 480
-            }
-          }
-        }
-      },
-      "id": "widget_101",
-      "outputDataSources": [
-        "widget_101_output_958029483802989"
-      ],
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_6-174021ad290-layer-13",
-          "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
-          "rootDataSourceId": "dataSource_6",
-          "fields": [
-            "struct_type"
-          ]
-        }
-      ]
-    },
-    "widget_102": {
-      "uri": "widgets/common/navigator/",
-      "version": "1.4.0",
-      "label": "Filter Switcher",
-      "config": {
-        "data": {
-          "type": "AUTO",
-          "section": "section_3",
-          "views": [
-            "view_8",
-            "view_9"
-          ]
-        },
-        "display": {
-          "type": "nav",
-          "navStyle": "pills",
-          "standard": {
-            "gap": "30px",
-            "scrollable": true,
-            "showIcon": false,
-            "showText": true,
-            "iconPosition": "start",
-            "textAlign": "center"
+            "attributeFilterLabel": "Filter by Attributes",
+            "spatialFilterLabel": "Filter by Area",
+            "resultsLabel": "Matching Sales Features"
           },
-          "vertical": false,
-          "advanced": true,
-          "variant": {
-            "size": {
-              "fontSize": "0.875rem",
-              "lineHeight": 1.5,
-              "paddingX": "1rem",
-              "paddingY": "0.25rem"
-            },
-            "gutter": "0.25rem",
-            "icon": {
-              "spacing": "0.5rem"
-            },
-            "root": {
-              "borderRadius": "50rem"
-            },
-            "item": {
-              "default": {
-                "color": "#181818",
-                "border": {
-                  "width": "0px"
-                },
-                "borderRadius": "50rem",
-                "bg": "var(--secondary)"
-              },
-              "hover": {
-                "color": "#076fe5",
-                "borderRadius": "50rem"
-              },
-              "active": {
-                "color": "#fff",
-                "bg": "#076fe5",
-                "borderRadius": "50rem"
-              },
-              "disabled": {
-                "color": "#989898",
-                "shadow": "none",
-                "borderRadius": "50rem"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_102"
-    },
-    "widget_103": {
-      "uri": "widgets/common/filter/",
-      "version": "1.4.0",
-      "label": "Filter 1 copy",
-      "config": {
-        "groupByLayer": false,
-        "logicalOperator": "AND",
-        "custom": false,
-        "resetAll": false,
-        "turnOffAll": false,
-        "arrangeType": "BLOCK",
-        "triggerType": "TOGGLE",
-        "omitInternalStyle": false,
-        "filterItems": [
           {
+            "configId": "9717476529154514",
             "icon": {
               "svg": "<svg viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2 5.055V11h2V8a1 1 0 011-1h2a1 1 0 011 1v3h2V4.969L6.043 1 2 5.055zM1 6.058l-.149.15a.497.497 0 01-.705 0 .501.501 0 010-.708L5.338.293a.995.995 0 011.41 0l5.106 5.121a.501.501 0 010 .707.497.497 0 01-.705 0L11 5.971V11a1 1 0 01-1 1H2a1 1 0 01-1-1V6.058zM5 11h2V8H5v3z\" fill=\"#000\" fill-rule=\"nonzero\"></path></svg>",
               "properties": {
@@ -8588,12 +7885,11 @@
                   "general",
                   "home"
                 ],
-                "color": "",
-                "size": 14,
                 "inlineSvg": true
               }
             },
-            "name": "Attribute Filters",
+            "name": "CAMA Filter",
+            "displayLabel": true,
             "useDataSource": {
               "dataSourceId": "dataSource_6-174021ad290-layer-13",
               "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
@@ -8607,17 +7903,18 @@
                 "hbath"
               ]
             },
+            "outputDataSourceId": "widget_106_output_9717476529154514",
             "sqlExprObj": {
               "logicalOperator": "AND",
               "parts": [
                 {
                   "type": "SINGLE",
                   "jimuFieldName": "struct_type",
-                  "operator": "STRING_OPERATOR_IS_ANY_OF",
+                  "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "MULTIPLE",
-                    "inputEditor": "MULTIPLE_SELECT",
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
                     "value": null
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
@@ -8732,113 +8029,14 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Structure Type is any of (?)) and (Year Built is between ? and ?) and (Square Feet is between ? and ?) and (Bedrooms >= ?) and (Full Baths >= ?) and (Half Baths >= ?)"
+              "displaySQL": "(Structure Type = ?) and (Year Built is between ? and ?) and (Square Feet is between ? and ?) and (Bedrooms >= ?) and (Full Baths >= ?) and (Half Baths >= ?)"
             },
-            "autoApplyWhenWidgetOpen": true,
-            "collapseFilterExprs": false
-          }
-        ]
-      },
-      "id": "widget_103",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_6-174021ad290-layer-13",
-          "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
-          "rootDataSourceId": "dataSource_6",
-          "fields": [
-            "struct_type",
-            "year_built",
-            "sqft",
-            "bed",
-            "fbath",
-            "hbath"
-          ]
-        }
-      ]
-    },
-    "widget_104": {
-      "uri": "widgets/layout/column/",
-      "version": "1.4.0",
-      "label": "Column 4",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_104",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_61"
-        }
-      }
-    },
-    "widget_105": {
-      "uri": "widgets/layout/column/",
-      "version": "1.4.0",
-      "label": "Column 5",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_105",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_62"
-        }
-      }
-    },
-    "widget_106": {
-      "uri": "widgets/arcgis/query/",
-      "version": "1.4.0",
-      "label": "Query 2",
-      "config": {
-        "queryItems": [
-          {
-            "configId": "1888993088343447",
-            "icon": {
-              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1621280947336.png",
-              "properties": {
-                "filename": "1621280947336.png",
-                "originalName": "Double-barred_dollar_sign.svg.png",
-                "path": "${appResourceUrl}/images/icon_picker_in_setting/1621280947336.png",
-                "inlineSvg": false
-              }
-            },
-            "name": "Spatial Filter",
-            "displayLabel": true,
-            "useDataSource": {
-              "dataSourceId": "dataSource_6-17402270ab8-layer-14",
-              "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
-              "rootDataSourceId": "dataSource_6",
-              "fields": [
-                "sale_date"
-              ]
-            },
-            "outputDataSourceId": "widget_106_output_1888993088343447",
-            "sqlExprObj": null,
             "spatialMapWidgetIds": [
               "widget_67"
             ],
             "spatialFilterTypes": [
-              "InteractiveDrawMode",
-              "CurrentMapExtent"
+              "CurrentMapExtent",
+              "InteractiveDrawMode"
             ],
             "spatialInteractiveCreateToolTypes": [
               "Point",
@@ -8888,13 +8086,7 @@
             },
             "resultAllowChangeSymbol": false,
             "allowExport": false,
-            "sortOptions": [
-              {
-                "jimuFieldName": "sale_date",
-                "order": "DESC",
-                "itemKey": "0"
-              }
-            ],
+            "sortOptions": [],
             "itemSizeMap": {
               "arrangementHorizontalPopper": {
                 "minSize": {
@@ -8906,7 +8098,10 @@
                   "height": 480
                 }
               }
-            }
+            },
+            "attributeFilterLabel": "Filter by Attributes",
+            "spatialFilterLabel": "Filter by Area",
+            "resultsLabel": "Matching CAMA Features"
           }
         ],
         "arrangeType": "BLOCK",
@@ -8926,7 +8121,8 @@
       },
       "id": "widget_106",
       "outputDataSources": [
-        "widget_106_output_1888993088343447"
+        "widget_106_output_1888993088343447",
+        "widget_106_output_9717476529154514"
       ],
       "useDataSources": [
         {
@@ -8934,10 +8130,36 @@
           "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
           "rootDataSourceId": "dataSource_6",
           "fields": [
-            "sale_date"
+            "sale_date",
+            "sale_amount",
+            "valid_sale"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_6-174021ad290-layer-13",
+          "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
+          "rootDataSourceId": "dataSource_6",
+          "fields": [
+            "struct_type",
+            "year_built",
+            "sqft",
+            "bed",
+            "fbath",
+            "hbath"
           ]
         }
-      ]
+      ],
+      "dataActions": {
+        "showOnMap": {
+          "enabled": false
+        },
+        "panTo": {
+          "enabled": false
+        },
+        "zoomToFeature": {
+          "enabled": false
+        }
+      }
     },
     "widget_108": {
       "uri": "widgets/layout/column/",
@@ -9184,7 +8406,7 @@
       "version": "1.4.0",
       "label": "CAMA Sales Guide Text",
       "config": {
-        "text": "<p><span style=\"color: var(--dark-800);\">﻿This map gives users more advanced capabilities for browsing / filtering property characteristics and recent sales.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Filters</span></p><p>The panel to the left gives users the ability to filter the data currently displayed in the CAMA and Sales layers.</p><p><br></p><p>Users can filter the data by specifying attributes, and/or by setting an area of interest on the map. If using an area of interest, note that the features in the selected area can be exported to a file, or viewed in the table separately from the rest of the features.</p><p><br></p><p>Click the tab above the filters to access filters for each layer.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Table View</span></p><p>Above the map, there are two tabs. Use these to switch between the default map view and a table-based view of the data.</p><p><br></p><p>Note that applying filters will apply to both the map <em>and</em> the table.</p><p><br></p><p>From the table, users can also export features to a CSV file by clicking the icon in the upper-right of the table.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p>You can search by:</p><ul><li>PIN (with or without hyphens)</li><li>Site Address</li><li>Current Owner</li><li>Grantor / Grantee (Sales)</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Layers</span></p><p>Next to the search icon is the Layers tool. Use this tool to turn the map layers on and off as needed, or to view the legend for the visible layers.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to layers icon is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\"><span class=\"ql-cursor\">﻿</span>Other Tips</span></p><p>The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size. </p>",
+        "text": "<p><span style=\"color: var(--dark-800);\">﻿This map gives users more advanced capabilities for browsing / filtering property characteristics and recent sales.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Filters</span></p><p>The panel to the left gives users the ability to filter the data currently displayed in the CAMA and Sales layers.</p><p><br></p><p>Users can filter the data by specifying attributes, and/or by setting an area of interest on the map. If using an area of interest, note that the features in the selected area can be exported to a file, or viewed in the table separately from the rest of the features.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Table View</span></p><p>Above the map, there are two tabs. Use these to switch between the default map view and a table-based view of the data.</p><p><br></p><p>Note that applying filters will apply to both the map <em>and</em> the table.</p><p><br></p><p>From the table, users can also export features to a CSV file by clicking the icon in the upper-right of the table.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p>You can search by:</p><ul><li>PIN (with or without hyphens)</li><li>Site Address</li><li>Current Owner</li><li>Grantor / Grantee (Sales)</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Layers</span></p><p>Next to the search icon is the Layers tool. Use this tool to turn the map layers on and off as needed, or to view the legend for the visible layers.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to layers icon is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">﻿Other Tips</span></p><p>The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size. </p>",
         "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -11094,54 +10316,6 @@
         }
       }
     },
-    "widget_182": {
-      "uri": "widgets/layout/column/",
-      "version": "1.4.0",
-      "label": "Column 5",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_182",
-      "layouts": {
-        "DEFAULT": {
-          "MEDIUM": "layout_95"
-        }
-      }
-    },
-    "widget_183": {
-      "uri": "widgets/layout/column/",
-      "version": "1.4.0",
-      "label": "Column 4",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_183",
-      "layouts": {
-        "DEFAULT": {
-          "MEDIUM": "layout_97"
-        }
-      }
-    },
     "widget_184": {
       "uri": "widgets/layout/sidebar/",
       "version": "1.4.0",
@@ -11445,54 +10619,6 @@
         }
       }
     },
-    "widget_189": {
-      "uri": "widgets/layout/column/",
-      "version": "1.4.0",
-      "label": "Column 5",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_189",
-      "layouts": {
-        "DEFAULT": {
-          "SMALL": "layout_120"
-        }
-      }
-    },
-    "widget_190": {
-      "uri": "widgets/layout/column/",
-      "version": "1.4.0",
-      "label": "Column 4",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_190",
-      "layouts": {
-        "DEFAULT": {
-          "SMALL": "layout_122"
-        }
-      }
-    },
     "widget_191": {
       "uri": "widgets/layout/sidebar/",
       "version": "1.4.0",
@@ -11748,24 +10874,6 @@
         "MEDIUM": "layout_101",
         "SMALL": "layout_126"
       }
-    },
-    "view_8": {
-      "id": "view_8",
-      "label": "Sales Filters",
-      "layout": {
-        "LARGE": "layout_59",
-        "MEDIUM": "layout_94",
-        "SMALL": "layout_119"
-      }
-    },
-    "view_9": {
-      "id": "view_9",
-      "label": "CAMA FIlters",
-      "layout": {
-        "LARGE": "layout_60",
-        "MEDIUM": "layout_96",
-        "SMALL": "layout_121"
-      }
     }
   },
   "sections": {
@@ -11775,14 +10883,6 @@
       "views": [
         "view_6",
         "view_7"
-      ]
-    },
-    "section_3": {
-      "id": "section_3",
-      "label": "Filters",
-      "views": [
-        "view_8",
-        "view_9"
       ]
     }
   },
@@ -12430,29 +11530,9 @@
       "id": "dataSource_6",
       "portalUrl": "https://maps.co.kendall.il.us/portal"
     },
-    "widget_101_output_958029483802989": {
-      "id": "widget_101_output_958029483802989",
-      "label": "Spatial Filter result",
-      "type": "FEATURE_LAYER",
-      "geometryType": "esriGeometryPoint",
-      "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/CAMA__query_/FeatureServer/0",
-      "itemId": "acebd8c668b640f184759f6e88ba1737",
-      "portalUrl": "https://maps.co.kendall.il.us/portal",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_6-174021ad290-layer-13",
-          "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
-          "rootDataSourceId": "dataSource_6",
-          "fields": [
-            "struct_type"
-          ]
-        }
-      ],
-      "isOutputFromWidget": true
-    },
     "widget_106_output_1888993088343447": {
       "id": "widget_106_output_1888993088343447",
-      "label": "Spatial Filter result",
+      "label": "Sales Filter result",
       "type": "FEATURE_LAYER",
       "geometryType": "esriGeometryPolygon",
       "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Parcel_Sales/FeatureServer/0",
@@ -12464,7 +11544,9 @@
           "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
           "rootDataSourceId": "dataSource_6",
           "fields": [
-            "sale_date"
+            "sale_date",
+            "sale_amount",
+            "valid_sale"
           ]
         }
       ],
@@ -12498,32 +11580,34 @@
       "itemId": "ee753276d28645e7a180bcf7c942cfec",
       "id": "dataSource_8",
       "portalUrl": "https://maps.co.kendall.il.us/portal"
+    },
+    "widget_106_output_9717476529154514": {
+      "id": "widget_106_output_9717476529154514",
+      "label": "CAMA Filter result",
+      "type": "FEATURE_LAYER",
+      "geometryType": "esriGeometryPoint",
+      "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/CAMA__query_/FeatureServer/0",
+      "itemId": "acebd8c668b640f184759f6e88ba1737",
+      "portalUrl": "https://maps.co.kendall.il.us/portal",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_6-174021ad290-layer-13",
+          "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
+          "rootDataSourceId": "dataSource_6",
+          "fields": [
+            "struct_type",
+            "year_built",
+            "sqft",
+            "bed",
+            "fbath",
+            "hbath"
+          ]
+        }
+      ],
+      "isOutputFromWidget": true
     }
   },
   "messageConfigs": {
-    "messageConfig_1": {
-      "id": "messageConfig_1",
-      "widgetId": "widget_101",
-      "messageType": "DATA_RECORD_SET_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_67-showOnMap-1621279286582",
-          "widgetId": "widget_67",
-          "messageWidgetId": "widget_101",
-          "actionName": "showOnMap",
-          "description": null,
-          "version": "1.4.0"
-        },
-        {
-          "actionId": "widget_67-zoomToFeature-1621281040211",
-          "widgetId": "widget_67",
-          "messageWidgetId": "widget_101",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "version": "1.4.0"
-        }
-      ]
-    },
     "messageConfig_3": {
       "id": "messageConfig_3",
       "widgetId": "widget_106",
@@ -12679,6 +11763,69 @@
           "version": "1.4.0"
         }
       ]
+    },
+    "messageConfig_7": {
+      "id": "messageConfig_7",
+      "widgetId": "widget_106",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_67-flash-1621629201840",
+          "widgetId": "widget_67",
+          "messageWidgetId": "widget_106",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "widget_106_output_1888993088343447-output",
+              "mainDataSourceId": "widget_106_output_1888993088343447",
+              "dataViewId": "output",
+              "fields": [
+                "id"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_6-17402270ab8-layer-14",
+              "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
+              "rootDataSourceId": "dataSource_6",
+              "fields": [
+                "id"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.4.0"
+        },
+        {
+          "actionId": "widget_67-flash-1621629219040",
+          "widgetId": "widget_67",
+          "messageWidgetId": "widget_106",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "widget_106_output_9717476529154514-output",
+              "mainDataSourceId": "widget_106_output_9717476529154514",
+              "dataViewId": "output",
+              "fields": [
+                "id"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_6-174021ad290-layer-13",
+              "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
+              "rootDataSourceId": "dataSource_6",
+              "fields": [
+                "id"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.4.0"
+        }
+      ]
     }
   },
   "pageStructure": [
@@ -12752,5 +11899,5 @@
       }
     }
   },
-  "timestamp": 1621642675219
+  "timestamp": 1621647536988
 }
