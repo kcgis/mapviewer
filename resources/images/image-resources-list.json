@@ -9,16 +9,5 @@
     "referedIds": [],
     "originId": "1599143339654",
     "fileFormat": "image/svg+xml"
-  },
-  "1599570861020": {
-    "originalName": "mobile_buttons.png",
-    "fileName": "1599570861020.png",
-    "size": 785952,
-    "url": "${appResourceUrl}/images/widget_95/1599570861020.png",
-    "created": 1599570861020,
-    "resourcesPrefix": "images/widget_95",
-    "referedIds": [],
-    "originId": "1599570861020",
-    "fileFormat": "image/png"
   }
 }

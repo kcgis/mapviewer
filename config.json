@@ -26,7 +26,13 @@
       "label": "Zoning",
       "header": true,
       "footer": true,
-      "autoOpenDialogId": "dialog_9"
+      "autoOpenDialogId": "dialog_9",
+      "oneByOneEffect": {
+        "type": "NONE",
+        "option": {
+          "direction": null
+        }
+      }
     },
     "page_2": {
       "id": "page_2",
@@ -70,7 +76,13 @@
       "label": "Property Information",
       "header": true,
       "footer": true,
-      "autoOpenDialogId": "dialog_11"
+      "autoOpenDialogId": "dialog_11",
+      "oneByOneEffect": {
+        "type": "NONE",
+        "option": {
+          "direction": null
+        }
+      }
     }
   },
   "layouts": {
@@ -110,33 +122,33 @@
     "layout_1": {
       "type": "FIXED",
       "content": {
-        "0": {
+        "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": 0,
-            "right": 0,
-            "top": 0,
-            "bottom": 0,
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
             "width": "100%",
             "height": "100%"
           },
-          "widgetId": "widget_66",
+          "widgetId": "widget_168",
           "setting": {
-            "vCenter": false,
-            "hCenter": false,
             "autoProps": {
-              "top": false,
-              "bottom": false,
               "left": false,
               "right": false,
+              "top": false,
+              "bottom": false,
               "height": "STRETCH",
               "width": "STRETCH"
-            }
+            },
+            "vCenter": false,
+            "hCenter": false
           }
         }
       },
       "order": [
-        "0"
+        "1"
       ]
     },
     "layout_2": {
@@ -269,34 +281,13 @@
       "type": "FIXED",
       "order": [
         "12",
-        "7",
         "8",
         "9",
         "10",
-        "11"
+        "11",
+        "13"
       ],
       "content": {
-        "7": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "20.00px",
-            "right": "76.7832%",
-            "top": 8,
-            "bottom": "10.0000%",
-            "width": 100,
-            "height": "80.0000%"
-          },
-          "widgetId": "widget_49",
-          "isPending": false,
-          "setting": {
-            "vCenter": false,
-            "hCenter": false,
-            "autoProps": {
-              "bottom": false,
-              "top": true
-            }
-          }
-        },
         "8": {
           "type": "WIDGET",
           "bbox": {
@@ -409,6 +400,29 @@
             "hCenter": false
           },
           "isPending": false
+        },
+        "13": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20.00px",
+            "right": "69.4%",
+            "top": "8px",
+            "bottom": "9.9%",
+            "width": "100.00px",
+            "height": "80.0%"
+          },
+          "widgetId": "widget_175",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "bottom": false,
+              "top": true,
+              "left": false,
+              "right": true
+            }
+          }
         }
       }
     },
@@ -483,57 +497,12 @@
       "type": "FIXED",
       "label": "Default",
       "content": {
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "width": "CUSTOM",
-              "right": false,
-              "left": true,
-              "bottom": true,
-              "top": false
-            },
-            "lockParent": false
-          },
-          "bbox": {
-            "left": "92.7441%",
-            "right": "11.00px",
-            "top": "11.00px",
-            "bottom": "16.00px",
-            "width": "20.00px",
-            "height": "20.00px"
-          },
-          "widgetId": "widget_12"
-        },
-        "3": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "1px",
-            "right": "1px",
-            "top": "40.00px",
-            "bottom": "1px",
-            "width": "99.3333%",
-            "height": "99.87%"
-          },
-          "widgetId": "widget_14",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "width": "CUSTOM",
-              "height": "STRETCH"
-            },
-            "lockParent": false,
-            "hCenter": false
-          }
-        },
         "4": {
           "type": "WIDGET",
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "AUTO"
+              "height": "CUSTOM"
             }
           },
           "bbox": {
@@ -541,226 +510,101 @@
             "right": 0,
             "top": "0.00%",
             "bottom": "97.1279%",
-            "width": "77.18%",
-            "height": "6.5274%"
+            "width": "100.00%",
+            "height": "45.00px"
           },
           "widgetId": "widget_15"
+        },
+        "5": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": true
+          },
+          "bbox": {
+            "left": "50%",
+            "right": "0.8%",
+            "top": "50.00px",
+            "bottom": "15.00px",
+            "width": "90.00%",
+            "height": "61.1%"
+          },
+          "widgetId": "widget_16",
+          "isPending": false
         }
       },
       "order": [
-        "1",
-        "3",
-        "4"
+        "4",
+        "5"
       ],
       "setting": {
         "lockDescendants": true
-      }
-    },
-    "layout_8": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {
-              "alignSelf": "center"
-            },
-            "autoProps": {
-              "height": false,
-              "width": false
-            },
-            "heightMode": "fixed"
-          },
-          "bbox": {
-            "width": "220px",
-            "height": "1200px"
-          },
-          "widgetId": "widget_16"
-        }
-      },
-      "order": [
-        "1"
-      ],
-      "setting": {
-        "space": 10,
-        "padding": {
-          "space": [
-            10
-          ],
-          "unit": "px"
-        },
-        "justifyContent": "flex-start"
       }
     },
     "layout_18": {
       "type": "FIXED",
       "label": "Default",
       "content": {
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "width": "CUSTOM",
-              "right": false,
-              "left": true,
-              "bottom": true,
-              "top": false
-            },
-            "lockParent": false
-          },
-          "bbox": {
-            "left": "92.7441%",
-            "right": "11.00px",
-            "top": "11.00px",
-            "bottom": "16.00px",
-            "width": "20.00px",
-            "height": "20.00px"
-          },
-          "widgetId": "widget_41"
-        },
-        "3": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": 0,
-            "right": 0,
-            "top": "40.00px",
-            "bottom": 0,
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_43",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "width": "STRETCH",
-              "height": "AUTO",
-              "top": false,
-              "bottom": false
-            },
-            "lockParent": false,
-            "hCenter": false,
-            "vCenter": false
-          },
-          "isPending": false
-        },
         "4": {
           "type": "WIDGET",
           "setting": {
             "style": {},
             "autoProps": {
               "height": "AUTO",
-              "width": "AUTO"
-            }
+              "width": "CUSTOM",
+              "left": false,
+              "right": true
+            },
+            "hCenter": true
           },
           "bbox": {
-            "left": "5.00px",
+            "left": "50%",
             "right": "22.4806%",
             "top": "0.00%",
             "bottom": "98.4334%",
-            "width": "202.00px",
+            "width": "100.00%",
             "height": "6.9191%"
           },
           "widgetId": "widget_44"
-        }
-      },
-      "order": [
-        "1",
-        "3",
-        "4"
-      ],
-      "setting": {
-        "lockDescendants": true
-      }
-    },
-    "layout_19": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {
-              "alignSelf": "center"
-            },
-            "autoProps": {
-              "height": "AUTO",
-              "width": false
-            },
-            "heightMode": "fixed"
-          },
-          "bbox": {
-            "width": "220px",
-            "height": "1200px"
-          },
-          "widgetId": "widget_45",
-          "isPending": false
-        }
-      },
-      "order": [
-        "1"
-      ],
-      "setting": {
-        "space": 10,
-        "padding": {
-          "space": [
-            10
-          ],
-          "unit": "px"
         },
-        "justifyContent": "flex-start"
-      }
-    },
-    "layout_21": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {
-              "alignSelf": "center"
-            },
-            "autoProps": {
-              "width": "CUSTOM"
-            }
-          },
-          "bbox": {
-            "width": "35.00px",
-            "height": "35px"
-          },
-          "widgetId": "widget_50"
-        },
-        "1": {
+        "5": {
           "type": "WIDGET",
           "setting": {
             "style": {},
             "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false,
               "height": "STRETCH"
-            }
+            },
+            "hCenter": true
           },
           "bbox": {
-            "width": "60px",
-            "height": "22px"
+            "left": "50%",
+            "right": "28.5%",
+            "top": "50.00px",
+            "bottom": "15.00px",
+            "width": "90.00%",
+            "height": "14.7%"
           },
-          "widgetId": "widget_51"
+          "widgetId": "widget_45"
         }
       },
       "order": [
-        "0",
-        "1"
+        "4",
+        "5"
       ],
       "setting": {
-        "space": 0,
-        "padding": {
-          "space": [
-            10
-          ],
-          "unit": "px"
-        },
-        "justifyContent": "flex-start"
+        "lockDescendants": true
       }
     },
     "layout_22": {
@@ -863,81 +707,164 @@
         "justifyContent": "flex-start"
       }
     },
-    "layout_24": {
+    "layout_25": {
       "type": "FIXED",
-      "label": "Default",
+      "label": "Map FixedLayout",
+      "order": [
+        "0",
+        "1"
+      ],
       "content": {
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "95.8225%",
-            "right": "10.00px",
-            "top": "5.00px",
-            "bottom": "93.7863%",
-            "width": 20,
-            "height": 20
+            "left": "82.5%",
+            "right": "15.00px",
+            "top": "15.00px",
+            "bottom": "80.0%",
+            "width": "40.00px",
+            "height": "40.00px"
           },
-          "widgetId": "widget_61",
+          "widgetId": "widget_153",
           "setting": {
-            "heightMode": "ratio",
-            "aspectRatio": 1,
-            "vCenter": false,
-            "hCenter": false,
             "autoProps": {
               "right": false,
-              "left": true
+              "left": true,
+              "top": false,
+              "bottom": true
             }
-          },
-          "isPending": false
+          }
         },
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": 0,
-            "right": 0,
-            "top": 0,
-            "bottom": 0,
-            "width": "100%",
-            "height": "100%"
+            "left": "96.2%",
+            "right": "15px",
+            "top": "70px",
+            "bottom": "85.3%",
+            "width": "40px",
+            "height": "40px"
           },
-          "widgetId": "widget_89",
+          "widgetId": "widget_154",
           "setting": {
-            "vCenter": false,
-            "hCenter": false,
             "autoProps": {
-              "top": false,
-              "bottom": false,
-              "left": false,
               "right": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            }
-          }
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
-      },
-      "order": [
-        "1",
-        "0"
-      ],
-      "setting": {
-        "lockDescendants": true
       }
-    },
-    "layout_25": {
-      "type": "FIXED",
-      "label": "Map FixedLayout",
-      "order": [],
-      "content": {}
     },
     "layout_26": {
       "type": "FIXED",
-      "label": "Map FixedLayout"
+      "label": "Map FixedLayout",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "67.3%",
+            "right": "15.00px",
+            "top": "15.00px",
+            "bottom": "77.5%",
+            "width": "40.00px",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_162",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "96.2%",
+            "right": "15px",
+            "top": "70px",
+            "bottom": "85.3%",
+            "width": "40px",
+            "height": "40px"
+          },
+          "widgetId": "widget_163",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
     },
     "layout_27": {
       "type": "FIXED",
       "label": "Map FixedLayout",
-      "order": [],
-      "content": {}
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "78.0%",
+            "right": "15.00px",
+            "top": "15.00px",
+            "bottom": "87.1%",
+            "width": "40.00px",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_158",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "94.7%",
+            "right": "15px",
+            "top": "70px",
+            "bottom": "84.4%",
+            "width": "40px",
+            "height": "40px"
+          },
+          "widgetId": "widget_159",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
     },
     "layout_29": {
       "type": "FIXED",
@@ -2912,29 +2839,6 @@
     "layout_67": {
       "type": "FIXED",
       "content": {
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "width": "CUSTOM",
-              "right": false,
-              "left": true,
-              "bottom": true,
-              "top": false
-            },
-            "lockParent": false
-          },
-          "bbox": {
-            "left": "92.7441%",
-            "right": "11.00px",
-            "top": "11.00px",
-            "bottom": "16.00px",
-            "width": "20.00px",
-            "height": "20.00px"
-          },
-          "widgetId": "widget_115"
-        },
         "3": {
           "type": "WIDGET",
           "bbox": {
@@ -2962,7 +2866,6 @@
         }
       },
       "order": [
-        "1",
         "3"
       ],
       "setting": {
@@ -2979,12 +2882,13 @@
               "alignSelf": "center"
             },
             "autoProps": {
-              "width": false
+              "width": false,
+              "height": "CUSTOM"
             }
           },
           "bbox": {
             "width": "220px",
-            "height": "28px"
+            "height": "35.00px"
           },
           "widgetId": "widget_118"
         },
@@ -3005,11 +2909,29 @@
             "height": "1200px"
           },
           "widgetId": "widget_119"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "300px",
+            "height": "25.00px"
+          },
+          "widgetId": "widget_171"
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "300px",
+            "height": "85.00px"
+          },
+          "widgetId": "widget_172"
         }
       },
       "order": [
         "0",
-        "1"
+        "1",
+        "2",
+        "3"
       ],
       "label": "Default",
       "setting": {
@@ -3030,29 +2952,6 @@
         "lockDescendants": true
       },
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "width": "CUSTOM",
-              "right": false,
-              "left": true,
-              "bottom": true,
-              "top": false
-            },
-            "lockParent": false
-          },
-          "bbox": {
-            "left": "92.7441%",
-            "right": "11.00px",
-            "top": "11.00px",
-            "bottom": "16.00px",
-            "width": "20.00px",
-            "height": "20.00px"
-          },
-          "widgetId": "widget_120"
-        },
         "1": {
           "type": "WIDGET",
           "bbox": {
@@ -3080,7 +2979,6 @@
         }
       },
       "order": [
-        "0",
         "1"
       ]
     },
@@ -3111,7 +3009,7 @@
           },
           "bbox": {
             "width": "220px",
-            "height": "28px"
+            "height": "35.00px"
           },
           "widgetId": "widget_122"
         },
@@ -3132,11 +3030,29 @@
             "height": "1200px"
           },
           "widgetId": "widget_123"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "300px",
+            "height": "25.00px"
+          },
+          "widgetId": "widget_173"
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "300px",
+            "height": "85.00px"
+          },
+          "widgetId": "widget_174"
         }
       },
       "order": [
         "0",
-        "1"
+        "1",
+        "2",
+        "3"
       ]
     },
     "layout_71": {
@@ -3198,7 +3114,7 @@
               "alignSelf": "flex-start"
             },
             "autoProps": {
-              "width": "CUSTOM",
+              "width": "STRETCH",
               "height": "AUTO"
             }
           },
@@ -3314,12 +3230,12 @@
             },
             "autoProps": {
               "width": false,
-              "height": "AUTO"
+              "height": "CUSTOM"
             }
           },
           "bbox": {
             "width": "220px",
-            "height": "28px"
+            "height": "35.00px"
           },
           "widgetId": "widget_130"
         },
@@ -3433,7 +3349,7 @@
           },
           "bbox": {
             "width": "220px",
-            "height": "28px"
+            "height": "35.00px"
           },
           "widgetId": "widget_134"
         },
@@ -3614,8 +3530,8 @@
             "right": "15.00px",
             "top": "15.00px",
             "bottom": "78.9%",
-            "width": "35.00px",
-            "height": "35.00px"
+            "width": "40.00px",
+            "height": "40.00px"
           },
           "widgetId": "widget_143",
           "setting": {
@@ -3627,10 +3543,35 @@
               "width": "CUSTOM"
             }
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "94.1%",
+            "right": "15px",
+            "top": "70px",
+            "bottom": "85.2%",
+            "width": "40px",
+            "height": "40px"
+          },
+          "widgetId": "widget_161",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "width": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_80": {
@@ -3738,7 +3679,420 @@
     },
     "layout_83": {
       "type": "FIXED",
-      "label": "Map FixedLayout"
+      "label": "Map FixedLayout",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "78.8%",
+            "right": "15.00px",
+            "top": "15.00px",
+            "bottom": "88.0%",
+            "width": "40.00px",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_165",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "94.7%",
+            "right": "15px",
+            "top": "70px",
+            "bottom": "85.2%",
+            "width": "40px",
+            "height": "40px"
+          },
+          "widgetId": "widget_166",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_84": {
+      "type": "FIXED",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "bottom": true,
+              "top": false,
+              "width": "STRETCH",
+              "height": "AUTO"
+            },
+            "vCenter": true,
+            "hCenter": false,
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false
+          },
+          "bbox": {
+            "left": "20.00px",
+            "top": "50%",
+            "width": "70.8333%",
+            "height": "45.7143%",
+            "right": "20.00px",
+            "bottom": "37px"
+          },
+          "widgetId": "widget_157",
+          "isPending": false
+        }
+      },
+      "order": [
+        "2"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_85": {
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "bottom": true,
+              "top": false,
+              "width": "STRETCH",
+              "height": "AUTO"
+            },
+            "vCenter": true,
+            "hCenter": false,
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false
+          },
+          "bbox": {
+            "left": "20.00px",
+            "top": "50%",
+            "width": "70.8333%",
+            "height": "45.7143%",
+            "right": "20.00px",
+            "bottom": "37px"
+          },
+          "widgetId": "widget_160",
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_86": {
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "bottom": true,
+              "top": false,
+              "width": "STRETCH",
+              "height": "AUTO"
+            },
+            "vCenter": true,
+            "hCenter": false,
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false
+          },
+          "bbox": {
+            "left": "20.00px",
+            "top": "50%",
+            "width": "70.8333%",
+            "height": "45.7143%",
+            "right": "20.00px",
+            "bottom": "37px"
+          },
+          "widgetId": "widget_164",
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_87": {
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "bottom": true,
+              "top": false,
+              "width": "STRETCH",
+              "height": "AUTO"
+            },
+            "vCenter": true,
+            "hCenter": false,
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false
+          },
+          "bbox": {
+            "left": "20.00px",
+            "top": "50%",
+            "width": "70.8333%",
+            "height": "45.7143%",
+            "right": "20.00px",
+            "bottom": "37px"
+          },
+          "widgetId": "widget_167",
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_88": {
+      "type": "FIXED",
+      "label": "First",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "50.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "50.00%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_169",
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.00%",
+            "bottom": "0.00%",
+            "width": "50.00%",
+            "height": "53.8%"
+          },
+          "widgetId": "widget_170",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": "STRETCH"
+            }
+          }
+        }
+      }
+    },
+    "layout_89": {
+      "type": "FIXED",
+      "label": "Second",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_66"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_90": {
+      "type": "COLUMN",
+      "label": "Default",
+      "setting": {
+        "space": 0,
+        "padding": {
+          "space": [
+            10
+          ],
+          "unit": "px"
+        },
+        "justifyContent": "flex-start"
+      },
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {
+              "alignSelf": "center"
+            },
+            "autoProps": {
+              "width": "CUSTOM"
+            }
+          },
+          "bbox": {
+            "width": "35.00px",
+            "height": "35px"
+          },
+          "widgetId": "widget_176"
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "width": "60px",
+            "height": "22px"
+          },
+          "widgetId": "widget_177"
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_91": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "bottom": true,
+              "top": false,
+              "width": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": true,
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false
+          },
+          "bbox": {
+            "left": "50%",
+            "top": "0.00px",
+            "width": "100.00%",
+            "height": "45.00px",
+            "right": "183px",
+            "bottom": "82.8%"
+          },
+          "widgetId": "widget_179",
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "bottom": false,
+              "top": true,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false
+          },
+          "bbox": {
+            "left": "15.00px",
+            "top": "50.00px",
+            "width": "87.5%",
+            "height": "260.00px",
+            "right": "15.00px",
+            "bottom": "15.00px"
+          },
+          "widgetId": "widget_180",
+          "isPending": false
+        }
+      },
+      "order": [
+        "2",
+        "1"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
     }
   },
   "exbVersion": "1.4.0",
@@ -3852,124 +4206,35 @@
       },
       "id": "widget_5"
     },
-    "widget_12": {
-      "uri": "widgets/common/button/",
-      "version": "1.4.0",
-      "label": "Close Changelog",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "current_page",
-            "openType": "_self"
-          },
-          "icon": {
-            "data": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\"><g fill-rule=\"nonzero\" fill=\"none\"><path d=\"M7.745 7l4.1 4.1a.527.527 0 01-.745.746L7 7.746l-4.1 4.1a.527.527 0 01-.746-.746l4.1-4.1-4.1-4.1a.527.527 0 01.746-.746l4.1 4.1 4.1-4.1a.527.527 0 01.746.746L7.746 7z\" fill=\"#000\"></path><path d=\"M1 1h12v12H1z\"></path></g></svg>",
-            "position": "LEFT"
-          },
-          "text": "",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "#fff",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "#c5c5c5",
-                "width": "1px"
-              },
-              "text": {
-                "color": "#181818",
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  15
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "color": "#181818",
-                "size": 14
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "#f0f0f0",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "undefinedpx"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  15
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "size": 14
-              }
-            }
-          },
-          "useCustom": true
-        }
-      },
-      "id": "widget_12",
-      "useDataSources": []
-    },
-    "widget_14": {
-      "uri": "widgets/layout/column/",
-      "version": "1.4.0",
-      "label": "Changelog",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_14",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_8"
-        }
-      }
-    },
     "widget_15": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
       "label": "Changelog Title",
       "config": {
-        "text": "<p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 18px;\">Changelog</strong></p>",
+        "text": "<p style=\"line-height: 2; text-align: center;\"><span style=\"color: var(--light); font-size: 18px;\">Changelog</span></p>",
         "placeholder": "<p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
         }
       },
-      "id": "widget_15"
+      "id": "widget_15",
+      "style": {
+        "background": {
+          "color": "#324d78",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
     },
     "widget_16": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
       "label": "Changelog Text",
       "config": {
-        "text": "<p><strong style=\"color: var(--dark-800); font-size: 16px;\">May 2021 | Version 2.0</strong></p><ul><li>Renamed \"Map Viewer\" -- No more beta!</li><li>CAMA and Sales data can be spatially filtered and / or exported to CSV</li><li>Added tabs for Property Characteristics and Voting Information Lookup</li><li>Broke up the Guide into separate guides per page</li></ul><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿January 2021 | Version 1.2.1</strong></p><ul><li>Updated the Guide panel to address various updated features</li><li>Filter panel will appear by default in CAMA viewer</li><li>Adjustments to layer symbology</li></ul><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">January 2021 | Version 1.2</strong></p><ul><li>Updated maps to be compliant with ArcGIS JavaScript API v 4.18</li><li>Added \"Table View\" to CAMA &amp; Sales page</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">September 2020 | Version 1.1</strong></p><ul><li style=\"text-align: left;\">Guide, changelog, and bugs list moved into side panel windows</li><li style=\"text-align: left;\">Disclaimer appears as splash upon loading viewer</li><li style=\"text-align: left;\">Published viewer to official URL</li></ul><p style=\"text-align: left; line-height: 2;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"color: var(--dark-800); font-size: 16px;\">August 2020 | Version 1.0</strong></p><ul><li>Map Viewer officially released for public use</li></ul>",
+        "text": "<p><strong style=\"font-size: 16px; color: var(--dark-800);\">May 2021 | Version 2.0<span class=\"ql-cursor\">﻿</span></strong></p><ul><li>Renamed \"Map Viewer\" -- No more beta!</li><li>CAMA and Sales data can be spatially filtered and / or exported to CSV</li><li>Added tabs for Property Characteristics and Voting Information Lookup</li><li>Broke up the Guide into separate guides per page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿January 2021 | Version 1.2.1</strong></p><ul><li>Updated the Guide panel to address various updated features</li><li>Filter panel will appear by default in CAMA viewer</li><li>Adjustments to layer symbology</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">January 2021 | Version 1.2</strong></p><ul><li>Updated maps to be compliant with ArcGIS JavaScript API v 4.18</li><li>Added \"Table View\" to CAMA &amp; Sales page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">September 2020 | Version 1.1</strong></p><ul><li style=\"text-align: left;\">Guide, changelog, and bugs list moved into side panel windows</li><li style=\"text-align: left;\">Disclaimer appears as splash upon loading viewer</li><li style=\"text-align: left;\">Published viewer to official URL</li></ul><p style=\"line-height: 2; text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px; color: var(--dark-800);\">August 2020 | Version 1.0</strong></p><ul><li>Map Viewer officially released for public use</li></ul>",
         "placeholder": "<p style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -3978,124 +4243,35 @@
       },
       "id": "widget_16"
     },
-    "widget_41": {
-      "uri": "widgets/common/button/",
-      "version": "1.4.0",
-      "label": "Close Issues Button",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "current_page",
-            "openType": "_self"
-          },
-          "icon": {
-            "data": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\"><g fill-rule=\"nonzero\" fill=\"none\"><path d=\"M7.745 7l4.1 4.1a.527.527 0 01-.745.746L7 7.746l-4.1 4.1a.527.527 0 01-.746-.746l4.1-4.1-4.1-4.1a.527.527 0 01.746-.746l4.1 4.1 4.1-4.1a.527.527 0 01.746.746L7.746 7z\" fill=\"#000\"></path><path d=\"M1 1h12v12H1z\"></path></g></svg>",
-            "position": "LEFT"
-          },
-          "text": "",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "#fff",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "#c5c5c5",
-                "width": "1px"
-              },
-              "text": {
-                "color": "#181818",
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  15
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "color": "#181818",
-                "size": 14
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "#f0f0f0",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "undefinedpx"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  15
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "size": 14
-              }
-            }
-          },
-          "useCustom": true
-        }
-      },
-      "id": "widget_41",
-      "useDataSources": []
-    },
-    "widget_43": {
-      "uri": "widgets/layout/column/",
-      "version": "1.4.0",
-      "label": "Issues Column",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_43",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_19"
-        }
-      }
-    },
     "widget_44": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
       "label": "Known Issues Title",
       "config": {
-        "text": "<p style=\"text-align: left; line-height: 2;\"><strong style=\"color: var(--dark-800); font-size: 18px;\">Known Issues﻿</strong></p>",
+        "text": "<p style=\"line-height: 2; text-align: center;\"><span style=\"font-size: 18px; color: var(--light);\">Known Issues﻿</span></p>",
         "placeholder": "<p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
         }
       },
-      "id": "widget_44"
+      "id": "widget_44",
+      "style": {
+        "background": {
+          "color": "#324d78",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
     },
     "widget_45": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
       "label": "Known Issues List",
       "config": {
-        "text": "<ul><li style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Print capability is missing﻿</span></li></ul>",
+        "text": "<ul><li style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Print capability is missing﻿</span></li><li style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">On CAMA viewer, CAMA data tab sometime does not update structure count \"1 of XXX\" until second click</span></li></ul>",
         "placeholder": "<p style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -4103,30 +4279,6 @@
         }
       },
       "id": "widget_45"
-    },
-    "widget_49": {
-      "uri": "widgets/layout/column/",
-      "version": "1.4.0",
-      "label": "Feedback Button",
-      "config": {
-        "space": 0,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_49",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_21"
-        }
-      }
     },
     "widget_50": {
       "uri": "widgets/common/button/",
@@ -4291,7 +4443,7 @@
               },
               "iconProps": {
                 "color": "#fff",
-                "size": 14
+                "size": 18
               }
             },
             "hover": {
@@ -4409,7 +4561,7 @@
               },
               "iconProps": {
                 "color": "#fff",
-                "size": 14
+                "size": 18
               }
             },
             "hover": {
@@ -4510,91 +4662,6 @@
         }
       },
       "id": "widget_60"
-    },
-    "widget_61": {
-      "uri": "widgets/common/button/",
-      "version": "1.4.0",
-      "label": "Close Feedback Form",
-      "config": {
-        "functionConfig": {
-          "text": "",
-          "textExpression": null,
-          "icon": {
-            "data": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\"><g fill-rule=\"nonzero\" fill=\"none\"><path d=\"M7.745 7l4.1 4.1a.527.527 0 01-.745.746L7 7.746l-4.1 4.1a.527.527 0 01-.746-.746l4.1-4.1-4.1-4.1a.527.527 0 01.746-.746l4.1 4.1 4.1-4.1a.527.527 0 01.746.746L7.746 7z\" fill=\"#000\"></path><path d=\"M1 1h12v12H1z\"></path></g></svg>",
-            "position": "LEFT"
-          },
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "current_page",
-            "openType": "_self"
-          }
-        },
-        "styleConfig": {
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "var(--secondary)",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "#c5c5c5",
-                "width": "1px"
-              },
-              "text": {
-                "color": "#181818",
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  100
-                ],
-                "unit": "%"
-              },
-              "iconProps": {
-                "color": "#181818",
-                "size": 14
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "#f0f0f0",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "undefinedpx"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "unit": "px",
-                "number": [
-                  2,
-                  2,
-                  2,
-                  2
-                ]
-              },
-              "iconProps": {
-                "size": 14
-              }
-            }
-          },
-          "useCustom": true
-        }
-      },
-      "id": "widget_61",
-      "useDataSources": [],
-      "style": {
-        "borderRadius": {
-          "number": [
-            100
-          ],
-          "unit": "%"
-        }
-      }
     },
     "widget_63": {
       "uri": "widgets/common/menu/",
@@ -4753,10 +4820,11 @@
           "canZoom": true,
           "canHome": true,
           "canSearch": true,
-          "canLayers": true,
+          "canLayers": false,
           "canMeasure": true,
           "canCompass": true,
-          "canScaleBar": true
+          "canScaleBar": true,
+          "canBaseMap": true
         },
         "isUseCustomMapState": false,
         "layoutIndex": 1
@@ -4786,7 +4854,8 @@
           "canScaleBar": true,
           "canMeasure": true,
           "canLayers": true,
-          "canCompass": true
+          "canCompass": true,
+          "canBaseMap": true
         },
         "isUseCustomMapState": false,
         "layoutIndex": 1,
@@ -5192,17 +5261,6 @@
       "id": "widget_88",
       "useDataSources": []
     },
-    "widget_89": {
-      "uri": "widgets/common/embed/",
-      "version": "1.4.0",
-      "label": "Feedback Form",
-      "config": {
-        "embedType": "url",
-        "staticUrl": "https://survey123.arcgis.com/share/47c7df536ccf46b48601fbc7386bb0cd?portalUrl=https://maps.co.kendall.il.us/portal",
-        "expression": "<p>https://survey123.arcgis.com/share/47c7df536ccf46b48601fbc7386bb0cd?portalUrl=https://maps.co.kendall.il.us/portal</p>"
-      },
-      "id": "widget_89"
-    },
     "widget_90": {
       "uri": "widgets/layout/sidebar/",
       "version": "1.4.0",
@@ -5499,7 +5557,7 @@
     "widget_97": {
       "uri": "widgets/common/table/",
       "version": "1.4.0",
-      "label": "Table (beta) 1",
+      "label": "CAMA and Sales Table",
       "config": {
         "layersConfig": [
           {
@@ -5837,7 +5895,7 @@
             "enableSearch": true,
             "searchFields": "pin",
             "enableRefresh": false,
-            "enableSelect": false
+            "enableSelect": true
           },
           {
             "id": "dataSource_6-17402270ab8-layer-14-2",
@@ -6056,7 +6114,7 @@
             "enableSearch": true,
             "searchFields": "grantor,grantee,property_key",
             "enableRefresh": false,
-            "enableSelect": false
+            "enableSelect": true
           },
           {
             "id": "dataSource_6-17401fdc775-layer-2-3",
@@ -6520,8 +6578,8 @@
             "allowCsv": false,
             "enableSearch": true,
             "searchFields": "pin,pin_dashless,owner_name,site_address",
-            "enableRefresh": true,
-            "enableSelect": false
+            "enableRefresh": false,
+            "enableSelect": true
           }
         ],
         "arrangeType": "TABS"
@@ -6544,7 +6602,15 @@
           "rootDataSourceId": "dataSource_6"
         }
       ],
-      "enableDataAction": true
+      "enableDataAction": true,
+      "dataActions": {
+        "panTo": {
+          "enabled": false
+        },
+        "showOnMap": {
+          "enabled": false
+        }
+      }
     },
     "widget_98": {
       "uri": "widgets/common/navigator/",
@@ -7451,83 +7517,10 @@
         }
       }
     },
-    "widget_115": {
-      "uri": "widgets/common/button/",
-      "version": "1.4.0",
-      "label": "Close Zoning GUide",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "current_page",
-            "openType": "_self"
-          },
-          "icon": {
-            "data": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\"><g fill-rule=\"nonzero\" fill=\"none\"><path d=\"M7.745 7l4.1 4.1a.527.527 0 01-.745.746L7 7.746l-4.1 4.1a.527.527 0 01-.746-.746l4.1-4.1-4.1-4.1a.527.527 0 01.746-.746l4.1 4.1 4.1-4.1a.527.527 0 01.746.746L7.746 7z\" fill=\"#000\"></path><path d=\"M1 1h12v12H1z\"></path></g></svg>",
-            "position": "LEFT"
-          },
-          "text": "",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "#fff",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "#c5c5c5",
-                "width": "1px"
-              },
-              "text": {
-                "color": "#181818",
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  15
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "color": "#181818",
-                "size": 14
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "#f0f0f0",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "undefinedpx"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  15
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "size": 14
-              }
-            }
-          },
-          "useCustom": true
-        }
-      },
-      "id": "widget_115"
-    },
     "widget_117": {
       "uri": "widgets/layout/column/",
       "version": "1.4.0",
-      "label": "Column 6",
+      "label": "Zoning Guide Content",
       "config": {
         "space": 10,
         "style": {
@@ -7554,7 +7547,7 @@
     "widget_118": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Text 1",
+      "label": "Zoning Guide Title",
       "config": {
         "text": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">﻿</strong><strong style=\"font-size: 18px; color: var(--dark-800);\">Zoning Map Guide</strong></p>",
         "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
@@ -7568,9 +7561,9 @@
     "widget_119": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Text 2",
+      "label": "Zoning Guide Text",
       "config": {
-        "text": "<p><span style=\"color: var(--dark-800);\">﻿This map is for</span></p>",
+        "text": "<p><span style=\"color: var(--dark-800);\">This map displays zoning information and other related layers, such as flood zones, landuse, etc.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Layers and Legend</span></p><p>In the left panel, you will see a list of layers available in the map. By clicking the eye icon next to each layer, you can toggle them on and off.</p><p>Next to the layer list is a legend showing the currently visible layers and how they are represented in the map.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to search icon is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\"><span class=\"ql-cursor\">﻿</span>Other Tips</span></p><p>The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size. </p>",
         "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -7579,83 +7572,10 @@
       },
       "id": "widget_119"
     },
-    "widget_120": {
-      "uri": "widgets/common/button/",
-      "version": "1.4.0",
-      "label": "Close Zoning GUide copy",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "current_page",
-            "openType": "_self"
-          },
-          "icon": {
-            "data": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\"><g fill-rule=\"nonzero\" fill=\"none\"><path d=\"M7.745 7l4.1 4.1a.527.527 0 01-.745.746L7 7.746l-4.1 4.1a.527.527 0 01-.746-.746l4.1-4.1-4.1-4.1a.527.527 0 01.746-.746l4.1 4.1 4.1-4.1a.527.527 0 01.746.746L7.746 7z\" fill=\"#000\"></path><path d=\"M1 1h12v12H1z\"></path></g></svg>",
-            "position": "LEFT"
-          },
-          "text": "",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "#fff",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "#c5c5c5",
-                "width": "1px"
-              },
-              "text": {
-                "color": "#181818",
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  15
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "color": "#181818",
-                "size": 14
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "#f0f0f0",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "undefinedpx"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  15
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "size": 14
-              }
-            }
-          },
-          "useCustom": true
-        }
-      },
-      "id": "widget_120"
-    },
     "widget_121": {
       "uri": "widgets/layout/column/",
       "version": "1.4.0",
-      "label": "Column 6 copy",
+      "label": "CAMA Sales Guide",
       "config": {
         "space": 10,
         "style": {
@@ -7682,7 +7602,7 @@
     "widget_122": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Text 1 copy",
+      "label": "CAMA Sales Guide Title",
       "config": {
         "text": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">﻿</strong><strong style=\"font-size: 18px; color: var(--dark-800);\">Zoning Map Guide</strong></p>",
         "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
@@ -7696,9 +7616,9 @@
     "widget_123": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Text 2 copy",
+      "label": "CAMA Sales Guide Text",
       "config": {
-        "text": "<p><span style=\"color: var(--dark-800);\">﻿This map is for</span></p>",
+        "text": "<p><span style=\"color: var(--dark-800);\">﻿This map gives users more advanced capabilities for browsing / filtering property characteristics and recent sales.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Filters</span></p><p>The panel to the left gives users the ability to filter the data currently displayed in the CAMA and Sales layers.</p><p><br></p><p>Users can filter the data by specifying attributes, and/or by setting an area of interest on the map. If using an area of interest, note that the features in the selected area can be exported to a file, or viewed in the table separately from the rest of the features.</p><p><br></p><p>Click the tab above the filters to access filters for each layer.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Table View</span></p><p>Above the map, there are two tabs. Use these to switch between the default map view and a table-based view of the data.</p><p><br></p><p>Note that applying filters will apply to both the map <em>and</em> the table.</p><p><br></p><p>From the table, users can also export features to a CSV file by clicking the icon in the upper-right of the table.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p>You can search by:</p><ul><li>PIN (with or without hyphens)</li><li>Site Address</li><li>Current Owner</li><li>Grantor / Grantee (Sales)</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Layers</span></p><p>Next to the search icon is the Layers tool. Use this tool to turn the map layers on and off as needed, or to view the legend for the visible layers.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to layers icon is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\"><span class=\"ql-cursor\">﻿</span>Other Tips</span></p><p>The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size. </p>",
         "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -7710,7 +7630,7 @@
     "widget_125": {
       "uri": "widgets/layout/column/",
       "version": "1.4.0",
-      "label": "Prop. Info Guide",
+      "label": "Prop. Info Guide Content",
       "config": {
         "space": 10,
         "style": {
@@ -7737,7 +7657,7 @@
     "widget_126": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Title",
+      "label": "Property Info Guide Title",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿</strong><strong style=\"color: var(--dark-800); font-size: 18px;\">Property Information Guide</strong></p>",
         "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
@@ -7751,9 +7671,9 @@
     "widget_127": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Intro to Pop. Info",
+      "label": "Property Info Guide Text",
       "config": {
-        "text": "<p><span style=\"color: var(--dark-800);\">﻿This map is meant to make it as easy as possible to look up information about parcels and structures.</span></p><p><br></p><p>To get information, do either of the following:</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">A) Click on a Parcel</span></p><p><span style=\"font-size: 13px;\">It's really that easy! Just click on a parcel in the map and the information panels will update.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">B) Search for a Parcel</span></p><p style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">Click the </span><strong style=\"font-size: 13px;\">Search</strong><span style=\"font-size: 13px;\"> icon in the upper-left of the map to expand the search bar. As you type, the search bar will auto-suggest possible matches based on what you enter. </span></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">You can search by:</span></p><ul><li style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">PIN (with or without hyphens!)</span></li><li style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">Site Address</span></li></ul><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Other Tips</span></p><p style=\"line-height: 1.5;\">The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size.</p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Questions / Comments</span></p><p style=\"line-height: 1.5;\">The data on this map comes from the Assessment Office and the Township Assessors.</p><p style=\"line-height: 1.5;\">Email: Web_Email_Assessments@co.kendall.il.us</p><p style=\"line-height: 1.5;\">Phone: (630) 553-4146</p>",
+        "text": "<p><span style=\"color: var(--dark-800);\">﻿This map is meant to make it as easy as possible to look up information about parcels and structures.</span></p><p><br></p><p>To get information, do either of the following:</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">A) Click on a Parcel</span></p><p><span style=\"font-size: 13px;\">It's really that easy! Just click on a parcel in the map and the information panels will update.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">B) Search for a Parcel</span></p><p style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">Click the </span><strong style=\"font-size: 13px;\">Search</strong><span style=\"font-size: 13px;\"> icon in the upper-left of the map to expand the search bar. As you type, the search bar will auto-suggest possible matches based on what you enter. </span></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">You can search by:</span></p><ul><li style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">PIN (with or without hyphens!)</span></li><li style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">Site Address</span></li></ul><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Other Tips</span></p><p style=\"line-height: 1.5;\">The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size.</p>",
         "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -7765,7 +7685,7 @@
     "widget_129": {
       "uri": "widgets/layout/column/",
       "version": "1.4.0",
-      "label": "Voting Map Guide",
+      "label": "Voting Map Guide Content",
       "config": {
         "space": 10,
         "style": {
@@ -7792,7 +7712,7 @@
     "widget_130": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Voting Guide",
+      "label": "Voting Guide Title",
       "config": {
         "text": "<p><strong style=\"font-size: 16px;\">Voting Map Guide</strong></p>",
         "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
@@ -7806,7 +7726,7 @@
     "widget_131": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Text 2 copy copy copy",
+      "label": "Voting Guide Text",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800);\">﻿Use this map to look up voting information for a parcel, such as:</span></p><ul><li>Voter Precinct</li><li>Polling Place</li><li>Legislative Districts</li><li class=\"ql-indent-1\">State House / Senate</li><li class=\"ql-indent-1\">US House</li><li class=\"ql-indent-1\">County Board</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Selecting a Parcel</span></p><p>There are two ways to select a parcel: searching and clicking.</p><p><br></p><p><span style=\"color: var(--dark-800);\">Click the </span><strong style=\"color: var(--dark-800);\">Search</strong><span style=\"color: var(--dark-800);\"> icon in the upper-left of the map to open the search bar. Simply begin typing and the search tool will auto-suggest features based on what you type.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">﻿If you search by parcel number, your search will automatically update the information panel to the left of the map.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can also click on any parcel to update the panel as well.﻿</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Viewing Other Layers</span></p><p>Clicking the <strong>Layers</strong> icon, to the right of <strong>Search</strong>, you can see a list of the relevant layers in this map, as well as turn them on and off by clicking the eye icon.</p>",
         "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
@@ -7820,7 +7740,7 @@
     "widget_133": {
       "uri": "widgets/layout/column/",
       "version": "1.4.0",
-      "label": "Explore Map Guide",
+      "label": "Explore Map Guide Content",
       "config": {
         "space": 10,
         "style": {
@@ -7863,7 +7783,7 @@
       "version": "1.4.0",
       "label": "Explore Guide Text",
       "config": {
-        "text": "<p><span style=\"color: var(--dark-800);\">The \"Explore\" map is meant to allow more in-depth, interactive access to the Tax Map features (parcels, lots, etc.), as well as other important layers.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p>You can search for:</p><ul><li>PIN (with and without hyphens)</li><li>Address</li><li>Subdivision / Condominium Name</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Layers</span></p><p><span style=\"color: var(--dark-800);\">Next to the search tool is the </span><strong style=\"color: var(--dark-800);\">Layers</strong><span style=\"color: var(--dark-800);\"> icon. This will show you the list of layers available in the map. Clicking the eye icon next to each layer can turn it on and off.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can also toggle the layer list to the </span><strong style=\"color: var(--dark-800);\">Legend</strong><span style=\"color: var(--dark-800);\"> view to see how each layer is symbolized.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to the layer list is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Tax Map Experience</span></p><p>In the lower-left of the map, there is a thumbnail of another map. Click on this to switch the current map for a predefined \"Tax Map\" view. This map attempts to replicate the appearance of a cadastral tax map.</p><p><br></p><p>Click the thumbnail again to switch back.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Questions? Comments?</span></p><p>Most of the data in this map is managed by the GIS department, with certain data coming from the Assessor and Recorder.  Our contact information can be found at the bottom</p>",
+        "text": "<p><span style=\"color: var(--dark-800);\">The \"Explore\" map is meant to allow more in-depth, interactive access to the Tax Map features (parcels, lots, etc.), as well as other important layers.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p>You can search for:</p><ul><li>PIN (with and without hyphens)</li><li>Address</li><li>Subdivision / Condominium Name</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Layers</span></p><p><span style=\"color: var(--dark-800);\">Next to the search tool is the </span><strong style=\"color: var(--dark-800);\">Layers</strong><span style=\"color: var(--dark-800);\"> icon. This will show you the list of layers available in the map. Clicking the eye icon next to each layer can turn it on and off.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can also toggle the layer list to the </span><strong style=\"color: var(--dark-800);\">Legend</strong><span style=\"color: var(--dark-800);\"> view to see how each layer is symbolized.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to the layer list is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Tax Map Experience</span></p><p>In the lower-left of the map, there is a thumbnail of another map. Click on this to switch the current map for a predefined \"Tax Map\" view. This map attempts to replicate the appearance of a cadastral tax map.</p><p><br></p><p>Click the thumbnail again to switch back.</p>",
         "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -8106,7 +8026,7 @@
           "text": "",
           "textExpression": null,
           "icon": {
-            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621306145611.png",
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621606926072.png",
             "position": "LEFT"
           }
         },
@@ -8114,32 +8034,35 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "#fff",
+                "color": "#263a56",
                 "fillType": "fill"
               },
               "border": {
                 "type": "solid",
-                "color": "",
-                "width": "0px"
+                "color": "#263a56",
+                "width": "1px"
               },
               "text": {
-                "color": "#181818",
+                "color": "#ffffff",
                 "size": "14px"
               },
               "borderRadius": {
+                "unit": "px",
                 "number": [
-                  0
-                ],
-                "unit": "px"
+                  2,
+                  2,
+                  2,
+                  2
+                ]
               },
               "iconProps": {
-                "color": "#181818",
+                "color": "#ffffff",
                 "size": 20
               }
             },
             "hover": {
               "background": {
-                "color": "",
+                "color": "#21324a",
                 "fillType": "fill"
               },
               "border": {
@@ -8150,10 +8073,13 @@
                 "size": "14px"
               },
               "borderRadius": {
+                "unit": "px",
                 "number": [
-                  0
-                ],
-                "unit": "px"
+                  2,
+                  2,
+                  2,
+                  2
+                ]
               },
               "iconProps": {
                 "size": 20
@@ -8169,7 +8095,7 @@
     "widget_144": {
       "uri": "widgets/layout/sidebar/",
       "version": "1.4.0",
-      "label": "Sidebar 1",
+      "label": "Voting Map Content",
       "config": {
         "direction": "HORIZONTAL",
         "collapseSide": "FIRST",
@@ -8325,7 +8251,7 @@
     "widget_148": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Text 3",
+      "label": "Voting Guide Footer",
       "config": {
         "text": "<p>Click anywhere outside this panel to close it.</p><p><br></p><p>Click the <strong>Guide</strong> icon in the upper-right of the map at any time to see this again.</p>",
         "placeholder": "Double click to edit text",
@@ -8364,7 +8290,7 @@
     "widget_150": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Text 4",
+      "label": "Property Info Guide Footer",
       "config": {
         "text": "<p>Click anywhere outside of this panel to close it.</p><p><br></p><p>Click the <strong>Guide</strong> icon in the upper-right of the map to see this guide again! </p>",
         "placeholder": "Double click to edit text",
@@ -8403,7 +8329,7 @@
     "widget_152": {
       "uri": "widgets/common/text/",
       "version": "1.4.0",
-      "label": "Text 5",
+      "label": "Explore Guide Footer",
       "config": {
         "text": "<p>Click anywhere outside this panel to close it.</p><p> </p><p>Click the <strong>Guide</strong> icon in the upper-right of the map at any time to see this again. </p>",
         "placeholder": "Double click to edit text",
@@ -8413,6 +8339,1113 @@
         }
       },
       "id": "widget_152"
+    },
+    "widget_153": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Explore Guide Button",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621603274160.png",
+            "position": "LEFT"
+          },
+          "toolTip": "Guide",
+          "toolTipExpression": null,
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_13"
+          }
+        },
+        "styleConfig": {
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#263a56",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#263a56",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 20
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#21324a",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 20
+              }
+            }
+          },
+          "useCustom": true
+        }
+      },
+      "id": "widget_153",
+      "useDataSources": []
+    },
+    "widget_154": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Explore Contact",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621605854402.png",
+            "position": "LEFT"
+          },
+          "toolTip": "Contact",
+          "toolTipExpression": null,
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_14"
+          }
+        },
+        "styleConfig": {
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#263a56",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#263a56",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 20
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#21324a",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 20
+              }
+            }
+          },
+          "useCustom": true
+        }
+      },
+      "id": "widget_154",
+      "useDataSources": []
+    },
+    "widget_157": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "GIS Contact Popup",
+      "config": {
+        "text": "<p>Questions about the current map and its data can be directed to:</p><p><br></p><p><strong>Kendall County GIS</strong></p><p>kcgis@co.kendall.il.us</p><p>630.553.4212</p>",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_157"
+    },
+    "widget_158": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "CAMA Guide Button",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_10"
+          },
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621606641359.png",
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#263a56",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#263a56",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 20
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#21324a",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 20
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_158",
+      "useDataSources": []
+    },
+    "widget_159": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "CAMA Guide Button copy",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_15"
+          },
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621606694233.png",
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#263a56",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#263a56",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 20
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#21324a",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#050505",
+                "size": 20
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_159",
+      "useDataSources": []
+    },
+    "widget_160": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "GIS Contact Popup copy",
+      "config": {
+        "text": "<p>Questions about the current map and its data can be directed to:</p><p><br></p><p><strong>Assessments Office</strong></p><p>Web_Email_Assessments@co.kendall.il.us</p><p>630.553.4146</p>",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_160"
+    },
+    "widget_161": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Guide Button copy",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_15"
+          },
+          "toolTip": "Contact",
+          "toolTipExpression": null,
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621606995365.png",
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#263a56",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#263a56",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 20
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#21324a",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#050505",
+                "size": 20
+              }
+            }
+          },
+          "useCustom": true
+        }
+      },
+      "id": "widget_161",
+      "useDataSources": []
+    },
+    "widget_162": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Button 6",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "toolTip": "Guide",
+          "toolTipExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621607048664.png",
+            "position": "LEFT"
+          },
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_9"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#263a56",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#263a56",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 20
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#21324a",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 20
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_162",
+      "useDataSources": []
+    },
+    "widget_163": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Button 6 copy",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "toolTip": "Contact",
+          "toolTipExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621607380874.png",
+            "position": "LEFT"
+          },
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_9"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#263a56",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#263a56",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 20
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#21324a",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#050505",
+                "size": 20
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_163",
+      "useDataSources": []
+    },
+    "widget_164": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "GIS Contact Popup copy copy",
+      "config": {
+        "text": "<p>Questions about the current map and its data can be directed to:</p><p><br></p><p><strong>Planning, Building &amp; Zoning</strong></p><p>KC_pbz@co.kendall.il.us</p><p>630.553.4141</p>",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_164"
+    },
+    "widget_165": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Voting Guide Button",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621607844388.png",
+            "position": "LEFT"
+          },
+          "toolTip": "Guide",
+          "toolTipExpression": null
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#263a56",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#263a56",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 20
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#21324a",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 20
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_165",
+      "useDataSources": []
+    },
+    "widget_166": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Voting Contact Button",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621607868800.png",
+            "position": "LEFT"
+          },
+          "toolTip": "Contact",
+          "toolTipExpression": null,
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_17"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#263a56",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#263a56",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 20
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#21324a",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#050505",
+                "size": 20
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_166",
+      "useDataSources": []
+    },
+    "widget_167": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "GIS Contact Popup copy copy copy",
+      "config": {
+        "text": "<p>Questions about the current map and its data can be directed to:</p><p><br></p><p><strong>Voter Registration</strong></p><p>630.553.4105</p>",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_167"
+    },
+    "widget_168": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.4.0",
+      "label": "Zoning Map Content",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "400px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "LEFT",
+          "offsetX": 15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 60,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "#FFFFFF"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--primary)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--primary-700)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          }
+        },
+        "defaultState": 1
+      },
+      "id": "widget_168",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_88"
+        },
+        "SECOND": {
+          "LARGE": "layout_89"
+        }
+      }
+    },
+    "widget_169": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.4.0",
+      "label": "Zoning Layers",
+      "config": {
+        "useMapWidget": true,
+        "setVisibility": true
+      },
+      "id": "widget_169",
+      "useMapWidgetIds": [
+        "widget_66"
+      ]
+    },
+    "widget_170": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.4.0",
+      "label": "Legend",
+      "config": {
+        "cardStyle": false
+      },
+      "id": "widget_170",
+      "useMapWidgetIds": [
+        "widget_66"
+      ]
+    },
+    "widget_171": {
+      "uri": "widgets/common/divider/",
+      "version": "1.4.0",
+      "label": "Divider 4",
+      "config": {
+        "direction": "Horizontal",
+        "strokeStyle": {
+          "type": "Style0",
+          "color": "var(--dark)",
+          "size": "2px"
+        },
+        "pointStart": {
+          "pointStyle": "None",
+          "pointSize": 2
+        },
+        "pointEnd": {
+          "pointStyle": "None",
+          "pointSize": 2
+        },
+        "themeStyle": {
+          "quickStyleType": "Default"
+        }
+      },
+      "id": "widget_171"
+    },
+    "widget_172": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Zoning Guide Footer",
+      "config": {
+        "text": "<p>Click anywhere outside this panel to close it. </p><p><br></p><p>Click the <strong>Guide</strong> icon in the upper-right of the map at any time to see this again.  </p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_172"
+    },
+    "widget_173": {
+      "uri": "widgets/common/divider/",
+      "version": "1.4.0",
+      "label": "Divider 5",
+      "config": {
+        "direction": "Horizontal",
+        "strokeStyle": {
+          "type": "Style0",
+          "color": "var(--dark)",
+          "size": "2px"
+        },
+        "pointStart": {
+          "pointStyle": "None",
+          "pointSize": 2
+        },
+        "pointEnd": {
+          "pointStyle": "None",
+          "pointSize": 2
+        },
+        "themeStyle": {
+          "quickStyleType": "Default"
+        }
+      },
+      "id": "widget_173"
+    },
+    "widget_174": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "CAMA Sales Guide Footer",
+      "config": {
+        "text": "<p>Click anywhere outside of this panel to close it.</p><p><br></p><p>Click the <strong>Guide</strong> icon in the upper-right of the map to see this guide again!  </p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_174"
+    },
+    "widget_175": {
+      "uri": "widgets/layout/column/",
+      "version": "1.4.0",
+      "label": "About Button",
+      "config": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_175",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_90"
+        }
+      }
+    },
+    "widget_176": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "About Button",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_18"
+          },
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621618192816.png",
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "var(--info-800)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--info-500)",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#fff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#fff",
+                "size": 18
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "var(--info-700)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 18,
+                "color": "#050505"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_176",
+      "useDataSources": []
+    },
+    "widget_177": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "About Button Text",
+      "config": {
+        "text": "<p style=\"line-height: 1.2; text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">About</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": false
+        }
+      },
+      "id": "widget_177"
+    },
+    "widget_179": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "About Title",
+      "config": {
+        "text": "<p style=\"text-align: center; line-height: 2;\"><span style=\"font-size: 18px; color: var(--light);\">﻿About</span></p>",
+        "placeholder": "<p style=\"text-align: center;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_179",
+      "style": {
+        "background": {
+          "color": "#324d78",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_180": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "About Text",
+      "config": {
+        "text": "<p style=\"text-align: justify;\"><span style=\"color: var(--dark-800);\">﻿This web application attempts to provide a single location for many of the more popular viewers, layers, and tools that our users have come to rely upon.</span></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: justify;\"><span style=\"color: var(--dark-800);\">Use the tabs / menu button at the top of the page to navigate between the different tools. If you are unsure of how to use a particular tool, each page has its own guide panel that you can reference.</span></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: justify;\"><span style=\"color: var(--dark-800);\">We will continue to develop this application as new capabilities become available or are requested. User feedback is a crucial element to that process, and we welcome any constructive comments you may have.</span></p>",
+        "placeholder": "<p style=\"text-align: center;\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_180"
     }
   },
   "widgetsManifest": {},
@@ -8526,7 +9559,7 @@
     },
     "dialog_3": {
       "id": "dialog_3",
-      "mode": "FIXED",
+      "mode": "ANCHORED",
       "dialogBackground": {
         "color": "var(--light)",
         "fillType": "fit",
@@ -8534,34 +9567,37 @@
           "url": ""
         }
       },
-      "overlayColor": "var(--dark-900)",
+      "overlayColor": null,
       "layout": {
         "LARGE": "layout_7"
       },
       "label": "Changelog",
-      "index": 1,
+      "index": 6,
       "isSplash": false,
       "closeWhenClickOverlay": true,
       "effect": {
-        "type": "FLY_IN",
+        "type": "FLOAT_IN",
         "option": {
-          "direction": "RIGHT",
-          "configType": "DEFAULT"
+          "direction": "BOTTOM",
+          "configType": "GENTLE"
         }
       },
       "interactionType": null,
       "interactionStyles": null,
       "sizeMode": {
         "LARGE": {
-          "width": "300px",
+          "width": "360px",
           "aspectRatio": false,
-          "position": "RIGHT"
+          "position": null,
+          "height": "432px"
         }
-      }
+      },
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false
     },
     "dialog_4": {
       "id": "dialog_4",
-      "mode": "FIXED",
+      "mode": "ANCHORED",
       "dialogBackground": {
         "color": "var(--light)",
         "fillType": "fit",
@@ -8569,18 +9605,19 @@
           "url": ""
         }
       },
-      "overlayColor": "var(--dark-900)",
+      "overlayColor": null,
       "layout": {
         "LARGE": "layout_18"
       },
       "label": "Known Issues",
-      "index": 2,
+      "index": 8,
       "isSplash": false,
       "closeWhenClickOverlay": true,
       "effect": {
-        "type": "FLY_IN",
+        "type": "FLOAT_IN",
         "option": {
-          "direction": "RIGHT"
+          "direction": "BOTTOM",
+          "configType": "GENTLE"
         }
       },
       "interactionType": null,
@@ -8589,45 +9626,12 @@
         "LARGE": {
           "width": "260px",
           "aspectRatio": false,
-          "position": "RIGHT"
-        }
-      }
-    },
-    "dialog_5": {
-      "id": "dialog_5",
-      "mode": "FIXED",
-      "closeWhenClickOverlay": true,
-      "dialogBackground": {
-        "color": "var(--light)",
-        "fillType": "fit",
-        "image": {
-          "url": ""
+          "position": null,
+          "height": "300px"
         }
       },
-      "overlayColor": "var(--dark-900)",
-      "layout": {
-        "LARGE": "layout_24"
-      },
-      "label": "Feedback",
-      "index": 3,
-      "isSplash": false,
-      "effect": {
-        "type": "FLOAT_IN",
-        "option": {
-          "direction": "BOTTOM",
-          "configType": "DEFAULT"
-        }
-      },
-      "interactionType": null,
-      "interactionStyles": null,
-      "sizeMode": {
-        "LARGE": {
-          "width": "75%",
-          "height": "75%",
-          "aspectRatio": false,
-          "position": "CENTER"
-        }
-      }
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false
     },
     "dialog_7": {
       "id": "dialog_7",
@@ -8707,7 +9711,7 @@
       "sizeMode": {
         "LARGE": {
           "position": "RIGHT",
-          "width": "260px"
+          "width": "300px"
         }
       },
       "dialogBackground": {
@@ -8721,7 +9725,7 @@
       "layout": {
         "LARGE": "layout_67"
       },
-      "index": 4,
+      "index": 1,
       "isSplash": false,
       "label": "Zoning Guide",
       "interactionType": "NO_BUTTON",
@@ -8732,7 +9736,14 @@
         "buttonTextSize": "16px"
       },
       "confirmBeforeClose": false,
-      "alwaysShowConfirmation": true
+      "alwaysShowConfirmation": true,
+      "effect": {
+        "type": "FLOAT_IN",
+        "option": {
+          "direction": "RIGHT",
+          "configType": "GENTLE"
+        }
+      }
     },
     "dialog_10": {
       "id": "dialog_10",
@@ -8740,7 +9751,7 @@
       "sizeMode": {
         "LARGE": {
           "position": "RIGHT",
-          "width": "260px"
+          "width": "300px"
         }
       },
       "dialogBackground": {
@@ -8754,7 +9765,7 @@
       "layout": {
         "LARGE": "layout_69"
       },
-      "index": 5,
+      "index": 2,
       "isSplash": false,
       "label": "CAMA / Sales Guide",
       "interactionType": "NO_BUTTON",
@@ -8765,7 +9776,15 @@
         "buttonTextSize": "16px"
       },
       "confirmBeforeClose": false,
-      "alwaysShowConfirmation": true
+      "alwaysShowConfirmation": true,
+      "effect": {
+        "type": "FLOAT_IN",
+        "option": {
+          "direction": "RIGHT",
+          "configType": "GENTLE"
+        }
+      },
+      "closeWhenClickOverlay": true
     },
     "dialog_11": {
       "id": "dialog_11",
@@ -8787,7 +9806,7 @@
       "layout": {
         "LARGE": "layout_71"
       },
-      "index": 6,
+      "index": 3,
       "isSplash": false,
       "label": "Property Information Guide",
       "interactionType": "NO_BUTTON",
@@ -8801,9 +9820,10 @@
       "alwaysShowConfirmation": true,
       "closeWhenClickOverlay": true,
       "effect": {
-        "type": "FLY_IN",
+        "type": "FLOAT_IN",
         "option": {
-          "direction": "RIGHT"
+          "direction": "RIGHT",
+          "configType": "GENTLE"
         }
       }
     },
@@ -8827,7 +9847,7 @@
       "layout": {
         "LARGE": "layout_73"
       },
-      "index": 7,
+      "index": 4,
       "isSplash": false,
       "label": "Voting Map Guide",
       "interactionType": "NO_BUTTON",
@@ -8839,7 +9859,14 @@
       },
       "confirmBeforeClose": false,
       "alwaysShowConfirmation": true,
-      "closeWhenClickOverlay": true
+      "closeWhenClickOverlay": true,
+      "effect": {
+        "type": "FLOAT_IN",
+        "option": {
+          "direction": "RIGHT",
+          "configType": "GENTLE"
+        }
+      }
     },
     "dialog_13": {
       "id": "dialog_13",
@@ -8861,7 +9888,7 @@
       "layout": {
         "LARGE": "layout_75"
       },
-      "index": 8,
+      "index": 5,
       "isSplash": false,
       "label": "Explore Guide",
       "interactionType": "NO_BUTTON",
@@ -8873,7 +9900,223 @@
       },
       "confirmBeforeClose": false,
       "alwaysShowConfirmation": true,
-      "closeWhenClickOverlay": true
+      "closeWhenClickOverlay": true,
+      "effect": {
+        "type": "FLOAT_IN",
+        "option": {
+          "direction": "RIGHT",
+          "configType": "GENTLE"
+        }
+      }
+    },
+    "dialog_14": {
+      "id": "dialog_14",
+      "mode": "ANCHORED",
+      "sizeMode": {
+        "LARGE": {
+          "position": null,
+          "width": "260px",
+          "height": "140px"
+        }
+      },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fit",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": null,
+      "layout": {
+        "LARGE": "layout_84"
+      },
+      "index": 2,
+      "isSplash": false,
+      "closeWhenClickOverlay": true,
+      "effect": {
+        "type": "FADE_IN",
+        "option": {
+          "direction": null,
+          "configType": "DEFAULT"
+        }
+      },
+      "oneByOneEffect": {
+        "type": "NONE",
+        "option": {
+          "direction": null
+        }
+      },
+      "label": "GIS Contact"
+    },
+    "dialog_15": {
+      "id": "dialog_15",
+      "mode": "ANCHORED",
+      "sizeMode": {
+        "LARGE": {
+          "position": null,
+          "width": "300px",
+          "height": "140px"
+        }
+      },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fit",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": null,
+      "layout": {
+        "LARGE": "layout_85"
+      },
+      "index": 3,
+      "isSplash": false,
+      "closeWhenClickOverlay": true,
+      "effect": {
+        "type": "FADE_IN",
+        "option": {
+          "direction": null,
+          "configType": "DEFAULT"
+        }
+      },
+      "oneByOneEffect": {
+        "type": "NONE",
+        "option": {
+          "direction": null
+        }
+      },
+      "label": "Assessments Contact"
+    },
+    "dialog_16": {
+      "id": "dialog_16",
+      "mode": "ANCHORED",
+      "sizeMode": {
+        "LARGE": {
+          "position": null,
+          "width": "260px",
+          "height": "140px"
+        }
+      },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fit",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": null,
+      "layout": {
+        "LARGE": "layout_86"
+      },
+      "index": 4,
+      "isSplash": false,
+      "closeWhenClickOverlay": true,
+      "effect": {
+        "type": "FADE_IN",
+        "option": {
+          "direction": null,
+          "configType": "DEFAULT"
+        }
+      },
+      "oneByOneEffect": {
+        "type": "NONE",
+        "option": {
+          "direction": null
+        }
+      },
+      "label": "PBZ Contact"
+    },
+    "dialog_17": {
+      "id": "dialog_17",
+      "mode": "ANCHORED",
+      "sizeMode": {
+        "LARGE": {
+          "position": null,
+          "width": "260px",
+          "height": "140px"
+        }
+      },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fit",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": null,
+      "layout": {
+        "LARGE": "layout_87"
+      },
+      "index": 5,
+      "isSplash": false,
+      "closeWhenClickOverlay": true,
+      "effect": {
+        "type": "FADE_IN",
+        "option": {
+          "direction": null,
+          "configType": "DEFAULT"
+        }
+      },
+      "oneByOneEffect": {
+        "type": "NONE",
+        "option": {
+          "direction": null
+        }
+      },
+      "label": "Voting Contact"
+    },
+    "dialog_18": {
+      "id": "dialog_18",
+      "mode": "ANCHORED",
+      "sizeMode": {
+        "LARGE": {
+          "position": null,
+          "width": "300px",
+          "height": "380px"
+        }
+      },
+      "closeWhenClickOverlay": true,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fit",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": null,
+      "layout": {
+        "LARGE": "layout_91"
+      },
+      "index": 7,
+      "isSplash": false,
+      "label": "About",
+      "effect": {
+        "type": "FLOAT_IN",
+        "option": {
+          "direction": "BOTTOM",
+          "configType": "GENTLE"
+        }
+      },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false
     }
   },
   "dataSources": {
@@ -9179,5 +10422,5 @@
       }
     }
   },
-  "timestamp": 1621453823603
+  "timestamp": 1621637798145
 }
