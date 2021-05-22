@@ -1925,32 +1925,32 @@
       "type": "FIXED",
       "label": "First",
       "order": [
-        "2"
+        "0"
       ],
       "content": {
-        "2": {
+        "0": {
           "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_197",
           "setting": {
-            "style": {},
             "autoProps": {
               "right": false,
-              "left": true,
+              "left": false,
               "top": false,
-              "bottom": true
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
             },
             "vCenter": false,
             "hCenter": false
-          },
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "-0.0%",
-            "bottom": "50.8%",
-            "width": "100.0%",
-            "height": "100.00%"
-          },
-          "widgetId": "widget_106",
-          "isPending": false
+          }
         }
       }
     },
@@ -4865,27 +4865,27 @@
       "content": {
         "0": {
           "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_197",
           "setting": {
-            "style": {},
             "autoProps": {
               "right": false,
-              "left": true,
+              "left": false,
               "top": false,
-              "bottom": true
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
             },
             "vCenter": false,
             "hCenter": false
-          },
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "-0.0%",
-            "bottom": "50.8%",
-            "width": "100.0%",
-            "height": "100.00%"
-          },
-          "widgetId": "widget_106",
-          "isPending": false
+          }
         }
       },
       "order": [
@@ -5092,27 +5092,27 @@
       "content": {
         "0": {
           "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_197",
           "setting": {
-            "style": {},
             "autoProps": {
               "right": false,
-              "left": true,
+              "left": false,
               "top": false,
-              "bottom": true
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
             },
             "vCenter": false,
             "hCenter": false
-          },
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "-0.0%",
-            "bottom": "50.8%",
-            "width": "100.0%",
-            "height": "100.00%"
-          },
-          "widgetId": "widget_106",
-          "isPending": false
+          }
         }
       },
       "order": [
@@ -6047,9 +6047,35 @@
           "canCompass": true,
           "canBaseMap": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "layoutIndex": 1,
-        "initialMapDataSourceID": "dataSource_6"
+        "initialMapDataSourceID": "dataSource_6",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 4513.988705,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -9845929.468719186,
+              "y": 5106973.442093266
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -9846448.404481485,
+            "ymin": 5106619.920837477,
+            "xmax": -9845410.532956887,
+            "ymax": 5107326.9633490555
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        }
       },
       "id": "widget_67",
       "layouts": {
@@ -7740,481 +7766,6 @@
       },
       "id": "widget_98"
     },
-    "widget_106": {
-      "uri": "widgets/arcgis/query/",
-      "version": "1.4.0",
-      "label": "CAMA Sales Query",
-      "config": {
-        "queryItems": [
-          {
-            "configId": "1888993088343447",
-            "icon": {
-              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1621280947336.png",
-              "properties": {
-                "filename": "1621280947336.png",
-                "originalName": "Double-barred_dollar_sign.svg.png",
-                "path": "${appResourceUrl}/images/icon_picker_in_setting/1621280947336.png",
-                "inlineSvg": false
-              }
-            },
-            "name": "Sales Filter",
-            "displayLabel": true,
-            "useDataSource": {
-              "dataSourceId": "dataSource_6-17402270ab8-layer-14",
-              "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
-              "rootDataSourceId": "dataSource_6",
-              "fields": [
-                "sale_date",
-                "sale_amount",
-                "valid_sale"
-              ]
-            },
-            "outputDataSourceId": "widget_106_output_1888993088343447",
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "sale_date",
-                  "operator": "DATE_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_DATE_PICKER",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "sale_amount",
-                  "operator": "NUMBER_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_NUMBER_SELECTOR",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "valid_sale",
-                  "operator": "NUMBER_OPERATOR_IS",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "UNIQUE_PREDEFINED",
-                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
-                    "value": [
-                      {
-                        "value": 0,
-                        "label": "0",
-                        "alias": "No",
-                        "selected": false
-                      },
-                      {
-                        "value": 1,
-                        "label": "1",
-                        "alias": "Yes",
-                        "selected": true
-                      }
-                    ]
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": "NONE"
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "((valid_sale = 1))",
-              "displaySQL": "(Sale Date is between ? and ?) and (Sale Amount is between ? and ?) and (Arm's Length Sale = Yes)"
-            },
-            "spatialMapWidgetIds": [
-              "widget_67"
-            ],
-            "spatialFilterTypes": [
-              "CurrentMapExtent",
-              "InteractiveDrawMode"
-            ],
-            "spatialInteractiveCreateToolTypes": [
-              "Point",
-              "Polyline",
-              "Polygon",
-              "Rectangle",
-              "Circle"
-            ],
-            "spatialInteractiveEnableBuffer": false,
-            "spatialInteractiveBufferDistance": 0,
-            "spatialInteractiveBufferUnit": "Meters",
-            "spatialRelations": [
-              "Intersect"
-            ],
-            "spatialRelationUseDataSources": [],
-            "spatialRelationEnableSelectTool": false,
-            "spatialRelationEnableBuffer": false,
-            "spatialRelationBufferDistance": 0,
-            "spatialRelationBufferUnit": "Meters",
-            "resultListDirection": "Vertical",
-            "resultPagingStyle": "MultiPage",
-            "resultSymbolType": "DefaultSymbol",
-            "resultCustomSymbol": {
-              "angle": 0,
-              "color": [
-                255,
-                255,
-                255,
-                255
-              ],
-              "outline": {
-                "color": [
-                  255,
-                  255,
-                  255,
-                  255
-                ],
-                "style": "esriSLSSolid",
-                "type": "esriSLS",
-                "width": 1
-              },
-              "size": 6,
-              "style": "esriSMSCircle",
-              "type": "esriSMS",
-              "xoffset": 0,
-              "yoffset": 0
-            },
-            "resultAllowChangeSymbol": false,
-            "allowExport": false,
-            "sortOptions": [
-              {
-                "jimuFieldName": "sale_date",
-                "order": "DESC",
-                "itemKey": "0"
-              }
-            ],
-            "itemSizeMap": {
-              "arrangementHorizontalPopper": {
-                "minSize": {
-                  "width": 300,
-                  "height": 300
-                },
-                "defaultSize": {
-                  "width": 360,
-                  "height": 480
-                }
-              }
-            },
-            "attributeFilterLabel": "Filter by Attributes",
-            "spatialFilterLabel": "Filter by Area",
-            "resultsLabel": "Matching Sales Features"
-          },
-          {
-            "configId": "9717476529154514",
-            "icon": {
-              "svg": "<svg viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2 5.055V11h2V8a1 1 0 011-1h2a1 1 0 011 1v3h2V4.969L6.043 1 2 5.055zM1 6.058l-.149.15a.497.497 0 01-.705 0 .501.501 0 010-.708L5.338.293a.995.995 0 011.41 0l5.106 5.121a.501.501 0 010 .707.497.497 0 01-.705 0L11 5.971V11a1 1 0 01-1 1H2a1 1 0 01-1-1V6.058zM5 11h2V8H5v3z\" fill=\"#000\" fill-rule=\"nonzero\"></path></svg>",
-              "properties": {
-                "filename": "home.svg",
-                "originalName": "home.svg",
-                "path": [
-                  "general",
-                  "home"
-                ],
-                "inlineSvg": true
-              }
-            },
-            "name": "CAMA Filter",
-            "displayLabel": true,
-            "useDataSource": {
-              "dataSourceId": "dataSource_6-174021ad290-layer-13",
-              "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
-              "rootDataSourceId": "dataSource_6",
-              "fields": [
-                "struct_type",
-                "year_built",
-                "sqft",
-                "bed",
-                "fbath",
-                "hbath"
-              ]
-            },
-            "outputDataSourceId": "widget_106_output_9717476529154514",
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "struct_type",
-                  "operator": "STRING_OPERATOR_IS",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "UNIQUE",
-                    "inputEditor": "SIMPLE_SELECT",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": "NONE"
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "year_built",
-                  "operator": "NUMBER_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_NUMBER_SELECTOR",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "sqft",
-                  "operator": "NUMBER_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_NUMBER_SELECTOR",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "bed",
-                  "operator": "NUMBER_OPERATOR_IS_AT_LEAST",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "fbath",
-                  "operator": "NUMBER_OPERATOR_IS_AT_LEAST",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "hbath",
-                  "operator": "NUMBER_OPERATOR_IS_AT_LEAST",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "INLINE",
-                    "hint": "",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "",
-              "displaySQL": "(Structure Type = ?) and (Year Built is between ? and ?) and (Square Feet is between ? and ?) and (Bedrooms >= ?) and (Full Baths >= ?) and (Half Baths >= ?)"
-            },
-            "spatialMapWidgetIds": [
-              "widget_67"
-            ],
-            "spatialFilterTypes": [
-              "CurrentMapExtent",
-              "InteractiveDrawMode"
-            ],
-            "spatialInteractiveCreateToolTypes": [
-              "Point",
-              "Polyline",
-              "Polygon",
-              "Rectangle",
-              "Circle"
-            ],
-            "spatialInteractiveEnableBuffer": false,
-            "spatialInteractiveBufferDistance": 0,
-            "spatialInteractiveBufferUnit": "Meters",
-            "spatialRelations": [
-              "Intersect"
-            ],
-            "spatialRelationUseDataSources": [],
-            "spatialRelationEnableSelectTool": false,
-            "spatialRelationEnableBuffer": false,
-            "spatialRelationBufferDistance": 0,
-            "spatialRelationBufferUnit": "Meters",
-            "resultListDirection": "Vertical",
-            "resultPagingStyle": "MultiPage",
-            "resultSymbolType": "DefaultSymbol",
-            "resultCustomSymbol": {
-              "angle": 0,
-              "color": [
-                255,
-                255,
-                255,
-                255
-              ],
-              "outline": {
-                "color": [
-                  255,
-                  255,
-                  255,
-                  255
-                ],
-                "style": "esriSLSSolid",
-                "type": "esriSLS",
-                "width": 1
-              },
-              "size": 6,
-              "style": "esriSMSCircle",
-              "type": "esriSMS",
-              "xoffset": 0,
-              "yoffset": 0
-            },
-            "resultAllowChangeSymbol": false,
-            "allowExport": false,
-            "sortOptions": [],
-            "itemSizeMap": {
-              "arrangementHorizontalPopper": {
-                "minSize": {
-                  "width": 300,
-                  "height": 300
-                },
-                "defaultSize": {
-                  "width": 360,
-                  "height": 480
-                }
-              }
-            },
-            "attributeFilterLabel": "Filter by Attributes",
-            "spatialFilterLabel": "Filter by Area",
-            "resultsLabel": "Matching CAMA Features"
-          }
-        ],
-        "arrangeType": "BLOCK",
-        "arrangeWrap": false,
-        "sizeMap": {
-          "arrangementIconPopper": {
-            "minSize": {
-              "width": 300,
-              "height": 300
-            },
-            "defaultSize": {
-              "width": 360,
-              "height": 480
-            }
-          }
-        }
-      },
-      "id": "widget_106",
-      "outputDataSources": [
-        "widget_106_output_1888993088343447",
-        "widget_106_output_9717476529154514"
-      ],
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_6-17402270ab8-layer-14",
-          "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
-          "rootDataSourceId": "dataSource_6",
-          "fields": [
-            "sale_date",
-            "sale_amount",
-            "valid_sale"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_6-174021ad290-layer-13",
-          "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
-          "rootDataSourceId": "dataSource_6",
-          "fields": [
-            "struct_type",
-            "year_built",
-            "sqft",
-            "bed",
-            "fbath",
-            "hbath"
-          ]
-        }
-      ],
-      "dataActions": {
-        "showOnMap": {
-          "enabled": false
-        },
-        "panTo": {
-          "enabled": false
-        },
-        "zoomToFeature": {
-          "enabled": false
-        }
-      }
-    },
     "widget_108": {
       "uri": "widgets/layout/column/",
       "version": "1.4.0",
@@ -8460,7 +8011,7 @@
       "version": "1.4.0",
       "label": "CAMA Sales Guide Text",
       "config": {
-        "text": "<p><span style=\"color: var(--dark-800);\">﻿This map gives users more advanced capabilities for browsing / filtering property characteristics and recent sales.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Filters</span></p><p>The panel to the left gives users the ability to filter the data currently displayed in the CAMA and Sales layers.</p><p><br></p><p>Users can filter the data by specifying attributes, and/or by setting an area of interest on the map. If using an area of interest, note that the features in the selected area can be exported to a file, or viewed in the table separately from the rest of the features.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Table View</span></p><p>Above the map, there are two tabs. Use these to switch between the default map view and a table-based view of the data.</p><p><br></p><p>Note that applying filters will apply to both the map <em>and</em> the table.</p><p><br></p><p>From the table, users can also export features to a CSV file by clicking the icon in the upper-right of the table.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p>You can search by:</p><ul><li>PIN (with or without hyphens)</li><li>Site Address</li><li>Current Owner</li><li>Grantor / Grantee (Sales)</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Layers</span></p><p>Next to the search icon is the Layers tool. Use this tool to turn the map layers on and off as needed, or to view the legend for the visible layers.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to layers icon is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">﻿Other Tips</span></p><p>The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size. </p>",
+        "text": "<p><span style=\"color: var(--dark-800);\">﻿This map gives users more advanced capabilities for browsing / filtering property characteristics and recent sales.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Filters</span></p><p>The panel to the left gives users the ability to filter the data currently displayed in the CAMA and Sales layers.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Table View</span></p><p>Above the map, there are two tabs. Use these to switch between the default map view and a table-based view of the data.</p><p><br></p><p>Note that applying filters will apply to both the map <em>and</em> the table.</p><p><br></p><p>From the table, users can also export features to a CSV file by clicking the icon in the upper-right of the table.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p>You can search by:</p><ul><li>PIN (with or without hyphens)</li><li>Site Address</li><li>Current Owner</li><li>Grantor / Grantee (Sales)</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Layers</span></p><p>Next to the search icon is the Layers tool. Use this tool to turn the map layers on and off as needed, or to view the legend for the visible layers.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to layers icon is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">﻿Other Tips</span></p><p>The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size. </p>",
         "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -10762,7 +10313,7 @@
         "direction": "VERTICAL",
         "collapseSide": "FIRST",
         "overlay": true,
-        "size": "400px",
+        "size": "525px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -10839,7 +10390,7 @@
         "direction": "VERTICAL",
         "collapseSide": "FIRST",
         "overlay": true,
-        "size": "300px",
+        "size": "400px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -10907,6 +10458,318 @@
           "SMALL": "layout_148"
         }
       }
+    },
+    "widget_197": {
+      "uri": "widgets/common/filter/",
+      "version": "1.4.0",
+      "label": "CAMA and Sales Filter",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": false,
+        "filterItems": [
+          {
+            "icon": {
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1621651674053.png",
+              "properties": {
+                "filename": "1621651674053.png",
+                "originalName": "Double-barred_dollar_sign.svg.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1621651674053.png",
+                "inlineSvg": false
+              }
+            },
+            "name": "Sales",
+            "useDataSource": {
+              "dataSourceId": "dataSource_6-17402270ab8-layer-14",
+              "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
+              "rootDataSourceId": "dataSource_6",
+              "fields": [
+                "sale_date",
+                "sale_amount",
+                "valid_sale"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "sale_date",
+                  "operator": "DATE_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_PICKER",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "sale_amount",
+                  "operator": "NUMBER_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_NUMBER_SELECTOR",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "valid_sale",
+                  "operator": "NUMBER_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE_PREDEFINED",
+                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
+                    "value": [
+                      {
+                        "value": "-empty-",
+                        "label": null,
+                        "alias": null,
+                        "selected": true
+                      },
+                      {
+                        "value": 0,
+                        "label": "0",
+                        "alias": "No",
+                        "selected": false
+                      },
+                      {
+                        "value": 1,
+                        "label": "1",
+                        "alias": "Yes",
+                        "selected": false
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Sale Date is between ? and ?) and (Sale Amount is between ? and ?) and (Arm's Length Sale = ?)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          },
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M15 0v1.53h-.062L9.556 6.825v7.982a.5.5 0 01-.851.356l-2.26-2.224V6.818L1.07 1.53H1V0h14zm-1 1H2v.042l5.444 5.357v6.121l1.111 1.093V6.406L14 1.05V1z\" fill=\"#C5C5C5\" fill-rule=\"nonzero\"></path><circle cx=\"3\" cy=\"3\" r=\"3\" transform=\"translate(15 -5)\" fill=\"#050505\"></circle></g></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter-16.svg",
+                "originalName": "filter-16.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "CAMA",
+            "useDataSource": {
+              "dataSourceId": "dataSource_6-174021ad290-layer-13",
+              "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
+              "rootDataSourceId": "dataSource_6",
+              "fields": [
+                "struct_type",
+                "year_built",
+                "sqft",
+                "bed",
+                "fbath",
+                "hbath"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "struct_type",
+                  "operator": "STRING_OPERATOR_IS_ANY_OF",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "MULTIPLE",
+                    "inputEditor": "MULTIPLE_SELECT",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "year_built",
+                  "operator": "NUMBER_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_NUMBER_SELECTOR",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "sqft",
+                  "operator": "NUMBER_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_NUMBER_SELECTOR",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "bed",
+                  "operator": "NUMBER_OPERATOR_IS_AT_LEAST",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "TEXT_BOX",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "fbath",
+                  "operator": "NUMBER_OPERATOR_IS_AT_LEAST",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "TEXT_BOX",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "hbath",
+                  "operator": "NUMBER_OPERATOR_IS_AT_LEAST",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "TEXT_BOX",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Structure Type is any of (?)) and (Year Built is between ? and ?) and (Square Feet is between ? and ?) and (Bedrooms >= ?) and (Full Baths >= ?) and (Half Baths >= ?)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          }
+        ]
+      },
+      "id": "widget_197",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17402270ab8-layer-14",
+          "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
+          "rootDataSourceId": "dataSource_6",
+          "fields": [
+            "sale_amount",
+            "sale_date",
+            "valid_sale"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_6-174021ad290-layer-13",
+          "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
+          "rootDataSourceId": "dataSource_6",
+          "fields": [
+            "bed",
+            "fbath",
+            "hbath",
+            "sqft",
+            "struct_type",
+            "year_built"
+          ]
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -11559,28 +11422,6 @@
       "id": "dataSource_6",
       "portalUrl": "https://maps.co.kendall.il.us/portal"
     },
-    "widget_106_output_1888993088343447": {
-      "id": "widget_106_output_1888993088343447",
-      "label": "Sales Filter result",
-      "type": "FEATURE_LAYER",
-      "geometryType": "esriGeometryPolygon",
-      "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Parcel_Sales/FeatureServer/0",
-      "itemId": "27ca55f5daeb465c887f78c8aaf5f555",
-      "portalUrl": "https://maps.co.kendall.il.us/portal",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_6-17402270ab8-layer-14",
-          "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
-          "rootDataSourceId": "dataSource_6",
-          "fields": [
-            "sale_date",
-            "sale_amount",
-            "valid_sale"
-          ]
-        }
-      ],
-      "isOutputFromWidget": true
-    },
     "dataSource_7": {
       "type": "WEB_MAP",
       "itemId": "e8ae012a8087473ab0e7ce76ab44ffe3",
@@ -11609,57 +11450,9 @@
       "itemId": "ee753276d28645e7a180bcf7c942cfec",
       "id": "dataSource_8",
       "portalUrl": "https://maps.co.kendall.il.us/portal"
-    },
-    "widget_106_output_9717476529154514": {
-      "id": "widget_106_output_9717476529154514",
-      "label": "CAMA Filter result",
-      "type": "FEATURE_LAYER",
-      "geometryType": "esriGeometryPoint",
-      "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/CAMA__query_/FeatureServer/0",
-      "itemId": "acebd8c668b640f184759f6e88ba1737",
-      "portalUrl": "https://maps.co.kendall.il.us/portal",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_6-174021ad290-layer-13",
-          "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
-          "rootDataSourceId": "dataSource_6",
-          "fields": [
-            "struct_type",
-            "year_built",
-            "sqft",
-            "bed",
-            "fbath",
-            "hbath"
-          ]
-        }
-      ],
-      "isOutputFromWidget": true
     }
   },
   "messageConfigs": {
-    "messageConfig_3": {
-      "id": "messageConfig_3",
-      "widgetId": "widget_106",
-      "messageType": "DATA_RECORD_SET_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_67-showOnMap-1621281019027",
-          "widgetId": "widget_67",
-          "messageWidgetId": "widget_106",
-          "actionName": "showOnMap",
-          "description": null,
-          "version": "1.4.0"
-        },
-        {
-          "actionId": "widget_67-zoomToFeature-1621281026099",
-          "widgetId": "widget_67",
-          "messageWidgetId": "widget_106",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "version": "1.4.0"
-        }
-      ]
-    },
     "messageConfig_4": {
       "id": "messageConfig_4",
       "widgetId": "widget_137",
@@ -11792,69 +11585,6 @@
           "version": "1.4.0"
         }
       ]
-    },
-    "messageConfig_7": {
-      "id": "messageConfig_7",
-      "widgetId": "widget_106",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_67-flash-1621629201840",
-          "widgetId": "widget_67",
-          "messageWidgetId": "widget_106",
-          "actionName": "flash",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "widget_106_output_1888993088343447-output",
-              "mainDataSourceId": "widget_106_output_1888993088343447",
-              "dataViewId": "output",
-              "fields": [
-                "id"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_6-17402270ab8-layer-14",
-              "mainDataSourceId": "dataSource_6-17402270ab8-layer-14",
-              "rootDataSourceId": "dataSource_6",
-              "fields": [
-                "id"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.4.0"
-        },
-        {
-          "actionId": "widget_67-flash-1621629219040",
-          "widgetId": "widget_67",
-          "messageWidgetId": "widget_106",
-          "actionName": "flash",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "widget_106_output_9717476529154514-output",
-              "mainDataSourceId": "widget_106_output_9717476529154514",
-              "dataViewId": "output",
-              "fields": [
-                "id"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_6-174021ad290-layer-13",
-              "mainDataSourceId": "dataSource_6-174021ad290-layer-13",
-              "rootDataSourceId": "dataSource_6",
-              "fields": [
-                "id"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.4.0"
-        }
-      ]
     }
   },
   "pageStructure": [
@@ -11928,5 +11658,5 @@
       }
     }
   },
-  "timestamp": 1621650202420
+  "timestamp": 1621670284828
 }
