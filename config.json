@@ -282,6 +282,9 @@
             }
           }
         }
+      },
+      "setting": {
+        "lockDescendants": true
       }
     },
     "layout_4": {
@@ -431,6 +434,9 @@
             }
           }
         }
+      },
+      "setting": {
+        "lockDescendants": true
       }
     },
     "layout_5": {
@@ -527,22 +533,22 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "left": false,
-              "right": true,
+              "left": true,
+              "right": false,
               "top": true,
               "bottom": false,
               "height": "STRETCH"
             },
             "vCenter": false,
-            "hCenter": true
+            "hCenter": false
           },
           "bbox": {
-            "left": "50%",
-            "right": "0.8%",
-            "top": "50.00px",
-            "bottom": "15.00px",
-            "width": "90.00%",
-            "height": "61.1%"
+            "left": "5.0%",
+            "right": "5.0%",
+            "top": "50px",
+            "bottom": "15px",
+            "width": "90.0%",
+            "height": "85.0%"
           },
           "widgetId": "widget_16",
           "isPending": false
@@ -989,7 +995,10 @@
         "2",
         "3",
         "4"
-      ]
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
     },
     "layout_30": {
       "type": "FIXED",
@@ -1090,7 +1099,10 @@
         "5",
         "6",
         "7"
-      ]
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
     },
     "layout_32": {
       "type": "COLUMN",
@@ -1492,7 +1504,10 @@
         "3",
         "4",
         "5"
-      ]
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
     },
     "layout_37": {
       "type": "FIXED",
@@ -1769,7 +1784,10 @@
         "7",
         "8",
         "9"
-      ]
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
     },
     "layout_40": {
       "type": "COLUMN",
@@ -3102,7 +3120,18 @@
       "order": [
         "0",
         "1"
-      ]
+      ],
+      "setting": {
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        },
+        "space": 10
+      }
     },
     "layout_81": {
       "type": "FIXED",
@@ -3740,7 +3769,18 @@
       "order": [
         "0",
         "1"
-      ]
+      ],
+      "setting": {
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        },
+        "space": 10
+      }
     },
     "layout_105": {
       "type": "FIXED",
@@ -4414,7 +4454,18 @@
       "type": "ROW",
       "label": "Default",
       "content": {},
-      "order": []
+      "order": [],
+      "setting": {
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        },
+        "space": 10
+      }
     },
     "layout_130": {
       "type": "FIXED",
@@ -5282,7 +5333,7 @@
       ]
     }
   },
-  "exbVersion": "1.4.0",
+  "exbVersion": "1.5.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/shared-theme/",
   "forBuilderAttributes": {
@@ -5301,7 +5352,7 @@
   "widgets": {
     "widget_1": {
       "uri": "widgets/common/image/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Logo",
       "config": {
         "functionConfig": {
@@ -5353,7 +5404,7 @@
     },
     "widget_2": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Title",
       "config": {
         "text": "<p><span style=\"font-size: 18px; letter-spacing: 2px;\">KENDALL COUNTY GIS</span></p><p style=\"line-height: 1.6;\"><span style=\"letter-spacing: 2px;\">Map Viewer</span></p>",
@@ -5367,7 +5418,7 @@
     },
     "widget_4": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Disclaimer Title",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿Legal Disclaimer</strong></p>",
@@ -5381,7 +5432,7 @@
     },
     "widget_5": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Disclaimer Text",
       "config": {
         "text": "<p style=\"text-align: justify;\">The data and layers in these maps do not represent a survey. No accuracy is assumed for the data delineated herein, either expressed or implied by Kendall County or its employees.</p><p style=\"text-align: justify;\"><br></p><p style=\"text-align: justify;\">These data are compiled from official records, including plats, surveys, recorded deeds, contracts, and only contains information required for local government purposes. See the recorded documents for more detailed legal information.<span style=\"color: var(--dark-800);\">﻿</span></p>",
@@ -5395,7 +5446,7 @@
     },
     "widget_15": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Changelog Title",
       "config": {
         "text": "<p style=\"line-height: 2; text-align: center;\"><span style=\"color: var(--light); font-size: 18px;\">Changelog</span></p>",
@@ -5418,10 +5469,10 @@
     },
     "widget_16": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Changelog Text",
       "config": {
-        "text": "<p><strong style=\"font-size: 16px; color: var(--dark-800);\">May 2021 | Version 2.0<span class=\"ql-cursor\">﻿</span></strong></p><ul><li>Renamed \"Map Viewer\" -- No more beta!</li><li>CAMA and Sales data can be spatially filtered and / or exported to CSV</li><li>Added tabs for Property Characteristics and Voting Information Lookup</li><li>Broke up the Guide into separate guides per page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿January 2021 | Version 1.2.1</strong></p><ul><li>Updated the Guide panel to address various updated features</li><li>Filter panel will appear by default in CAMA viewer</li><li>Adjustments to layer symbology</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">January 2021 | Version 1.2</strong></p><ul><li>Updated maps to be compliant with ArcGIS JavaScript API v 4.18</li><li>Added \"Table View\" to CAMA &amp; Sales page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">September 2020 | Version 1.1</strong></p><ul><li style=\"text-align: left;\">Guide, changelog, and bugs list moved into side panel windows</li><li style=\"text-align: left;\">Disclaimer appears as splash upon loading viewer</li><li style=\"text-align: left;\">Published viewer to official URL</li></ul><p style=\"line-height: 2; text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px; color: var(--dark-800);\">August 2020 | Version 1.0</strong></p><ul><li>Map Viewer officially released for public use</li></ul>",
+        "text": "<p><strong style=\"font-size: 16px; color: var(--dark-800);\">May 2021 | Version 2.1</strong></p><ul><li>Property Information tab no longer shows \"1 of XXXX\" with parcel / CAMA pre-selected. Only shows information upon selection.</li><li>Voting Lookup map also only shows info upon selection</li></ul><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿May 2021 | Version 2.0﻿</strong></p><ul><li>Renamed \"Map Viewer\" -- No more beta!</li><li>CAMA and Sales data can be spatially filtered and / or exported to CSV</li><li>Added tabs for Property Characteristics and Voting Information Lookup</li><li>Broke up the Guide into separate guides per page</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿January 2021 | Version 1.2.1</strong></p><ul><li>Updated the Guide panel to address various updated features</li><li>Filter panel will appear by default in CAMA viewer</li><li>Adjustments to layer symbology</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">January 2021 | Version 1.2</strong></p><ul><li>Updated maps to be compliant with ArcGIS JavaScript API v 4.18</li><li>Added \"Table View\" to CAMA &amp; Sales page</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">September 2020 | Version 1.1</strong></p><ul><li style=\"text-align: left;\">Guide, changelog, and bugs list moved into side panel windows</li><li style=\"text-align: left;\">Disclaimer appears as splash upon loading viewer</li><li style=\"text-align: left;\">Published viewer to official URL</li></ul><p style=\"text-align: left; line-height: 2;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"color: var(--dark-800); font-size: 16px;\">August 2020 | Version 1.0</strong></p><ul><li>Map Viewer officially released for public use</li></ul>",
         "placeholder": "<p style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -5432,7 +5483,7 @@
     },
     "widget_44": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Known Issues Title",
       "config": {
         "text": "<p style=\"line-height: 2; text-align: center;\"><span style=\"font-size: 18px; color: var(--light);\">Known Issues﻿</span></p>",
@@ -5455,10 +5506,10 @@
     },
     "widget_45": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Known Issues List",
       "config": {
-        "text": "<ul><li style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Print capability is missing﻿</span></li><li style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">On CAMA viewer, CAMA data tab sometime does not update structure count \"1 of XXX\" until second click</span></li></ul>",
+        "text": "<ul><li style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Print capability is missing﻿</span></li></ul>",
         "placeholder": "<p style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -5469,7 +5520,7 @@
     },
     "widget_50": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "About Button",
       "config": {
         "functionConfig": {
@@ -5549,7 +5600,7 @@
     },
     "widget_51": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Aboutn Button Text",
       "config": {
         "text": "<p style=\"line-height: 1.2; text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">About</strong></p>",
@@ -5563,7 +5614,7 @@
     },
     "widget_52": {
       "uri": "widgets/layout/column/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Changelog Button",
       "config": {
         "space": 0,
@@ -5587,7 +5638,7 @@
     },
     "widget_53": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Changelog Button",
       "config": {
         "functionConfig": {
@@ -5667,7 +5718,7 @@
     },
     "widget_54": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Changelog Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Changelog</strong></p>",
@@ -5681,7 +5732,7 @@
     },
     "widget_55": {
       "uri": "widgets/layout/column/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Bugs Button",
       "config": {
         "space": 0,
@@ -5705,7 +5756,7 @@
     },
     "widget_56": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Bugs Button",
       "config": {
         "functionConfig": {
@@ -5785,7 +5836,7 @@
     },
     "widget_57": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Bugs Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Bugs</strong></p>",
@@ -5799,7 +5850,7 @@
     },
     "widget_58": {
       "uri": "widgets/common/divider/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Contact Divider",
       "config": {
         "direction": "Vertical",
@@ -5824,7 +5875,7 @@
     },
     "widget_59": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Department Name",
       "config": {
         "text": "<p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">KENDALL COUNTY</span></p><p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">GEOGRAPHIC INFORMATION SYSTEMS</span></p>",
@@ -5838,7 +5889,7 @@
     },
     "widget_60": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Contact Information",
       "config": {
         "text": "<p style=\"line-height: 1.6;\"><span style=\"color: var(--light); font-size: 12px;\">ph: 630.553.4212</span></p><p style=\"line-height: 1.6;\"><span style=\"color: var(--light); font-size: 12px;\">em: kcgis@co.kendall.il.us</span></p>",
@@ -5852,7 +5903,7 @@
     },
     "widget_63": {
       "uri": "widgets/common/menu/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Navigator",
       "config": {
         "type": "nav",
@@ -5931,7 +5982,7 @@
     },
     "widget_64": {
       "uri": "widgets/common/divider/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Divider",
       "config": {
         "direction": "Vertical",
@@ -6094,7 +6145,7 @@
     },
     "widget_72": {
       "uri": "widgets/common/menu/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Mobile Menu",
       "config": {
         "type": "drawer",
@@ -6279,7 +6330,7 @@
     },
     "widget_77": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Footer Menu Button",
       "config": {
         "functionConfig": {
@@ -6317,7 +6368,7 @@
     },
     "widget_82": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Mobile Title",
       "config": {
         "text": "<p><span style=\"font-size: 18px; letter-spacing: 2px;\">Kendall County GIS</span></p><p><span style=\"font-size: 16px; letter-spacing: 0px;\">Map Viewer</span></p>",
@@ -6427,7 +6478,7 @@
     },
     "widget_87": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Mobile Footer",
       "config": {
         "text": "<p style=\"line-height: 1.2;\"><strong style=\"letter-spacing: 0px; color: var(--light); font-size: 11px;\">KCGIS</strong></p><p style=\"line-height: 1.2;\"><span style=\"letter-spacing: 0px; color: var(--light); font-size: 11px;\">ph: 630.553.4212</span></p><p style=\"line-height: 1.2;\"><span style=\"letter-spacing: 0px; color: var(--light); font-size: 11px;\">em: kcgis@co.kendall.il.us</span></p>",
@@ -6441,7 +6492,7 @@
     },
     "widget_88": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Footer Menu Button Mobile",
       "config": {
         "functionConfig": {
@@ -6638,7 +6689,7 @@
     },
     "widget_93": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Button 5",
       "config": {
         "functionConfig": {
@@ -7840,7 +7891,7 @@
     },
     "widget_112": {
       "uri": "widgets/layout/column/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "About Button",
       "config": {
         "space": 0,
@@ -7864,7 +7915,7 @@
     },
     "widget_113": {
       "uri": "widgets/layout/column/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Changelog Button",
       "config": {
         "space": 0,
@@ -7888,7 +7939,7 @@
     },
     "widget_114": {
       "uri": "widgets/layout/column/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Bugs Button",
       "config": {
         "space": 0,
@@ -8187,7 +8238,7 @@
     },
     "widget_136": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Property Information Sidebar",
       "config": {
         "direction": "HORIZONTAL",
@@ -8255,7 +8306,7 @@
     },
     "widget_137": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Property Characteristics Map",
       "config": {
         "toolConifg": {
@@ -8290,7 +8341,7 @@
     },
     "widget_138": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Parcel Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -8315,16 +8366,17 @@
       "id": "widget_138",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_7-Current_Cadastral_Features_9676",
+          "dataSourceId": "dataSource_7-Current_Cadastral_Features_9676-selection",
           "mainDataSourceId": "dataSource_7-Current_Cadastral_Features_9676",
-          "rootDataSourceId": "dataSource_7"
+          "rootDataSourceId": "dataSource_7",
+          "dataViewId": "selection"
         }
       ],
       "enableDataAction": false
     },
     "widget_139": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "CAMA Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -8349,28 +8401,19 @@
       "id": "widget_139",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_7-CAMA__query__5632",
+          "dataSourceId": "dataSource_7-CAMA__query__5632-selection",
           "mainDataSourceId": "dataSource_7-CAMA__query__5632",
-          "rootDataSourceId": "dataSource_7"
+          "rootDataSourceId": "dataSource_7",
+          "dataViewId": "selection"
         }
       ],
       "enableDataAction": false
     },
     "widget_140": {
       "uri": "widgets/layout/row/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Feature Info",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
+      "config": {},
       "id": "widget_140",
       "layouts": {
         "DEFAULT": {
@@ -8380,7 +8423,7 @@
     },
     "widget_141": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Parcel Info Heading",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Parcel Information</span></p>",
@@ -8394,7 +8437,7 @@
     },
     "widget_142": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Parcel Info Heading copy",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">CAMA Information</span></p>",
@@ -8408,7 +8451,7 @@
     },
     "widget_143": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Guide Button",
       "config": {
         "functionConfig": {
@@ -8489,7 +8532,7 @@
     },
     "widget_144": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Voting Map Content",
       "config": {
         "direction": "HORIZONTAL",
@@ -8557,7 +8600,7 @@
     },
     "widget_145": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Voting Map",
       "config": {
         "toolConifg": {
@@ -8589,7 +8632,7 @@
     },
     "widget_146": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Parcel Voting Info",
       "config": {
         "limitGraphics": false,
@@ -8599,7 +8642,7 @@
         "media": true,
         "attachments": true,
         "lastEditInfo": true,
-        "noDataMessage": "",
+        "noDataMessage": "Select a location on the map to view details.",
         "styleType": "custom",
         "style": {
           "textColor": "",
@@ -8614,9 +8657,10 @@
       "id": "widget_146",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_8-Current_Cadastral_Features_1554",
+          "dataSourceId": "dataSource_8-Current_Cadastral_Features_1554-selection",
           "mainDataSourceId": "dataSource_8-Current_Cadastral_Features_1554",
-          "rootDataSourceId": "dataSource_8"
+          "rootDataSourceId": "dataSource_8",
+          "dataViewId": "selection"
         }
       ]
     },
@@ -9088,7 +9132,7 @@
     },
     "widget_161": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Guide Button copy",
       "config": {
         "functionConfig": {
@@ -9347,7 +9391,7 @@
     },
     "widget_165": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Voting Guide Button",
       "config": {
         "functionConfig": {
@@ -9424,7 +9468,7 @@
     },
     "widget_166": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Voting Contact Button",
       "config": {
         "functionConfig": {
@@ -9691,7 +9735,7 @@
     },
     "widget_175": {
       "uri": "widgets/layout/column/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "About Button",
       "config": {
         "space": 0,
@@ -9715,7 +9759,7 @@
     },
     "widget_176": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "About Button",
       "config": {
         "functionConfig": {
@@ -9795,7 +9839,7 @@
     },
     "widget_177": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "About Button Text",
       "config": {
         "text": "<p style=\"line-height: 1.2; text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">About</strong></p>",
@@ -9846,7 +9890,7 @@
     },
     "widget_184": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Property Information Sidebar",
       "config": {
         "direction": "VERTICAL",
@@ -9914,19 +9958,9 @@
     },
     "widget_185": {
       "uri": "widgets/layout/row/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Feature Info",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
+      "config": {},
       "id": "widget_185",
       "layouts": {
         "DEFAULT": {
@@ -10004,7 +10038,7 @@
     },
     "widget_187": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Voting Map Content",
       "config": {
         "direction": "VERTICAL",
@@ -10072,7 +10106,7 @@
     },
     "widget_191": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Property Information Sidebar",
       "config": {
         "direction": "VERTICAL",
@@ -10151,17 +10185,7 @@
       "uri": "widgets/layout/row/",
       "version": "1.4.0",
       "label": "Feature Info",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
+      "config": {},
       "id": "widget_192",
       "layouts": {
         "DEFAULT": {
@@ -10239,7 +10263,7 @@
     },
     "widget_194": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "label": "Voting Map Content",
       "config": {
         "direction": "VERTICAL",
@@ -11658,5 +11682,5 @@
       }
     }
   },
-  "timestamp": 1621670284828
+  "timestamp": 1638824474441
 }
