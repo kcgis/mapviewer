@@ -64,7 +64,7 @@
       },
       "isDefault": false,
       "isVisible": true,
-      "label": "Voting",
+      "label": "Legislative Districts",
       "header": true,
       "footer": true,
       "autoOpenDialogId": ""
@@ -90,6 +90,28 @@
           "direction": null
         }
       }
+    },
+    "page_5": {
+      "id": "page_5",
+      "type": "FOLDER",
+      "label": "Other Tools",
+      "isVisible": true
+    },
+    "page_6": {
+      "id": "page_6",
+      "type": "LINK",
+      "label": "Digital Change Record",
+      "linkUrl": "https://maps.co.kendall.il.us/digital-change-record",
+      "isVisible": true,
+      "openTarget": "_blank"
+    },
+    "page_7": {
+      "id": "page_7",
+      "type": "LINK",
+      "label": "Voting Information Lookup",
+      "linkUrl": "https://maps.co.kendall.il.us/portal/apps/instant/lookup/index.html?appid=f6bca3b4f97b4494997a82dc20461574",
+      "isVisible": true,
+      "openTarget": "_blank"
     }
   },
   "layouts": {
@@ -2286,7 +2308,7 @@
     "layout_65": {
       "type": "FIXED",
       "content": {
-        "0": {
+        "1": {
           "type": "WIDGET",
           "bbox": {
             "left": "0%",
@@ -2296,7 +2318,7 @@
             "width": "100%",
             "height": "100%"
           },
-          "widgetId": "widget_144",
+          "widgetId": "widget_204",
           "setting": {
             "autoProps": {
               "right": false,
@@ -2312,7 +2334,7 @@
         }
       },
       "order": [
-        "0"
+        "1"
       ]
     },
     "layout_66": {
@@ -3137,31 +3159,53 @@
       "type": "FIXED",
       "label": "First",
       "order": [
-        "0"
+        "0",
+        "1"
       ],
       "content": {
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.00%",
+            "width": "50.00%",
+            "height": "360.00px"
           },
-          "widgetId": "widget_146",
+          "widgetId": "widget_199",
           "setting": {
             "autoProps": {
-              "right": false,
+              "right": true,
               "left": false,
               "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
+              "bottom": true,
+              "height": "STRETCH"
             },
             "vCenter": false,
             "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.00%",
+            "bottom": "0.00%",
+            "width": "50.00%",
+            "height": "70.8%"
+          },
+          "widgetId": "widget_208",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": "STRETCH"
+            }
           }
         }
       }
@@ -4076,35 +4120,8 @@
     "layout_112": {
       "type": "FIXED",
       "label": "First",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_146",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_113": {
       "type": "FIXED",
@@ -4761,35 +4778,8 @@
     "layout_137": {
       "type": "FIXED",
       "label": "First",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_146",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_138": {
       "type": "FIXED",
@@ -5331,17 +5321,487 @@
       "order": [
         "0"
       ]
+    },
+    "layout_154": {
+      "label": "Selected",
+      "type": "FIXED"
+    },
+    "layout_155": {
+      "label": "Hover",
+      "type": "FIXED"
+    },
+    "layout_157": {
+      "label": "Selected",
+      "type": "FIXED"
+    },
+    "layout_158": {
+      "label": "Hover",
+      "type": "FIXED"
+    },
+    "layout_161": {
+      "type": "FIXED",
+      "label": "First",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_144"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_162": {
+      "type": "FIXED",
+      "label": "Second",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "800.00px",
+            "height": "100%"
+          },
+          "widgetId": "widget_205",
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": true
+          },
+          "isPending": true
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "0.00%",
+            "top": "100.00px",
+            "bottom": "0.0%",
+            "width": "95.00%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_223",
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "height": "AUTO"
+            },
+            "hCenter": true
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "91.9%",
+            "width": "100.0%",
+            "height": "100.00px"
+          },
+          "widgetId": "widget_224",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_163": {
+      "type": "ROW",
+      "label": "Default",
+      "content": {
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 2,
+            "width": 2,
+            "height": "280px"
+          },
+          "widgetId": "widget_215",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 4,
+            "width": 2,
+            "height": "280px"
+          },
+          "widgetId": "widget_217",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 6,
+            "width": 2,
+            "height": "280px"
+          },
+          "widgetId": "widget_219",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        },
+        "8": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 8,
+            "width": 2,
+            "height": "280px"
+          },
+          "widgetId": "widget_220",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        }
+      },
+      "order": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "layout_164": {
+      "type": "FIXED",
+      "label": "Regular",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_207",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_165": {
+      "type": "FIXED",
+      "label": "Regular",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_210",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_166": {
+      "type": "FIXED",
+      "label": "Regular",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_212",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_167": {
+      "type": "FIXED",
+      "label": "Regular",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_214",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_168": {
+      "type": "COLUMN",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "width": "132px",
+            "height": "134px"
+          },
+          "widgetId": "widget_206"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "253px",
+            "height": "70.00px"
+          },
+          "widgetId": "widget_216",
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        }
+      },
+      "order": [
+        "1",
+        "0"
+      ]
+    },
+    "layout_169": {
+      "type": "COLUMN",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "width": "132px",
+            "height": "280px"
+          },
+          "widgetId": "widget_209"
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "width": "188px",
+            "height": "29px"
+          },
+          "widgetId": "widget_218"
+        }
+      },
+      "order": [
+        "1",
+        "0"
+      ]
+    },
+    "layout_170": {
+      "type": "COLUMN",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "width": "122px",
+            "height": "280px"
+          },
+          "widgetId": "widget_211"
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "width": "122px",
+            "height": "29px"
+          },
+          "widgetId": "widget_221"
+        }
+      },
+      "order": [
+        "1",
+        "0"
+      ]
+    },
+    "layout_171": {
+      "type": "COLUMN",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "width": "122px",
+            "height": "280px"
+          },
+          "widgetId": "widget_213",
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "width": "122px",
+            "height": "29px"
+          },
+          "widgetId": "widget_222"
+        }
+      },
+      "order": [
+        "1",
+        "0"
+      ]
     }
   },
-  "exbVersion": "1.5.0",
+  "exbVersion": "1.6.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/shared-theme/",
   "forBuilderAttributes": {
     "lockLayout": false,
     "viewPortSize": {
       "LARGE": {
-        "width": 1440,
-        "height": 900
+        "width": 1280,
+        "height": 1024
       }
     }
   },
@@ -5352,7 +5812,7 @@
   "widgets": {
     "widget_1": {
       "uri": "widgets/common/image/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Logo",
       "config": {
         "functionConfig": {
@@ -5404,11 +5864,10 @@
     },
     "widget_2": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Title",
       "config": {
         "text": "<p><span style=\"font-size: 18px; letter-spacing: 2px;\">KENDALL COUNTY GIS</span></p><p style=\"line-height: 1.6;\"><span style=\"letter-spacing: 2px;\">Map Viewer</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5418,11 +5877,10 @@
     },
     "widget_4": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Disclaimer Title",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿Legal Disclaimer</strong></p>",
-        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5432,11 +5890,10 @@
     },
     "widget_5": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Disclaimer Text",
       "config": {
         "text": "<p style=\"text-align: justify;\">The data and layers in these maps do not represent a survey. No accuracy is assumed for the data delineated herein, either expressed or implied by Kendall County or its employees.</p><p style=\"text-align: justify;\"><br></p><p style=\"text-align: justify;\">These data are compiled from official records, including plats, surveys, recorded deeds, contracts, and only contains information required for local government purposes. See the recorded documents for more detailed legal information.<span style=\"color: var(--dark-800);\">﻿</span></p>",
-        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5446,11 +5903,10 @@
     },
     "widget_15": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Changelog Title",
       "config": {
         "text": "<p style=\"line-height: 2; text-align: center;\"><span style=\"color: var(--light); font-size: 18px;\">Changelog</span></p>",
-        "placeholder": "<p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5469,11 +5925,10 @@
     },
     "widget_16": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Changelog Text",
       "config": {
-        "text": "<p><strong style=\"font-size: 16px; color: var(--dark-800);\">May 2021 | Version 2.1</strong></p><ul><li>Property Information tab no longer shows \"1 of XXXX\" with parcel / CAMA pre-selected. Only shows information upon selection.</li><li>Voting Lookup map also only shows info upon selection</li></ul><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿May 2021 | Version 2.0﻿</strong></p><ul><li>Renamed \"Map Viewer\" -- No more beta!</li><li>CAMA and Sales data can be spatially filtered and / or exported to CSV</li><li>Added tabs for Property Characteristics and Voting Information Lookup</li><li>Broke up the Guide into separate guides per page</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿January 2021 | Version 1.2.1</strong></p><ul><li>Updated the Guide panel to address various updated features</li><li>Filter panel will appear by default in CAMA viewer</li><li>Adjustments to layer symbology</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">January 2021 | Version 1.2</strong></p><ul><li>Updated maps to be compliant with ArcGIS JavaScript API v 4.18</li><li>Added \"Table View\" to CAMA &amp; Sales page</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">September 2020 | Version 1.1</strong></p><ul><li style=\"text-align: left;\">Guide, changelog, and bugs list moved into side panel windows</li><li style=\"text-align: left;\">Disclaimer appears as splash upon loading viewer</li><li style=\"text-align: left;\">Published viewer to official URL</li></ul><p style=\"text-align: left; line-height: 2;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"color: var(--dark-800); font-size: 16px;\">August 2020 | Version 1.0</strong></p><ul><li>Map Viewer officially released for public use</li></ul>",
-        "placeholder": "<p style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
+        "text": "<p><strong style=\"font-size: 16px; color: var(--dark-800);\">January 2022 | Version 2.2</strong></p><ul><li>Voting tab now focuses on browsing the legislative districts. Voting lookup tool has been moved to own dedicated application</li></ul><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">May 2021 | Version 2.1</strong></p><ul><li>Property Information tab no longer shows \"1 of XXXX\" with parcel / CAMA pre-selected. Only shows information upon selection.</li><li>Voting Lookup map also only shows info upon selection</li></ul><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿May 2021 | Version 2.0﻿</strong></p><ul><li>Renamed \"Map Viewer\" -- No more beta!</li><li>CAMA and Sales data can be spatially filtered and / or exported to CSV</li><li>Added tabs for Property Characteristics and Voting Information Lookup</li><li>Broke up the Guide into separate guides per page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿January 2021 | Version 1.2.1</strong></p><ul><li>Updated the Guide panel to address various updated features</li><li>Filter panel will appear by default in CAMA viewer</li><li>Adjustments to layer symbology</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">January 2021 | Version 1.2</strong></p><ul><li>Updated maps to be compliant with ArcGIS JavaScript API v 4.18</li><li>Added \"Table View\" to CAMA &amp; Sales page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">September 2020 | Version 1.1</strong></p><ul><li style=\"text-align: left;\">Guide, changelog, and bugs list moved into side panel windows</li><li style=\"text-align: left;\">Disclaimer appears as splash upon loading viewer</li><li style=\"text-align: left;\">Published viewer to official URL</li></ul><p style=\"line-height: 2; text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px; color: var(--dark-800);\">August 2020 | Version 1.0</strong></p><ul><li>Map Viewer officially released for public use</li></ul>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5483,11 +5938,10 @@
     },
     "widget_44": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Known Issues Title",
       "config": {
         "text": "<p style=\"line-height: 2; text-align: center;\"><span style=\"font-size: 18px; color: var(--light);\">Known Issues﻿</span></p>",
-        "placeholder": "<p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5506,11 +5960,10 @@
     },
     "widget_45": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Known Issues List",
       "config": {
-        "text": "<ul><li style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Print capability is missing﻿</span></li></ul>",
-        "placeholder": "<p style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
+        "text": "<ul><li style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Print capability is missing﻿, but it's coming soon!<span class=\"ql-cursor\">﻿</span></span></li></ul>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5604,7 +6057,6 @@
       "label": "Aboutn Button Text",
       "config": {
         "text": "<p style=\"line-height: 1.2; text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">About</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -5614,7 +6066,7 @@
     },
     "widget_52": {
       "uri": "widgets/layout/column/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Changelog Button",
       "config": {
         "space": 0,
@@ -5638,7 +6090,7 @@
     },
     "widget_53": {
       "uri": "widgets/common/button/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Changelog Button",
       "config": {
         "functionConfig": {
@@ -5718,11 +6170,10 @@
     },
     "widget_54": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Changelog Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Changelog</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -5732,7 +6183,7 @@
     },
     "widget_55": {
       "uri": "widgets/layout/column/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Bugs Button",
       "config": {
         "space": 0,
@@ -5756,7 +6207,7 @@
     },
     "widget_56": {
       "uri": "widgets/common/button/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Bugs Button",
       "config": {
         "functionConfig": {
@@ -5836,11 +6287,10 @@
     },
     "widget_57": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Bugs Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Bugs</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -5850,7 +6300,7 @@
     },
     "widget_58": {
       "uri": "widgets/common/divider/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Contact Divider",
       "config": {
         "direction": "Vertical",
@@ -5875,11 +6325,10 @@
     },
     "widget_59": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Department Name",
       "config": {
         "text": "<p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">KENDALL COUNTY</span></p><p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">GEOGRAPHIC INFORMATION SYSTEMS</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5889,11 +6338,10 @@
     },
     "widget_60": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Contact Information",
       "config": {
         "text": "<p style=\"line-height: 1.6;\"><span style=\"color: var(--light); font-size: 12px;\">ph: 630.553.4212</span></p><p style=\"line-height: 1.6;\"><span style=\"color: var(--light); font-size: 12px;\">em: kcgis@co.kendall.il.us</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5903,7 +6351,7 @@
     },
     "widget_63": {
       "uri": "widgets/common/menu/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Navigator",
       "config": {
         "type": "nav",
@@ -5912,7 +6360,7 @@
         "advanced": true,
         "standard": {
           "textAlign": "center",
-          "gap": "0px",
+          "gap": "20px",
           "showText": true,
           "showIcon": false,
           "iconPosition": "start"
@@ -5982,7 +6430,7 @@
     },
     "widget_64": {
       "uri": "widgets/common/divider/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Divider",
       "config": {
         "direction": "Vertical",
@@ -6007,7 +6455,7 @@
     },
     "widget_65": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Parcel Viewer Map",
       "config": {
         "toolConifg": {
@@ -6052,7 +6500,7 @@
     },
     "widget_66": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "PBZ Map",
       "config": {
         "toolConifg": {
@@ -6372,7 +6820,6 @@
       "label": "Mobile Title",
       "config": {
         "text": "<p><span style=\"font-size: 18px; letter-spacing: 2px;\">Kendall County GIS</span></p><p><span style=\"font-size: 16px; letter-spacing: 0px;\">Map Viewer</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -6482,7 +6929,6 @@
       "label": "Mobile Footer",
       "config": {
         "text": "<p style=\"line-height: 1.2;\"><strong style=\"letter-spacing: 0px; color: var(--light); font-size: 11px;\">KCGIS</strong></p><p style=\"line-height: 1.2;\"><span style=\"letter-spacing: 0px; color: var(--light); font-size: 11px;\">ph: 630.553.4212</span></p><p style=\"line-height: 1.2;\"><span style=\"letter-spacing: 0px; color: var(--light); font-size: 11px;\">em: kcgis@co.kendall.il.us</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -7994,7 +8440,6 @@
       "label": "Zoning Guide Title",
       "config": {
         "text": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">﻿</strong><strong style=\"font-size: 18px; color: var(--dark-800);\">Zoning Map Guide</strong></p>",
-        "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8008,7 +8453,6 @@
       "label": "Zoning Guide Text",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800);\">This map displays zoning information and other related layers, such as flood zones, landuse, etc.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Layers and Legend</span></p><p>In the left panel, you will see a list of layers available in the map. By clicking the eye icon next to each layer, you can toggle them on and off.</p><p>Next to the layer list is a legend showing the currently visible layers and how they are represented in the map.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to search icon is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\"><span class=\"ql-cursor\">﻿</span>Other Tips</span></p><p>The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size. </p>",
-        "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8049,7 +8493,6 @@
       "label": "CAMA Sales Guide Title",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿</strong><strong style=\"color: var(--dark-800); font-size: 18px;\">CAMA and Sales Guide</strong></p>",
-        "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8063,7 +8506,6 @@
       "label": "CAMA Sales Guide Text",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800);\">﻿This map gives users more advanced capabilities for browsing / filtering property characteristics and recent sales.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Filters</span></p><p>The panel to the left gives users the ability to filter the data currently displayed in the CAMA and Sales layers.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Table View</span></p><p>Above the map, there are two tabs. Use these to switch between the default map view and a table-based view of the data.</p><p><br></p><p>Note that applying filters will apply to both the map <em>and</em> the table.</p><p><br></p><p>From the table, users can also export features to a CSV file by clicking the icon in the upper-right of the table.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p>You can search by:</p><ul><li>PIN (with or without hyphens)</li><li>Site Address</li><li>Current Owner</li><li>Grantor / Grantee (Sales)</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Layers</span></p><p>Next to the search icon is the Layers tool. Use this tool to turn the map layers on and off as needed, or to view the legend for the visible layers.</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to layers icon is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--dark-800);\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">﻿Other Tips</span></p><p>The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size. </p>",
-        "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8104,7 +8546,6 @@
       "label": "Property Info Guide Title",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿</strong><strong style=\"color: var(--dark-800); font-size: 18px;\">Property Information Guide</strong></p>",
-        "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8118,7 +8559,6 @@
       "label": "Property Info Guide Text",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800);\">﻿This map is meant to make it as easy as possible to look up information about parcels and structures.</span></p><p><br></p><p>To get information, do either of the following:</p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">A) Click on a Parcel</span></p><p><span style=\"font-size: 13px;\">It's really that easy! Just click on a parcel in the map and the information panels will update.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">B) Search for a Parcel</span></p><p style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">Click the </span><strong style=\"font-size: 13px;\">Search</strong><span style=\"font-size: 13px;\"> icon in the upper-left of the map to expand the search bar. As you type, the search bar will auto-suggest possible matches based on what you enter. </span></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">You can search by:</span></p><ul><li style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">PIN (with or without hyphens!)</span></li><li style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">Site Address</span></li></ul><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Other Tips</span></p><p style=\"line-height: 1.5;\">The side panel can be re-sized by clicking and dragging divider bar. This can help adjust the app to your screen size.</p>",
-        "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8128,7 +8568,7 @@
     },
     "widget_129": {
       "uri": "widgets/layout/column/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Voting Map Guide Content",
       "config": {
         "space": 10,
@@ -8155,11 +8595,10 @@
     },
     "widget_130": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Voting Guide Title",
       "config": {
-        "text": "<p><strong style=\"font-size: 16px;\">Voting Map Guide</strong></p>",
-        "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
+        "text": "<p><strong style=\"font-size: 16px;\">Legislative District Browser Guide</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8169,11 +8608,10 @@
     },
     "widget_131": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Voting Guide Text",
       "config": {
-        "text": "<p><span style=\"color: var(--dark-800);\">﻿Use this map to look up voting information for a parcel, such as:</span></p><ul><li>Voter Precinct</li><li>Polling Place</li><li>Legislative Districts</li><li class=\"ql-indent-1\">State House / Senate</li><li class=\"ql-indent-1\">US House</li><li class=\"ql-indent-1\">County Board</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Selecting a Parcel</span></p><p>There are two ways to select a parcel: searching and clicking.</p><p><br></p><p><span style=\"color: var(--dark-800);\">Click the </span><strong style=\"color: var(--dark-800);\">Search</strong><span style=\"color: var(--dark-800);\"> icon in the upper-left of the map to open the search bar. Simply begin typing and the search tool will auto-suggest features based on what you type.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">﻿If you search by parcel number, your search will automatically update the information panel to the left of the map.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can also click on any parcel to update the panel as well.﻿</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"font-size: 16px;\">Viewing Other Layers</span></p><p>Clicking the <strong>Layers</strong> icon, to the right of <strong>Search</strong>, you can see a list of the relevant layers in this map, as well as turn them on and off by clicking the eye icon.</p>",
-        "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
+        "text": "<p>Use this map to view the various legislative districts in Kendall County.</p><p><br></p><p><strong>Left Side Panel: Layer List</strong></p><p>On the left-hand side, users can find a list of the different layers in the map. Clicking the eye icon will toggle each layer on and off.</p><p><br></p><p>Next to the layer list is a legend, showing what the various symbols in the map refer to.</p><p><br></p><p><strong>The Map</strong></p><p>In the center of the screen is the map. This shows all active layers. You can search for specific parcels or addresses using the map's <strong>search </strong>tool, or just navigate the map as you do elsewhere.</p><p><br></p><p><strong>Parcel-Specific Information</strong></p><p>Click a parcel to view information about the precinct, polling place, and any legislative districts to which the parcel is assigned, as well as a few other key details about the property.</p><p><br></p><p><strong>Right Panel</strong></p><p>At the right side of the screen are several lists of the different legislative districts in the county, separated by type. Clicking any of these will display it prominently on the map, as well as move the map to the feature's location.</p><p><br></p><p>If the map is zoomed in too far to see the district, simply click the <strong>Home</strong> button to return to the full county extent.</p><p><br></p><p class=\"ql-indent-1\"><em>Note: legislative district features have been clipped to the boundary of the county.﻿</em></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8214,7 +8652,6 @@
       "label": "Explore Guide Title",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 18px;\">Explore Map Guide</strong></p>",
-        "placeholder": "<p style=\"\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8228,7 +8665,6 @@
       "label": "Explore Guide Text",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800);\">The \"Explore\" map is meant to allow more in-depth, interactive access to the Tax Map features (parcels, lots, etc.), as well as other important layers.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">This map has a number of different tools and features available:</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800);\">﻿</span><span style=\"color: var(--dark-800); font-size: 16px;\">Search</span></p><p>In the upper-left of the map, click the <strong>Search</strong> icon to expand the search bar. Begin typing, and the search tool will auto-suggest features that match your search.</p><p><br></p><p>You can search for:</p><ul><li>PIN (with and without hyphens)</li><li>Address</li><li>Subdivision / Condominium Name</li></ul><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Layers</span></p><p><span style=\"color: var(--dark-800);\">Next to the search tool is the </span><strong style=\"color: var(--dark-800);\">Layers</strong><span style=\"color: var(--dark-800);\"> icon. This will show you the list of layers available in the map. Clicking the eye icon next to each layer can turn it on and off.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can also toggle the layer list to the </span><strong style=\"color: var(--dark-800);\">Legend</strong><span style=\"color: var(--dark-800);\"> view to see how each layer is symbolized.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Basemaps</span></p><p><span style=\"color: var(--dark-800);\">Next to the layer list is the </span><strong style=\"color: var(--dark-800);\">Basemaps</strong><span style=\"color: var(--dark-800);\"> tool. This gives you the ability to toggle the basemap currently displayed.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">There are a variety of maps available, from prior years' imagery to historic plat maps.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Measure</span></p><p><span style=\"color: var(--dark-800);\">The last tool in the upper-left is the </span><strong style=\"color: var(--dark-800);\">Measure</strong><span style=\"color: var(--dark-800);\"> tool. With this tool active, click on the map to begin drawing the line or area you wish to measure. Double-click to finish your drawing.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">You can set the measurement units at any time; the label will automatically update to reflect your choice.</span></p><p><br></p><p style=\"line-height: 2;\"><span style=\"color: var(--dark-800); font-size: 16px;\">Tax Map Experience</span></p><p>In the lower-left of the map, there is a thumbnail of another map. Click on this to switch the current map for a predefined \"Tax Map\" view. This map attempts to replicate the appearance of a cadastral tax map.</p><p><br></p><p>Click the thumbnail again to switch back.</p>",
-        "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8238,7 +8674,7 @@
     },
     "widget_136": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Property Information Sidebar",
       "config": {
         "direction": "HORIZONTAL",
@@ -8306,7 +8742,7 @@
     },
     "widget_137": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Property Characteristics Map",
       "config": {
         "toolConifg": {
@@ -8341,7 +8777,7 @@
     },
     "widget_138": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Parcel Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -8376,7 +8812,7 @@
     },
     "widget_139": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "CAMA Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -8411,7 +8847,7 @@
     },
     "widget_140": {
       "uri": "widgets/layout/row/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Feature Info",
       "config": {},
       "id": "widget_140",
@@ -8423,11 +8859,10 @@
     },
     "widget_141": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Parcel Info Heading",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Parcel Information</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8437,11 +8872,10 @@
     },
     "widget_142": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Parcel Info Heading copy",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">CAMA Information</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8451,7 +8885,7 @@
     },
     "widget_143": {
       "uri": "widgets/common/button/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Guide Button",
       "config": {
         "functionConfig": {
@@ -8532,13 +8966,13 @@
     },
     "widget_144": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Voting Map Content",
       "config": {
         "direction": "HORIZONTAL",
         "collapseSide": "FIRST",
         "overlay": false,
-        "size": "400px",
+        "size": "350px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -8600,7 +9034,7 @@
     },
     "widget_145": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Voting Map",
       "config": {
         "toolConifg": {
@@ -8608,12 +9042,16 @@
           "canHome": true,
           "canSearch": true,
           "canNavigation": true,
-          "canLayers": true
+          "canLayers": false,
+          "canSelect": false,
+          "canSelectState": false
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "layoutIndex": 1,
-        "disablePopUp": true,
-        "selectionHighlightColor": "#FF453A"
+        "disablePopUp": false,
+        "selectionHighlightColor": "#f2f1ec",
+        "initialMapDataSourceID": "dataSource_9",
+        "initialMapState": null
       },
       "id": "widget_145",
       "layouts": {
@@ -8625,48 +9063,14 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_8",
-          "mainDataSourceId": "dataSource_8"
-        }
-      ]
-    },
-    "widget_146": {
-      "uri": "widgets/arcgis/feature-info/",
-      "version": "1.5.0",
-      "label": "Parcel Voting Info",
-      "config": {
-        "limitGraphics": false,
-        "maxGraphics": 0,
-        "title": true,
-        "fields": true,
-        "media": true,
-        "attachments": true,
-        "lastEditInfo": true,
-        "noDataMessage": "Select a location on the map to view details.",
-        "styleType": "custom",
-        "style": {
-          "textColor": "",
-          "fontSizeType": "auto",
-          "fontSize": {
-            "distance": 14,
-            "unit": "px"
-          },
-          "backgroundColor": ""
-        }
-      },
-      "id": "widget_146",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_8-Current_Cadastral_Features_1554-selection",
-          "mainDataSourceId": "dataSource_8-Current_Cadastral_Features_1554",
-          "rootDataSourceId": "dataSource_8",
-          "dataViewId": "selection"
+          "dataSourceId": "dataSource_9",
+          "mainDataSourceId": "dataSource_9"
         }
       ]
     },
     "widget_147": {
       "uri": "widgets/common/divider/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Divider 1",
       "config": {
         "direction": "Horizontal",
@@ -8691,11 +9095,10 @@
     },
     "widget_148": {
       "uri": "widgets/common/text/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Voting Guide Footer",
       "config": {
         "text": "<p>Click anywhere outside this panel to close it.</p><p><br></p><p>Click the <strong>Guide</strong> icon in the upper-right of the map at any time to see this again.</p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8734,7 +9137,6 @@
       "label": "Property Info Guide Footer",
       "config": {
         "text": "<p>Click anywhere outside of this panel to close it.</p><p><br></p><p>Click the <strong>Guide</strong> icon in the upper-right of the map to see this guide again! </p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8773,7 +9175,6 @@
       "label": "Explore Guide Footer",
       "config": {
         "text": "<p>Click anywhere outside this panel to close it.</p><p> </p><p>Click the <strong>Guide</strong> icon in the upper-right of the map at any time to see this again. </p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -8783,7 +9184,7 @@
     },
     "widget_153": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Explore Guide Button",
       "config": {
         "functionConfig": {
@@ -8864,7 +9265,7 @@
     },
     "widget_154": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Explore Contact",
       "config": {
         "functionConfig": {
@@ -8949,7 +9350,6 @@
       "label": "GIS Contact Popup",
       "config": {
         "text": "<p>Questions about the current map and its data can be directed to:</p><p><br></p><p><strong>Kendall County GIS</strong></p><p>kcgis@co.kendall.il.us</p><p>630.553.4212</p>",
-        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -9122,7 +9522,6 @@
       "label": "GIS Contact Popup copy",
       "config": {
         "text": "<p>Questions about the current map and its data can be directed to:</p><p><br></p><p><strong>Assessments Office</strong></p><p>Web_Email_Assessments@co.kendall.il.us</p><p>630.553.4146</p>",
-        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -9132,7 +9531,7 @@
     },
     "widget_161": {
       "uri": "widgets/common/button/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Guide Button copy",
       "config": {
         "functionConfig": {
@@ -9214,7 +9613,7 @@
     },
     "widget_162": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Button 6",
       "config": {
         "functionConfig": {
@@ -9295,7 +9694,7 @@
     },
     "widget_163": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Button 6 copy",
       "config": {
         "functionConfig": {
@@ -9381,7 +9780,6 @@
       "label": "GIS Contact Popup copy copy",
       "config": {
         "text": "<p>Questions about the current map and its data can be directed to:</p><p><br></p><p><strong>Planning, Building &amp; Zoning</strong></p><p>KC_pbz@co.kendall.il.us</p><p>630.553.4141</p>",
-        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -9391,7 +9789,7 @@
     },
     "widget_165": {
       "uri": "widgets/common/button/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Voting Guide Button",
       "config": {
         "functionConfig": {
@@ -9468,7 +9866,7 @@
     },
     "widget_166": {
       "uri": "widgets/common/button/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "Voting Contact Button",
       "config": {
         "functionConfig": {
@@ -9554,7 +9952,6 @@
       "label": "GIS Contact Popup copy copy copy",
       "config": {
         "text": "<p>Questions about the current map and its data can be directed to:</p><p><br></p><p><strong>Voter Registration</strong></p><p>630.553.4105</p>",
-        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -9564,7 +9961,7 @@
     },
     "widget_168": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Zoning Map Content",
       "config": {
         "direction": "HORIZONTAL",
@@ -9632,7 +10029,7 @@
     },
     "widget_169": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Zoning Layers",
       "config": {
         "useMapWidget": true,
@@ -9645,7 +10042,7 @@
     },
     "widget_170": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.4.0",
+      "version": "1.6.0",
       "label": "Legend",
       "config": {
         "cardStyle": false
@@ -9686,7 +10083,6 @@
       "label": "Zoning Guide Footer",
       "config": {
         "text": "<p>Click anywhere outside this panel to close it. </p><p><br></p><p>Click the <strong>Guide</strong> icon in the upper-right of the map at any time to see this again.  </p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -9725,7 +10121,6 @@
       "label": "CAMA Sales Guide Footer",
       "config": {
         "text": "<p>Click anywhere outside of this panel to close it.</p><p><br></p><p>Click the <strong>Guide</strong> icon in the upper-right of the map to see this guide again!  </p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -9735,7 +10130,7 @@
     },
     "widget_175": {
       "uri": "widgets/layout/column/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "About Button",
       "config": {
         "space": 0,
@@ -9759,7 +10154,7 @@
     },
     "widget_176": {
       "uri": "widgets/common/button/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "About Button",
       "config": {
         "functionConfig": {
@@ -9839,11 +10234,10 @@
     },
     "widget_177": {
       "uri": "widgets/common/text/",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "label": "About Button Text",
       "config": {
         "text": "<p style=\"line-height: 1.2; text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">About</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -9857,7 +10251,6 @@
       "label": "About Title",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 2;\"><span style=\"font-size: 18px; color: var(--light);\">﻿About</span></p>",
-        "placeholder": "<p style=\"text-align: center;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -9880,7 +10273,6 @@
       "label": "About Text",
       "config": {
         "text": "<p style=\"text-align: justify;\"><span style=\"color: var(--dark-800);\">﻿This web application attempts to provide a single location for many of the more popular viewers, layers, and tools that our users have come to rely upon.</span></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: justify;\"><span style=\"color: var(--dark-800);\">Use the tabs / menu button at the top of the page to navigate between the different tools. If you are unsure of how to use a particular tool, each page has its own guide panel that you can reference.</span></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: justify;\"><span style=\"color: var(--dark-800);\">We will continue to develop this application as new capabilities become available or are requested. User feedback is a crucial element to that process, and we welcome any constructive comments you may have.</span></p><p style=\"text-align: justify;\"><br></p><p style=\"text-align: justify;\">Please note! Though we attempt to make this application adaptable to tablet and mobile devices, use of a full-size screen is recommended for best results.</p>",
-        "placeholder": "<p style=\"text-align: center;\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -10794,6 +11186,1023 @@
           ]
         }
       ]
+    },
+    "widget_199": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.6.0",
+      "label": "Voting Map Layers",
+      "config": {
+        "useMapWidget": true,
+        "setVisibility": true,
+        "information": false,
+        "goto": false
+      },
+      "id": "widget_199",
+      "useMapWidgetIds": [
+        "widget_145"
+      ]
+    },
+    "widget_204": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.6.0",
+      "label": "District Filters",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "SECOND",
+        "overlay": false,
+        "size": "300px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "RIGHT",
+          "offsetX": -15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 60,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "#FFFFFF"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--primary)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--primary-700)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "92px 0 0 92px"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "92px 0 0 92px"
+            }
+          }
+        },
+        "defaultState": 1
+      },
+      "id": "widget_204",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_161"
+        },
+        "SECOND": {
+          "LARGE": "layout_162"
+        }
+      }
+    },
+    "widget_205": {
+      "uri": "widgets/layout/row/",
+      "version": "1.6.0",
+      "label": "Row 1",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_205",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_163"
+        }
+      }
+    },
+    "widget_206": {
+      "uri": "widgets/common/list/",
+      "version": "1.6.0",
+      "label": "List 1 copy",
+      "config": {
+        "maxItems": 100,
+        "space": 10,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE7",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Auto"
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-500)",
+                "width": "1px"
+              }
+            },
+            "selectionMode": "SINGLE",
+            "listLayout": "Auto"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "filters": null,
+        "isShowAutoRefresh": false
+      },
+      "id": "widget_206",
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_164"
+        },
+        "SELECTED": {},
+        "HOVER": {}
+      },
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+          "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+          "rootDataSourceId": "dataSource_9",
+          "fields": []
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_207": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Text 1 copy",
+      "config": {
+        "text": "<p style=\"text-align: center;\">District <exp data-uniqueid=\"9c3e3230_c4e8_0c03_fd05_b387e821209f\" data-dsid=\"dataSource_9-17e30fba0ac-layer-13\" data-expression=\"%7B%22name%22%3A%22%7BName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BName%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-17e30fba0ac-layer-13%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Name}﻿﻿</span>﻿</exp></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_207",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+          "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+          "rootDataSourceId": "dataSource_9",
+          "fields": [
+            "name"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_208": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.6.0",
+      "label": "Voting Map Legend",
+      "config": {},
+      "id": "widget_208",
+      "useMapWidgetIds": [
+        "widget_145"
+      ]
+    },
+    "widget_209": {
+      "uri": "widgets/common/list/",
+      "version": "1.6.0",
+      "label": "List 1 copy copy",
+      "config": {
+        "maxItems": 100,
+        "space": 10,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE7",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Auto"
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-500)",
+                "width": "1px"
+              }
+            },
+            "selectionMode": "SINGLE",
+            "listLayout": "Auto"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "filters": null,
+        "isShowAutoRefresh": false
+      },
+      "id": "widget_209",
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_165"
+        },
+        "SELECTED": {},
+        "HOVER": {}
+      },
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
+          "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
+          "rootDataSourceId": "dataSource_9",
+          "fields": []
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_210": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Text 1 copy copy",
+      "config": {
+        "text": "<p style=\"text-align: center;\">District <exp data-uniqueid=\"776e9f29_3f2f_915b_1079_65f40b411819\" data-dsid=\"dataSource_9-17e30fb864f-layer-12\" data-expression=\"%7B%22name%22%3A%22%7BName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BName%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-17e30fb864f-layer-12%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Name}﻿﻿</span>﻿</exp></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_210",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
+          "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
+          "rootDataSourceId": "dataSource_9",
+          "fields": [
+            "name"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_211": {
+      "uri": "widgets/common/list/",
+      "version": "1.6.0",
+      "label": "List 1 copy copy copy",
+      "config": {
+        "maxItems": 100,
+        "space": 10,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE7",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Auto"
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-500)",
+                "width": "1px"
+              }
+            },
+            "selectionMode": "SINGLE",
+            "listLayout": "Auto"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "filters": null,
+        "isShowAutoRefresh": false
+      },
+      "id": "widget_211",
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_166"
+        },
+        "SELECTED": {},
+        "HOVER": {}
+      },
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_9-County_Board_2010_4913",
+          "mainDataSourceId": "dataSource_9-County_Board_2010_4913",
+          "rootDataSourceId": "dataSource_9",
+          "fields": []
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_212": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Text 1 copy copy copy",
+      "config": {
+        "text": "<p style=\"text-align: center;\">District <exp data-uniqueid=\"ec221ec0_a21e_c3f2_fa4e_5af0dd279b9b\" data-dsid=\"dataSource_9-County_Board_2010_4913\" data-expression=\"%7B%22name%22%3A%22%7BDistrict%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDistrict%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-County_Board_2010_4913%22%2C%22jimuFieldName%22%3A%22district%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{District}﻿﻿﻿</span>﻿</exp></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_212",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_9-County_Board_2010_4913",
+          "mainDataSourceId": "dataSource_9-County_Board_2010_4913",
+          "rootDataSourceId": "dataSource_9",
+          "fields": [
+            "district"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_213": {
+      "uri": "widgets/common/list/",
+      "version": "1.6.0",
+      "label": "List 1 copy copy copy copy",
+      "config": {
+        "maxItems": 100,
+        "space": 10,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE7",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 30
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 30
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Auto"
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 30
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-500)",
+                "width": "1px"
+              }
+            },
+            "selectionMode": "SINGLE",
+            "listLayout": "Auto"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "filters": null,
+        "isShowAutoRefresh": false
+      },
+      "id": "widget_213",
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_167"
+        },
+        "SELECTED": {},
+        "HOVER": {}
+      },
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_9-17c3771c461-layer-11",
+          "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
+          "rootDataSourceId": "dataSource_9",
+          "fields": []
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_214": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Text 1 copy copy copy copy",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"2612715a_5df3_c3c9_70a6_9f047a9c77f7\" data-dsid=\"dataSource_9-17c3771c461-layer-11\" data-expression=\"%7B%22name%22%3A%22%7BMunicipality%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMunicipality%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-17c3771c461-layer-11%22%2C%22jimuFieldName%22%3A%22municipality%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Municipality}</span>﻿</exp> <exp data-uniqueid=\"5838618b_084a_29f4_29b0_a2dd19e82a92\" data-dsid=\"dataSource_9-17c3771c461-layer-11\" data-expression=\"%7B%22name%22%3A%22%7BWard%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWard%7D%22%2C%22dataSourceId%22%3A%22dataSource_9-17c3771c461-layer-11%22%2C%22jimuFieldName%22%3A%22ward%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Ward}</span>﻿</exp> </p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_214",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_9-17c3771c461-layer-11",
+          "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
+          "rootDataSourceId": "dataSource_9",
+          "fields": [
+            "municipality",
+            "ward"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_215": {
+      "uri": "widgets/layout/column/",
+      "version": "1.6.0",
+      "label": "Column 1",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_215",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_168"
+        }
+      }
+    },
+    "widget_216": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Text 1",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\">Illinois State Senate</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_216"
+    },
+    "widget_217": {
+      "uri": "widgets/layout/column/",
+      "version": "1.6.0",
+      "label": "Column 2",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_217",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_169"
+        }
+      }
+    },
+    "widget_218": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Text 1 copy 2",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\">Illinois State House</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_218"
+    },
+    "widget_219": {
+      "uri": "widgets/layout/column/",
+      "version": "1.6.0",
+      "label": "Column 3",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_219",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_170"
+        }
+      }
+    },
+    "widget_220": {
+      "uri": "widgets/layout/column/",
+      "version": "1.6.0",
+      "label": "Column 4",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_220",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_171"
+        }
+      }
+    },
+    "widget_221": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Text 1 copy 2 copy",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\">County Board</strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 15px;\">Districts</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_221"
+    },
+    "widget_222": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Text 1 copy 2 copy copy",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\">Municipal</strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 15px;\">Wards</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_222"
+    },
+    "widget_223": {
+      "uri": "widgets/common/filter/",
+      "version": "1.6.0",
+      "label": "Legislative District Filters",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "INLINE",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": true,
+        "filterItems": [
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 00.852-.356V6.825l5.382-5.295H15zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "Illinois 2020 Senate",
+            "useDataSource": {
+              "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+              "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+              "rootDataSourceId": "dataSource_9",
+              "fields": [
+                "name"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "name",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "UNIQUE_PILL_WRAP_SELECTOR",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "Illinois Senate District",
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Name = ?)"
+            },
+            "autoApplyWhenWidgetOpen": false,
+            "collapseFilterExprs": false
+          },
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 00.852-.356V6.825l5.382-5.295H15zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "Illinois 2020 House",
+            "useDataSource": {
+              "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
+              "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
+              "rootDataSourceId": "dataSource_9",
+              "fields": [
+                "name"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "name",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "UNIQUE_PILL_WRAP_SELECTOR",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "Illinois House District",
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Name = ?)"
+            },
+            "autoApplyWhenWidgetOpen": false,
+            "collapseFilterExprs": false
+          },
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 00.852-.356V6.825l5.382-5.295H15zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "County Board 2010",
+            "useDataSource": {
+              "dataSourceId": "dataSource_9-County_Board_2010_4913",
+              "mainDataSourceId": "dataSource_9-County_Board_2010_4913",
+              "rootDataSourceId": "dataSource_9",
+              "fields": [
+                "district"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "district",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "UNIQUE_PILL_WRAP_SELECTOR",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "County Board District",
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(District = ?)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          },
+          {
+            "icon": null,
+            "name": "Wards - Municipality",
+            "useDataSource": {
+              "dataSourceId": "dataSource_9-17c3771c461-layer-11",
+              "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
+              "rootDataSourceId": "dataSource_9",
+              "fields": [
+                "ward_full"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "ward_full",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "UNIQUE_PILL_WRAP_SELECTOR",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "Municipal Ward",
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Full Ward Identifier = ?)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          }
+        ],
+        "wrap": true
+      },
+      "id": "widget_223",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+          "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+          "rootDataSourceId": "dataSource_9",
+          "fields": [
+            "name"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
+          "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
+          "rootDataSourceId": "dataSource_9",
+          "fields": [
+            "name"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_9-County_Board_2010_4913",
+          "mainDataSourceId": "dataSource_9-County_Board_2010_4913",
+          "rootDataSourceId": "dataSource_9",
+          "fields": [
+            "district"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_9-17c3771c461-layer-11",
+          "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
+          "rootDataSourceId": "dataSource_9",
+          "fields": [
+            "ward_full"
+          ]
+        }
+      ]
+    },
+    "widget_224": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Congress Note",
+      "config": {
+        "text": "<p>US Congressional District</p><p><br></p><p class=\"ql-indent-1\"><em>All of Kendall County falls within</em></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><em>District IL-14.</em></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_224"
     }
   },
   "widgetsManifest": {},
@@ -11474,6 +12883,147 @@
       "itemId": "ee753276d28645e7a180bcf7c942cfec",
       "id": "dataSource_8",
       "portalUrl": "https://maps.co.kendall.il.us/portal"
+    },
+    "dataSource_9": {
+      "id": "dataSource_9",
+      "type": "WEB_MAP",
+      "itemId": "bcdf446d2ea6487882df655ea13f034a",
+      "portalUrl": "https://maps.co.kendall.il.us/portal",
+      "childDataSourceJsons": {
+        "County_Board_2010_4913": {
+          "id": "dataSource_9-County_Board_2010_4913",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/County_Board_2010/FeatureServer/0",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "e8fb8ad1c6eb4ba687bf6ab6458920ab",
+          "geometryType": "esriGeometryPolygon",
+          "query": {
+            "id": "default",
+            "label": "County Board 2010",
+            "orderBy": [
+              {
+                "jimuFieldName": "district",
+                "order": "ASC"
+              }
+            ]
+          }
+        },
+        "Kendall_County_Address_Points_5142": {
+          "id": "dataSource_9-Kendall_County_Address_Points_5142",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Kendall_County_Address_Points/FeatureServer/0",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "aefc2220b11644e5a047f277178b654a",
+          "geometryType": "esriGeometryPoint"
+        },
+        "Polling_Places_6211": {
+          "id": "dataSource_9-Polling_Places_6211",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Polling_Places/FeatureServer/0",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "ab37c94e14c04ceebd3c4431ed5a379d",
+          "geometryType": "esriGeometryPoint"
+        },
+        "USA_116th_Congressional_Districts_7175": {
+          "id": "dataSource_9-USA_116th_Congressional_Districts_7175",
+          "type": "FEATURE_LAYER",
+          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_116th_Congressional_Districts/FeatureServer/0",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "cc6a869374434bee9fefad45e291b779",
+          "geometryType": "esriGeometryPolygon",
+          "query": {
+            "id": "default",
+            "label": "USA 116th Congressional Districts",
+            "orderBy": [
+              {
+                "jimuFieldName": "CDFIPS",
+                "order": "ASC"
+              }
+            ]
+          }
+        },
+        "Legislative_275": {
+          "id": "dataSource_9-Legislative_275",
+          "type": "FEATURE_LAYER",
+          "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/Generalized_ACS2016/Legislative/MapServer/8",
+          "geometryType": "esriGeometryPolygon",
+          "query": {
+            "id": "default",
+            "label": "Illinois State Senate",
+            "orderBy": [
+              {
+                "jimuFieldName": "BASENAME",
+                "order": "ASC"
+              }
+            ]
+          }
+        },
+        "Legislative_5542": {
+          "id": "dataSource_9-Legislative_5542",
+          "type": "FEATURE_LAYER",
+          "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/Generalized_ACS2016/Legislative/MapServer/9",
+          "geometryType": "esriGeometryPolygon",
+          "query": {
+            "id": "default",
+            "label": "Illinois State House of Representatives",
+            "orderBy": [
+              {
+                "jimuFieldName": "BASENAME",
+                "order": "ASC"
+              }
+            ]
+          }
+        },
+        "17c3771c461-layer-11": {
+          "id": "dataSource_9-17c3771c461-layer-11",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Wards/FeatureServer/0",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "ab0ccc6e6db7480fabc8ec56a79bb274",
+          "geometryType": "esriGeometryPolygon",
+          "query": {
+            "id": "default",
+            "label": "Wards",
+            "orderBy": [
+              {
+                "jimuFieldName": "municipality",
+                "order": "ASC"
+              },
+              {
+                "jimuFieldName": "ward",
+                "order": "ASC"
+              }
+            ]
+          }
+        },
+        "17e21e4ed47-layer-11": {
+          "id": "dataSource_9-17e21e4ed47-layer-11",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Kendall_County_2021_Voting_Precincts/FeatureServer/0",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "b495219122a541af80ac671349f63a98",
+          "geometryType": "esriGeometryPolygon",
+          "query": {
+            "id": "default",
+            "label": "Kendall County 2021 Voting Precincts",
+            "orderBy": [
+              {
+                "jimuFieldName": "twp_prec",
+                "order": "ASC"
+              }
+            ]
+          }
+        },
+        "Current_Cadastral_Features_1554": {
+          "id": "dataSource_9-Current_Cadastral_Features_1554",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Current_Cadastral_Features/FeatureServer/1",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "c500c8284edd4112a9ee1a96236a72fc",
+          "geometryType": "esriGeometryPolygon"
+        }
+      },
+      "isHidden": false
     }
   },
   "messageConfigs": {
@@ -11609,6 +13159,254 @@
           "version": "1.4.0"
         }
       ]
+    },
+    "messageConfig_8": {
+      "id": "messageConfig_8",
+      "widgetId": "widget_206",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_145-zoomToFeature-1641492735891",
+          "widgetId": "widget_145",
+          "messageWidgetId": "widget_202",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+              "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+                "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+                "rootDataSourceId": "dataSource_9"
+              }
+            ]
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_145-filter-1641492948212",
+          "widgetId": "widget_145",
+          "messageWidgetId": "widget_206",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+              "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+              "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        }
+      ]
+    },
+    "messageConfig_9": {
+      "id": "messageConfig_9",
+      "widgetId": "widget_209",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_145-zoomToFeature-1641492735891",
+          "widgetId": "widget_145",
+          "messageWidgetId": "widget_202",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
+              "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
+                "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
+                "rootDataSourceId": "dataSource_9"
+              }
+            ]
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_145-filter-1641492948212",
+          "widgetId": "widget_145",
+          "messageWidgetId": "widget_206",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
+              "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
+              "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        }
+      ]
+    },
+    "messageConfig_10": {
+      "id": "messageConfig_10",
+      "widgetId": "widget_211",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_145-zoomToFeature-1641492735891",
+          "widgetId": "widget_145",
+          "messageWidgetId": "widget_202",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_9-Legislative_5542",
+              "mainDataSourceId": "dataSource_9-Legislative_5542",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_9-Legislative_5542",
+                "mainDataSourceId": "dataSource_9-Legislative_5542",
+                "rootDataSourceId": "dataSource_9"
+              }
+            ]
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_145-filter-1641492948212",
+          "widgetId": "widget_145",
+          "messageWidgetId": "widget_206",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_9-County_Board_2010_4913",
+              "mainDataSourceId": "dataSource_9-County_Board_2010_4913",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_9-County_Board_2010_4913",
+              "mainDataSourceId": "dataSource_9-County_Board_2010_4913",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        }
+      ]
+    },
+    "messageConfig_11": {
+      "id": "messageConfig_11",
+      "widgetId": "widget_213",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_145-zoomToFeature-1641492735891",
+          "widgetId": "widget_145",
+          "messageWidgetId": "widget_202",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_9-17c3771c461-layer-11",
+              "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_9-17c3771c461-layer-11",
+                "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
+                "rootDataSourceId": "dataSource_9"
+              }
+            ]
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_145-filter-1641492948212",
+          "widgetId": "widget_145",
+          "messageWidgetId": "widget_206",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_9-17c3771c461-layer-11",
+              "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_9-17c3771c461-layer-11",
+              "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        }
+      ]
+    },
+    "messageConfig_12": {
+      "id": "messageConfig_12",
+      "widgetId": "widget_223",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_145-panTo-1641507685864",
+          "widgetId": "widget_145",
+          "messageWidgetId": "widget_223",
+          "actionName": "panTo",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+              "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+              "rootDataSourceId": "dataSource_9"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+                "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
+                "rootDataSourceId": "dataSource_9"
+              },
+              {
+                "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
+                "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
+                "rootDataSourceId": "dataSource_9"
+              },
+              {
+                "dataSourceId": "dataSource_9-County_Board_2010_4913",
+                "mainDataSourceId": "dataSource_9-County_Board_2010_4913",
+                "rootDataSourceId": "dataSource_9"
+              },
+              {
+                "dataSourceId": "dataSource_9-17c3771c461-layer-11",
+                "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
+                "rootDataSourceId": "dataSource_9"
+              }
+            ]
+          },
+          "version": "1.6.0"
+        }
+      ]
     }
   },
   "pageStructure": [
@@ -11626,6 +13424,12 @@
     },
     {
       "page_3": []
+    },
+    {
+      "page_5": [
+        "page_6",
+        "page_7"
+      ]
     }
   ],
   "header": {
@@ -11682,5 +13486,21 @@
       }
     }
   },
-  "timestamp": 1638824474441
+  "timestamp": 1641531408856,
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#0b2931",
+      "color": "#ffffff"
+    },
+    "body": {
+      "link": "#d56740"
+    },
+    "button": {
+      "bg": "#263a56",
+      "color": "#ffffff"
+    },
+    "logo": {
+      "small": "https://maps.co.kendall.il.us/portal/sharing/rest/content/items/5f125690c5ae4a039d741257a8ee738d/data"
+    }
+  }
 }
