@@ -6276,7 +6276,7 @@
       ]
     }
   },
-  "exbVersion": "1.6.0",
+  "exbVersion": "1.7.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/shared-theme/",
   "forBuilderAttributes": {
@@ -6295,7 +6295,7 @@
   "widgets": {
     "widget_1": {
       "uri": "widgets/common/image/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Logo",
       "config": {
         "functionConfig": {
@@ -6347,7 +6347,7 @@
     },
     "widget_2": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Title",
       "config": {
         "text": "<p><span style=\"font-size: 18px; letter-spacing: 2px;\">KENDALL COUNTY GIS</span></p><p style=\"line-height: 1.6;\"><span style=\"letter-spacing: 2px;\">Map Viewer</span></p>",
@@ -6361,7 +6361,7 @@
     },
     "widget_4": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Disclaimer Title",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿Legal Disclaimer</strong></p>",
@@ -6375,7 +6375,7 @@
     },
     "widget_5": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Disclaimer Text",
       "config": {
         "text": "<p style=\"text-align: justify;\">The data and layers in these maps do not represent a survey. No accuracy is assumed for the data delineated herein, either expressed or implied by Kendall County or its employees.</p><p style=\"text-align: justify;\"><br></p><p style=\"text-align: justify;\">These data are compiled from official records, including plats, surveys, recorded deeds, contracts, and only contains information required for local government purposes. See the recorded documents for more detailed legal information.<span style=\"color: var(--dark-800);\">﻿</span></p>",
@@ -6557,7 +6557,7 @@
     },
     "widget_52": {
       "uri": "widgets/layout/column/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Changelog Button",
       "config": {
         "space": 0,
@@ -6581,7 +6581,7 @@
     },
     "widget_53": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Changelog Button",
       "config": {
         "functionConfig": {
@@ -6661,7 +6661,7 @@
     },
     "widget_54": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Changelog Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Changelog</strong></p>",
@@ -6675,7 +6675,7 @@
     },
     "widget_55": {
       "uri": "widgets/layout/column/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Bugs Button",
       "config": {
         "space": 0,
@@ -6699,7 +6699,7 @@
     },
     "widget_56": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Bugs Button",
       "config": {
         "functionConfig": {
@@ -6779,7 +6779,7 @@
     },
     "widget_57": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Bugs Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Bugs</strong></p>",
@@ -6793,7 +6793,7 @@
     },
     "widget_58": {
       "uri": "widgets/common/divider/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Contact Divider",
       "config": {
         "direction": "Vertical",
@@ -6818,7 +6818,7 @@
     },
     "widget_59": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Department Name",
       "config": {
         "text": "<p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">KENDALL COUNTY</span></p><p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">GEOGRAPHIC INFORMATION SYSTEMS</span></p>",
@@ -6832,7 +6832,7 @@
     },
     "widget_60": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Contact Information",
       "config": {
         "text": "<p style=\"line-height: 1.6;\"><span style=\"color: var(--light); font-size: 12px;\">ph: 630.553.4212</span></p><p style=\"line-height: 1.6;\"><span style=\"color: var(--light); font-size: 12px;\">em: kcgis@co.kendall.il.us</span></p>",
@@ -6846,7 +6846,7 @@
     },
     "widget_63": {
       "uri": "widgets/common/menu/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Navigator",
       "config": {
         "type": "nav",
@@ -6925,7 +6925,7 @@
     },
     "widget_64": {
       "uri": "widgets/common/divider/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Divider",
       "config": {
         "direction": "Vertical",
@@ -9181,7 +9181,7 @@
     },
     "widget_136": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Property Information Sidebar",
       "config": {
         "direction": "HORIZONTAL",
@@ -9249,7 +9249,7 @@
     },
     "widget_137": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Property Characteristics Map",
       "config": {
         "toolConifg": {
@@ -9284,7 +9284,7 @@
     },
     "widget_138": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Parcel Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -9319,7 +9319,7 @@
     },
     "widget_139": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "CAMA Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -9354,7 +9354,7 @@
     },
     "widget_140": {
       "uri": "widgets/layout/row/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Feature Info",
       "config": {},
       "id": "widget_140",
@@ -9366,7 +9366,7 @@
     },
     "widget_141": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Parcel Info Heading",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Parcel Information</span></p>",
@@ -9380,7 +9380,7 @@
     },
     "widget_142": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Parcel Info Heading copy",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">CAMA Information</span></p>",
@@ -9394,7 +9394,7 @@
     },
     "widget_143": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Guide Button",
       "config": {
         "functionConfig": {
@@ -10045,7 +10045,7 @@
     },
     "widget_161": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Guide Button copy",
       "config": {
         "functionConfig": {
@@ -10648,7 +10648,7 @@
     },
     "widget_175": {
       "uri": "widgets/layout/column/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "About Button",
       "config": {
         "space": 0,
@@ -10672,7 +10672,7 @@
     },
     "widget_176": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "About Button",
       "config": {
         "functionConfig": {
@@ -10752,7 +10752,7 @@
     },
     "widget_177": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "About Button Text",
       "config": {
         "text": "<p style=\"line-height: 1.2; text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">About</strong></p>",
@@ -13696,25 +13696,29 @@
       "type": "WEB_MAP",
       "itemId": "037e60b9ab60473ba625f9b20dd621e8",
       "id": "dataSource_1",
-      "portalUrl": "https://maps.co.kendall.il.us/portal"
+      "portalUrl": "https://maps.co.kendall.il.us/portal",
+      "sourceLabel": "Explore Map"
     },
     "dataSource_2": {
       "type": "WEB_MAP",
       "itemId": "8f83e01a800246b3a940b3bffebd0b2c",
       "id": "dataSource_2",
-      "portalUrl": "https://maps.co.kendall.il.us/portal"
+      "portalUrl": "https://maps.co.kendall.il.us/portal",
+      "sourceLabel": "Tax Map Experience"
     },
     "dataSource_3": {
       "type": "WEB_MAP",
       "itemId": "0934b30388be403083a9a6fca3ab1ba8",
       "id": "dataSource_3",
-      "portalUrl": "https://maps.co.kendall.il.us/portal"
+      "portalUrl": "https://maps.co.kendall.il.us/portal",
+      "sourceLabel": "PBZ Viewer Map"
     },
     "dataSource_6": {
       "type": "WEB_MAP",
       "itemId": "74f0451c823045a3958f020836c38481",
       "id": "dataSource_6",
-      "portalUrl": "https://maps.co.kendall.il.us/portal"
+      "portalUrl": "https://maps.co.kendall.il.us/portal",
+      "sourceLabel": "CAMA and Sales Map"
     },
     "dataSource_7": {
       "type": "WEB_MAP",
@@ -13737,13 +13741,15 @@
           "itemId": "acebd8c668b640f184759f6e88ba1737",
           "geometryType": "esriGeometryPoint"
         }
-      }
+      },
+      "sourceLabel": "Property Characteristics"
     },
     "dataSource_8": {
       "type": "WEB_MAP",
       "itemId": "ee753276d28645e7a180bcf7c942cfec",
       "id": "dataSource_8",
-      "portalUrl": "https://maps.co.kendall.il.us/portal"
+      "portalUrl": "https://maps.co.kendall.il.us/portal",
+      "sourceLabel": "Voting Viewer Lookup Map"
     },
     "dataSource_9": {
       "id": "dataSource_9",
@@ -13884,7 +13890,8 @@
           "geometryType": "esriGeometryPolygon"
         }
       },
-      "isHidden": false
+      "isHidden": false,
+      "sourceLabel": "Legislative District Browser"
     }
   },
   "messageConfigs": {
@@ -14422,22 +14429,34 @@
               {
                 "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
                 "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
-                "rootDataSourceId": "dataSource_9"
+                "rootDataSourceId": "dataSource_9",
+                "fields": [
+                  "name"
+                ]
               },
               {
                 "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
                 "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
-                "rootDataSourceId": "dataSource_9"
+                "rootDataSourceId": "dataSource_9",
+                "fields": [
+                  "name"
+                ]
               },
               {
                 "dataSourceId": "dataSource_9-County_Board_2010_4913",
                 "mainDataSourceId": "dataSource_9-County_Board_2010_4913",
-                "rootDataSourceId": "dataSource_9"
+                "rootDataSourceId": "dataSource_9",
+                "fields": [
+                  "district"
+                ]
               },
               {
                 "dataSourceId": "dataSource_9-17c3771c461-layer-11",
                 "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
-                "rootDataSourceId": "dataSource_9"
+                "rootDataSourceId": "dataSource_9",
+                "fields": [
+                  "ward_full"
+                ]
               }
             ]
           },
@@ -14459,22 +14478,34 @@
               {
                 "dataSourceId": "dataSource_9-17e30fba0ac-layer-13",
                 "mainDataSourceId": "dataSource_9-17e30fba0ac-layer-13",
-                "rootDataSourceId": "dataSource_9"
+                "rootDataSourceId": "dataSource_9",
+                "fields": [
+                  "name"
+                ]
               },
               {
                 "dataSourceId": "dataSource_9-17e30fb864f-layer-12",
                 "mainDataSourceId": "dataSource_9-17e30fb864f-layer-12",
-                "rootDataSourceId": "dataSource_9"
+                "rootDataSourceId": "dataSource_9",
+                "fields": [
+                  "name"
+                ]
               },
               {
                 "dataSourceId": "dataSource_9-County_Board_2010_4913",
                 "mainDataSourceId": "dataSource_9-County_Board_2010_4913",
-                "rootDataSourceId": "dataSource_9"
+                "rootDataSourceId": "dataSource_9",
+                "fields": [
+                  "district"
+                ]
               },
               {
                 "dataSourceId": "dataSource_9-17c3771c461-layer-11",
                 "mainDataSourceId": "dataSource_9-17c3771c461-layer-11",
-                "rootDataSourceId": "dataSource_9"
+                "rootDataSourceId": "dataSource_9",
+                "fields": [
+                  "ward_full"
+                ]
               }
             ]
           },
@@ -14560,7 +14591,7 @@
       }
     }
   },
-  "timestamp": 1641941839583,
+  "timestamp": 1642197022684,
   "sharedThemeVariables": {
     "header": {
       "bg": "#0b2931",
