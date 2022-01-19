@@ -6950,7 +6950,7 @@
     },
     "widget_65": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Parcel Viewer Map",
       "config": {
         "toolConifg": {
@@ -6995,7 +6995,7 @@
     },
     "widget_66": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "PBZ Map",
       "config": {
         "toolConifg": {
@@ -7028,7 +7028,7 @@
     },
     "widget_67": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.4.0",
+      "version": "1.7.0",
       "label": "CAMA and Sales Map",
       "config": {
         "toolConifg": {
@@ -7514,7 +7514,7 @@
     },
     "widget_90": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.4.0",
+      "version": "1.7.0",
       "label": "Filter Sidebar",
       "config": {
         "direction": "HORIZONTAL",
@@ -7673,7 +7673,7 @@
     },
     "widget_97": {
       "uri": "widgets/common/table/",
-      "version": "1.4.0",
+      "version": "1.7.0",
       "label": "CAMA and Sales Table",
       "config": {
         "layersConfig": [
@@ -7855,21 +7855,24 @@
                 "name": "pin",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "pin"
+                "alias": "pin",
+                "editAuthority": true
               },
               {
                 "jimuName": "struct_type",
                 "name": "struct_type",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Structure Type"
+                "alias": "Structure Type",
+                "editAuthority": true
               },
               {
                 "jimuName": "struct_name",
                 "name": "struct_name",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Structure Name"
+                "alias": "Structure Name",
+                "editAuthority": true
               },
               {
                 "jimuName": "year_built",
@@ -7880,7 +7883,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 0
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "sqft",
@@ -7891,35 +7895,40 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 6
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "extwall",
                 "name": "extwall",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Wall Material"
+                "alias": "Wall Material",
+                "editAuthority": true
               },
               {
                 "jimuName": "hvac",
                 "name": "hvac",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "HVAC"
+                "alias": "HVAC",
+                "editAuthority": true
               },
               {
                 "jimuName": "roof",
                 "name": "roof",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Roof Material"
+                "alias": "Roof Material",
+                "editAuthority": true
               },
               {
                 "jimuName": "floorallow",
                 "name": "floorallow",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Floor Allow"
+                "alias": "Floor Allow",
+                "editAuthority": true
               },
               {
                 "jimuName": "bed",
@@ -7930,7 +7939,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 0
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "fbath",
@@ -7941,7 +7951,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 6
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "hbath",
@@ -7952,7 +7963,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 6
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "rooms",
@@ -7963,7 +7975,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 6
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "bsmt_sqft",
@@ -7974,7 +7987,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 6
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "gar_sqft",
@@ -7985,7 +7999,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 6
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "fireplace",
@@ -7996,14 +8011,16 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 6
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "image_path",
                 "name": "image_path",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Image Path"
+                "alias": "Image Path",
+                "editAuthority": true
               }
             ],
             "enableAttachements": false,
@@ -8140,14 +8157,16 @@
                 "name": "property_key",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "property_key"
+                "alias": "property_key",
+                "editAuthority": true
               },
               {
                 "jimuName": "sale_date",
                 "name": "sale_date",
                 "type": "DATE",
                 "esriType": "esriFieldTypeDate",
-                "alias": "Sale Date"
+                "alias": "Sale Date",
+                "editAuthority": true
               },
               {
                 "jimuName": "sale_amount",
@@ -8158,14 +8177,16 @@
                 "format": {
                   "digitSeparator": true,
                   "places": 0
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "sale_type",
                 "name": "sale_type",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Sale Type"
+                "alias": "Sale Type",
+                "editAuthority": true
               },
               {
                 "jimuName": "valid_sale",
@@ -8176,42 +8197,48 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 0
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "grantor",
                 "name": "grantor",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Grantor"
+                "alias": "Grantor",
+                "editAuthority": true
               },
               {
                 "jimuName": "grantee",
                 "name": "grantee",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Grantee"
+                "alias": "Grantee",
+                "editAuthority": true
               },
               {
                 "jimuName": "sale_notes",
                 "name": "sale_notes",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Sale Notes"
+                "alias": "Sale Notes",
+                "editAuthority": true
               },
               {
                 "jimuName": "class",
                 "name": "class",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Class"
+                "alias": "Class",
+                "editAuthority": true
               },
               {
                 "jimuName": "document_number",
                 "name": "document_number",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Document Number"
+                "alias": "Document Number",
+                "editAuthority": true
               },
               {
                 "jimuName": "sale_year",
@@ -8222,7 +8249,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 0
-                }
+                },
+                "editAuthority": true
               }
             ],
             "enableAttachements": false,
@@ -8521,14 +8549,16 @@
                 "name": "pin",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "PIN"
+                "alias": "PIN",
+                "editAuthority": true
               },
               {
                 "jimuName": "alt_pin",
                 "name": "alt_pin",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Alternate PIN"
+                "alias": "Alternate PIN",
+                "editAuthority": true
               },
               {
                 "jimuName": "gross_acres",
@@ -8539,7 +8569,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 2
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "gis_acres",
@@ -8550,14 +8581,16 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 2
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "lot_dim",
                 "name": "lot_dim",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Lot Dimensions"
+                "alias": "Lot Dimensions",
+                "editAuthority": true
               },
               {
                 "jimuName": "farm_building",
@@ -8568,7 +8601,8 @@
                 "format": {
                   "digitSeparator": true,
                   "places": 0
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "farm_land",
@@ -8579,7 +8613,8 @@
                 "format": {
                   "digitSeparator": true,
                   "places": 0
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "non_farm_building",
@@ -8590,7 +8625,8 @@
                 "format": {
                   "digitSeparator": true,
                   "places": 0
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "non_farm_land",
@@ -8601,7 +8637,8 @@
                 "format": {
                   "digitSeparator": true,
                   "places": 0
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "total_assessed",
@@ -8612,7 +8649,8 @@
                 "format": {
                   "digitSeparator": true,
                   "places": 0
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "tax_billed",
@@ -8623,49 +8661,56 @@
                 "format": {
                   "digitSeparator": true,
                   "places": 6
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "site_address",
                 "name": "site_address",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Site Address"
+                "alias": "Site Address",
+                "editAuthority": true
               },
               {
                 "jimuName": "site_csz",
                 "name": "site_csz",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Site City, State, Zip"
+                "alias": "Site City, State, Zip",
+                "editAuthority": true
               },
               {
                 "jimuName": "owner_name",
                 "name": "owner_name",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Owner Name"
+                "alias": "Owner Name",
+                "editAuthority": true
               },
               {
                 "jimuName": "owner_addr1",
                 "name": "owner_addr1",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Owner Address 1"
+                "alias": "Owner Address 1",
+                "editAuthority": true
               },
               {
                 "jimuName": "owner_addr2",
                 "name": "owner_addr2",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Owner Address 2"
+                "alias": "Owner Address 2",
+                "editAuthority": true
               },
               {
                 "jimuName": "owner_csz",
                 "name": "owner_csz",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Owner City, State, Zip"
+                "alias": "Owner City, State, Zip",
+                "editAuthority": true
               },
               {
                 "jimuName": "farm_ac",
@@ -8676,7 +8721,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 2
-                }
+                },
+                "editAuthority": true
               },
               {
                 "jimuName": "homesite_ac",
@@ -8687,7 +8733,8 @@
                 "format": {
                   "digitSeparator": false,
                   "places": 2
-                }
+                },
+                "editAuthority": true
               }
             ],
             "enableAttachements": false,
@@ -8731,7 +8778,7 @@
     },
     "widget_98": {
       "uri": "widgets/common/navigator/",
-      "version": "1.4.0",
+      "version": "1.7.0",
       "label": "Map and Table Switcher",
       "config": {
         "data": {
@@ -9260,7 +9307,7 @@
           "canScaleBar": false,
           "canBaseMap": true,
           "canLocate": false,
-          "canMeasure": false
+          "canMeasure": true
         },
         "isUseCustomMapState": false,
         "layoutIndex": 1,
@@ -9475,7 +9522,7 @@
     },
     "widget_144": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Voting Map Content",
       "config": {
         "direction": "HORIZONTAL",
@@ -9543,7 +9590,7 @@
     },
     "widget_145": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Voting Map",
       "config": {
         "toolConifg": {
@@ -9696,7 +9743,7 @@
     },
     "widget_153": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Explore Guide Button",
       "config": {
         "functionConfig": {
@@ -9777,7 +9824,7 @@
     },
     "widget_154": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Explore Contact",
       "config": {
         "functionConfig": {
@@ -9872,7 +9919,7 @@
     },
     "widget_158": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.7.0",
       "label": "CAMA Guide Button",
       "config": {
         "functionConfig": {
@@ -9951,7 +9998,7 @@
     },
     "widget_159": {
       "uri": "widgets/common/button/",
-      "version": "1.4.0",
+      "version": "1.7.0",
       "label": "CAMA Guide Button copy",
       "config": {
         "functionConfig": {
@@ -10127,7 +10174,7 @@
     },
     "widget_162": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Button 6",
       "config": {
         "functionConfig": {
@@ -10208,7 +10255,7 @@
     },
     "widget_163": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Button 6 copy",
       "config": {
         "functionConfig": {
@@ -10304,7 +10351,7 @@
     },
     "widget_165": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Voting Guide Button",
       "config": {
         "functionConfig": {
@@ -10381,7 +10428,7 @@
     },
     "widget_166": {
       "uri": "widgets/common/button/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Voting Contact Button",
       "config": {
         "functionConfig": {
@@ -10477,7 +10524,7 @@
     },
     "widget_168": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning Map Content",
       "config": {
         "direction": "HORIZONTAL",
@@ -10545,7 +10592,7 @@
     },
     "widget_169": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning Layers",
       "config": {
         "useMapWidget": true,
@@ -10558,7 +10605,7 @@
     },
     "widget_170": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Legend",
       "config": {
         "cardStyle": false
@@ -11262,7 +11309,7 @@
     },
     "widget_197": {
       "uri": "widgets/common/filter/",
-      "version": "1.4.0",
+      "version": "1.7.0",
       "label": "CAMA and Sales Filter",
       "config": {
         "groupByLayer": false,
@@ -11574,7 +11621,7 @@
     },
     "widget_199": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Voting Map Layers",
       "config": {
         "useMapWidget": true,
@@ -11589,7 +11636,7 @@
     },
     "widget_204": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "District Filters",
       "config": {
         "direction": "HORIZONTAL",
@@ -11801,7 +11848,7 @@
     },
     "widget_208": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Voting Map Legend",
       "config": {},
       "id": "widget_208",
@@ -12330,7 +12377,7 @@
     },
     "widget_223": {
       "uri": "widgets/common/filter/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Legislative District Filters",
       "config": {
         "groupByLayer": false,
@@ -12586,7 +12633,7 @@
     },
     "widget_224": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Congress Note",
       "config": {
         "text": "<p>US Congressional District</p><p><br></p><p class=\"ql-indent-1\"><em>All of Kendall County falls within</em></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><em>District IL-14.</em></p>",
@@ -14591,7 +14638,7 @@
       }
     }
   },
-  "timestamp": 1642197022684,
+  "timestamp": 1642588143786,
   "sharedThemeVariables": {
     "header": {
       "bg": "#0b2931",
