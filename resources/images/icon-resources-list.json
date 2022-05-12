@@ -1,0 +1,29 @@
+{
+  "1652381228318.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1652381228318.png",
+    "properties": {
+      "filename": "1652381228318.png",
+      "originalName": "help-circle.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1652381228318.png",
+      "inlineSvg": false
+    }
+  },
+  "1652381626947.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1652381626947.png",
+    "properties": {
+      "filename": "1652381626947.png",
+      "originalName": "at.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1652381626947.png",
+      "inlineSvg": false
+    }
+  },
+  "null": {
+    "svg": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"css-1i7frhi jimu-icon\"><path d=\"M2 1a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg>",
+    "properties": {
+      "filename": null,
+      "originalName": null,
+      "path": null,
+      "inlineSvg": true
+    }
+  }
+}
