@@ -6729,7 +6729,7 @@
         "toolConifg": {
           "canZoom": true,
           "canHome": true,
-          "canSearch": false,
+          "canSearch": true,
           "canLayers": false,
           "canMeasure": true,
           "canCompass": true,
@@ -11464,16 +11464,6 @@
         "resultMaxNumber": 6,
         "datasourceConfig": [
           {
-            "configId": "config_1",
-            "label": "Address Locator",
-            "geocodeURL": "https://maps.co.kendall.il.us/server/rest/services/Locator/Kendall_County_Site_Address_Locator/GeocodeServer",
-            "outputDataSourceId": "widget_232_output_1",
-            "useDataSource": null,
-            "hint": "",
-            "searchServiceType": "GeocodeService",
-            "singleLineFieldName": "SingleLine"
-          },
-          {
             "configId": "config_2",
             "icon": null,
             "label": "Parcels",
@@ -11537,6 +11527,16 @@
             ],
             "hint": "",
             "searchServiceType": "FeatureService"
+          },
+          {
+            "configId": "config_1",
+            "label": "Address Locator",
+            "geocodeURL": "https://maps.co.kendall.il.us/server/rest/services/Locator/Kendall_County_Site_Address_Locator/GeocodeServer",
+            "outputDataSourceId": "widget_232_output_1",
+            "useDataSource": null,
+            "hint": "",
+            "searchServiceType": "GeocodeService",
+            "singleLineFieldName": "SingleLine"
           }
         ],
         "hint": "Search PIN, Address, etc.",
@@ -13832,7 +13832,7 @@
       }
     }
   },
-  "timestamp": 1652407147383,
+  "timestamp": 1652775428524,
   "sharedThemeVariables": {
     "header": {
       "bg": "#0b2931",
