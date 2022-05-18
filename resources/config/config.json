@@ -13495,7 +13495,7 @@
             ],
             "isUseCustomZoomToOption": true,
             "zoomToOption": {
-              "scale": 1000
+              "scale": 500
             }
           },
           "version": "1.8.0"
@@ -13580,7 +13580,7 @@
             ],
             "isUseCustomZoomToOption": true,
             "zoomToOption": {
-              "scale": 1000
+              "scale": 500
             }
           },
           "version": "1.8.0"
@@ -13638,7 +13638,7 @@
             ],
             "isUseCustomZoomToOption": true,
             "zoomToOption": {
-              "scale": 1000
+              "scale": 500
             }
           },
           "version": "1.8.0"
@@ -13669,7 +13669,7 @@
             ],
             "isUseCustomZoomToOption": true,
             "zoomToOption": {
-              "scale": 1000
+              "scale": 500
             }
           },
           "version": "1.8.0"
@@ -13700,7 +13700,7 @@
             ],
             "isUseCustomZoomToOption": true,
             "zoomToOption": {
-              "scale": 1000
+              "scale": 500
             }
           },
           "version": "1.8.0"
@@ -13731,7 +13731,7 @@
             ],
             "isUseCustomZoomToOption": true,
             "zoomToOption": {
-              "scale": 1000
+              "scale": 500
             }
           },
           "version": "1.8.0"
@@ -13785,6 +13785,50 @@
                 "pin"
               ]
             },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.8.0"
+        },
+        {
+          "actionId": "select-data-record-action-1652838139975",
+          "messageWidgetId": "widget_232",
+          "actionName": "select data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_10-1",
+              "mainDataSourceId": "dataSource_10-1",
+              "rootDataSourceId": "dataSource_10",
+              "fields": [
+                "pin"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_6-17401fdc775-layer-2",
+              "mainDataSourceId": "dataSource_6-17401fdc775-layer-2",
+              "rootDataSourceId": "dataSource_6",
+              "fields": [
+                "pin"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.8.0"
+        },
+        {
+          "actionId": "select-data-record-action-1652838301756",
+          "messageWidgetId": "widget_232",
+          "actionName": "select data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_10-1",
+              "mainDataSourceId": "dataSource_10-1",
+              "rootDataSourceId": "dataSource_10"
+            },
+            "actionUseDataSource": null,
             "sqlExprObj": null,
             "enabledDataRelationShip": true
           },
@@ -13871,7 +13915,7 @@
       }
     }
   },
-  "timestamp": 1652775428524,
+  "timestamp": 1652856330670,
   "sharedThemeVariables": {
     "header": {
       "bg": "#0b2931",
