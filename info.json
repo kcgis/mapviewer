@@ -2,7 +2,7 @@
   "created": 1599141908249,
   "description": "",
   "id": "mapviewer",
-  "modified": 1669758208391,
+  "modified": 1684884245011,
   "owner": "jcarlson",
   "tags": [],
   "thumbnail": null,
@@ -14,7 +14,8 @@
     "Ready To Use",
     "JavaScript",
     "status: Published",
-    "version:1.1.0"
+    "version:1.10.0",
+    "publishVersion:1.9.0"
   ],
   "text": {
     "__not_publish": true

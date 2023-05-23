@@ -10,7 +10,7 @@
       },
       "isDefault": false,
       "isVisible": true,
-      "label": "Explore",
+      "label": "Current Cadastral Features",
       "header": true,
       "footer": true,
       "autoOpenDialogId": ""
@@ -48,7 +48,7 @@
       },
       "isDefault": false,
       "isVisible": true,
-      "label": "CAMA & Sales",
+      "label": "CAMA & Sales Comparison Tool",
       "header": true,
       "footer": true,
       "autoOpenDialogId": ""
@@ -80,7 +80,7 @@
       },
       "isDefault": true,
       "isVisible": true,
-      "label": "Property Information",
+      "label": "Property Information Quick Lookup",
       "header": true,
       "footer": true,
       "autoOpenDialogId": "",
@@ -91,27 +91,94 @@
         }
       }
     },
-    "page_5": {
-      "id": "page_5",
+    "page_8": {
+      "id": "page_8",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_213"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "Repetitive Loss Properties",
+      "header": true,
+      "footer": true
+    },
+    "page_9": {
+      "id": "page_9",
       "type": "FOLDER",
-      "label": "Other Tools",
+      "label": "Voting",
       "isVisible": true
     },
-    "page_6": {
-      "id": "page_6",
-      "type": "LINK",
-      "label": "Digital Change Record",
-      "linkUrl": "https://maps.co.kendall.il.us/digital-change-record",
+    "page_10": {
+      "id": "page_10",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_214"
+      },
+      "isDefault": false,
       "isVisible": true,
-      "openTarget": "_blank"
+      "label": "Voter Information Lookup",
+      "header": true,
+      "footer": true
     },
-    "page_7": {
-      "id": "page_7",
-      "type": "LINK",
-      "label": "Voting Information Lookup",
-      "linkUrl": "https://maps.co.kendall.il.us/portal/apps/instant/lookup/index.html?appid=f6bca3b4f97b4494997a82dc20461574",
+    "page_11": {
+      "id": "page_11",
+      "type": "FOLDER",
+      "label": "Planning, Building, & Zoning",
+      "isVisible": true
+    },
+    "page_12": {
+      "id": "page_12",
+      "type": "FOLDER",
+      "label": "Parcels, Boundaries, and History",
+      "isVisible": true
+    },
+    "page_13": {
+      "id": "page_13",
+      "type": "FOLDER",
+      "label": "Assessment Information",
+      "isVisible": true
+    },
+    "page_14": {
+      "id": "page_14",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_215"
+      },
+      "isDefault": false,
       "isVisible": true,
-      "openTarget": "_blank"
+      "label": "Tax Map Browser",
+      "header": true,
+      "footer": true
+    },
+    "page_15": {
+      "id": "page_15",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_216"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "Digital Change Record",
+      "header": true,
+      "footer": true
+    },
+    "page_16": {
+      "id": "page_16",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_217"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "Time Slider",
+      "header": true,
+      "footer": true
     }
   },
   "layouts": {
@@ -5457,7 +5524,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_242",
+          "widgetId": "widget_241",
           "bbox": {
             "left": 0,
             "top": 0,
@@ -5931,17 +5998,276 @@
       "order": [
         "0"
       ]
+    },
+    "layout_213": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_252",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_214": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_253",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_215": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_254",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_216": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_255",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_217": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "150px",
+            "width": "100.0%",
+            "height": "84.3%"
+          },
+          "widgetId": "widget_256",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": true,
+              "bottom": false,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "84.3%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "150px"
+          },
+          "widgetId": "widget_257",
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_218": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "94.8%",
+            "bottom": "87.5%",
+            "width": "100px",
+            "height": "150.00px",
+            "right": "0px",
+            "top": "0px"
+          },
+          "widgetId": "widget_258",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_219": {
+      "label": "Controller layout",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "28px",
+            "right": "76px",
+            "top": "21px",
+            "bottom": "69px",
+            "width": "360px",
+            "height": "70px"
+          },
+          "widgetId": "widget_259",
+          "isPending": false
+        }
+      }
+    },
+    "layout_220": {
+      "label": "Open widget layout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_259",
+          "bbox": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
     }
   },
-  "exbVersion": "1.9.0",
+  "exbVersion": "1.10.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/shared-theme/",
   "forBuilderAttributes": {
     "lockLayout": false,
     "viewPortSize": {
       "LARGE": {
-        "width": 1280,
-        "height": 1024
+        "width": 1920,
+        "height": 1080
       }
     }
   },
@@ -5952,7 +6278,7 @@
   "widgets": {
     "widget_1": {
       "uri": "widgets/common/image/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Logo",
       "config": {
         "functionConfig": {
@@ -5961,13 +6287,16 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_1/1599143339654.svg",
-            "originalUrl": "${appResourceUrl}/images/widget_1/1599143339654.svg",
-            "fileName": "1599143339654.svg",
-            "originalName": "KCO_logo_mono.svg",
+            "url": "${appResourceUrl}/images/widget_1/1684878476400.png",
+            "originalUrl": "${appResourceUrl}/images/widget_1/1684878476400.png",
+            "fileName": "1684878476400.png",
+            "originalName": "county-seal-bw.png",
             "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/svg+xml",
-            "originalId": "1599143339654",
+            "fileFormat": "image/png",
+            "originalId": "1684878476400",
+            "isUseCompress": false,
+            "originalWidth": 600,
+            "originalHeight": 600,
             "cropParam": {
               "svgViewBox": "0 0 28 28",
               "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
@@ -5976,7 +6305,8 @@
           },
           "imageFillMode": "FIT",
           "imgSourceType": "",
-          "srcExpression": null
+          "srcExpression": null,
+          "imageDisplayQualityMode": "ORIGINAL"
         },
         "styleConfig": {}
       },
@@ -6004,7 +6334,7 @@
     },
     "widget_2": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Title",
       "config": {
         "text": "<p><span style=\"letter-spacing: 2.75px; font-size: 18px;\">KENDALL COUNTY GIS</span></p><p style=\"line-height: 1.6;\"><span style=\"letter-spacing: 2px;\">Map Viewer</span></p>",
@@ -6018,7 +6348,7 @@
     },
     "widget_4": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Disclaimer Title",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿Legal Disclaimer</strong></p>",
@@ -6032,7 +6362,7 @@
     },
     "widget_5": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Disclaimer Text",
       "config": {
         "text": "<p style=\"text-align: justify;\">The data and layers in these maps do not represent a survey. No accuracy is assumed for the data delineated herein, either expressed or implied by Kendall County or its employees.</p><p style=\"text-align: justify;\"><br></p><p style=\"text-align: justify;\">These data are compiled from official records, including plats, surveys, recorded deeds, contracts, and only contains information required for local government purposes. See the recorded documents for more detailed legal information.<span style=\"color: var(--dark-800);\">﻿</span></p>",
@@ -6046,7 +6376,7 @@
     },
     "widget_15": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Changelog Title",
       "config": {
         "text": "<p style=\"line-height: 2; text-align: center;\"><span style=\"color: var(--light); font-size: 18px;\">Changelog</span></p>",
@@ -6069,10 +6399,10 @@
     },
     "widget_16": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Changelog Text",
       "config": {
-        "text": "<p>November 2022 |  Version 2.3.1</p><ul><li>Search bar moved back into individual maps by popular request</li></ul><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">May 2022 | Version 2.3</strong></p><ul><li>Single search bar added to header, removed map-specific search widgets</li><li>Added \"sketch\" capability to maps</li></ul><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">January 2022 | Version 2.2.1</strong></p><p>Minor changes.</p><ul><li>Property Information map includes basemap tool</li><li>Legislative Districts tab mobile/tablet views reconfigured for accessibility</li></ul><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">January 2022 | Version 2.2</strong></p><ul><li>Voting tab now focuses on browsing the legislative districts. Voting lookup tool has been moved to own dedicated application</li></ul><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">May 2021 | Version 2.1</strong></p><ul><li>Property Information tab no longer shows \"1 of XXXX\" with parcel / CAMA pre-selected. Only shows information upon selection.</li><li>Voting Lookup map also only shows info upon selection</li></ul><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿May 2021 | Version 2.0﻿</strong></p><ul><li>Renamed \"Map Viewer\" -- No more beta!</li><li>CAMA and Sales data can be spatially filtered and / or exported to CSV</li><li>Added tabs for Property Characteristics and Voting Information Lookup</li><li>Broke up the Guide into separate guides per page</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿January 2021 | Version 1.2.1</strong></p><ul><li>Updated the Guide panel to address various updated features</li><li>Filter panel will appear by default in CAMA viewer</li><li>Adjustments to layer symbology</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">January 2021 | Version 1.2</strong></p><ul><li>Updated maps to be compliant with ArcGIS JavaScript API v 4.18</li><li>Added \"Table View\" to CAMA &amp; Sales page</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">September 2020 | Version 1.1</strong></p><ul><li style=\"text-align: left;\">Guide, changelog, and bugs list moved into side panel windows</li><li style=\"text-align: left;\">Disclaimer appears as splash upon loading viewer</li><li style=\"text-align: left;\">Published viewer to official URL</li></ul><p style=\"text-align: left; line-height: 2;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"color: var(--dark-800); font-size: 16px;\">August 2020 | Version 1.0</strong></p><ul><li>Map Viewer officially released for public use</li></ul>",
+        "text": "<p><strong style=\"font-size: 16px;\">May 2023 |  Version 2.4</strong></p><ul><li>Adding direct access to additional GIS tools from the main viewer. Several headings in the main toolbar are now dropdowns with extra links in them.</li><li><strong>New tool! </strong>We are testing out the <em>time slider</em> tool on its own page here, giving users a different way of looking at historic map features.</li></ul><p><br></p><p><strong style=\"font-size: 16px;\">November 2022 |  Version 2.3.1</strong></p><ul><li>Search bar moved back into individual maps by popular request</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">May 2022 | Version 2.3</strong></p><ul><li>Single search bar added to header, removed map-specific search widgets</li><li>Added \"sketch\" capability to maps</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">January 2022 | Version 2.2.1</strong></p><p>Minor changes.</p><ul><li>Property Information map includes basemap tool</li><li>Legislative Districts tab mobile/tablet views reconfigured for accessibility</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">January 2022 | Version 2.2</strong></p><ul><li>Voting tab now focuses on browsing the legislative districts. Voting lookup tool has been moved to own dedicated application</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">May 2021 | Version 2.1</strong></p><ul><li>Property Information tab no longer shows \"1 of XXXX\" with parcel / CAMA pre-selected. Only shows information upon selection.</li><li>Voting Lookup map also only shows info upon selection</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿May 2021 | Version 2.0﻿</strong></p><ul><li>Renamed \"Map Viewer\" -- No more beta!</li><li>CAMA and Sales data can be spatially filtered and / or exported to CSV</li><li>Added tabs for Property Characteristics and Voting Information Lookup</li><li>Broke up the Guide into separate guides per page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿January 2021 | Version 1.2.1</strong></p><ul><li>Updated the Guide panel to address various updated features</li><li>Filter panel will appear by default in CAMA viewer</li><li>Adjustments to layer symbology</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">January 2021 | Version 1.2</strong></p><ul><li>Updated maps to be compliant with ArcGIS JavaScript API v 4.18</li><li>Added \"Table View\" to CAMA &amp; Sales page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">September 2020 | Version 1.1</strong></p><ul><li style=\"text-align: left;\">Guide, changelog, and bugs list moved into side panel windows</li><li style=\"text-align: left;\">Disclaimer appears as splash upon loading viewer</li><li style=\"text-align: left;\">Published viewer to official URL</li></ul><p style=\"line-height: 2; text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px; color: var(--dark-800);\">August 2020 | Version 1.0</strong></p><ul><li>Map Viewer officially released for public use</li></ul>",
         "placeholder": "<p style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -6214,7 +6544,7 @@
     },
     "widget_52": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Changelog Button",
       "config": {
         "space": 0,
@@ -6238,7 +6568,7 @@
     },
     "widget_53": {
       "uri": "widgets/common/button/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Changelog Button",
       "config": {
         "functionConfig": {
@@ -6318,7 +6648,7 @@
     },
     "widget_54": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Changelog Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Changelog</strong></p>",
@@ -6332,7 +6662,7 @@
     },
     "widget_55": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bugs Button",
       "config": {
         "space": 0,
@@ -6356,7 +6686,7 @@
     },
     "widget_56": {
       "uri": "widgets/common/button/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bugs Button",
       "config": {
         "functionConfig": {
@@ -6436,7 +6766,7 @@
     },
     "widget_57": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Bugs Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Bugs</strong></p>",
@@ -6450,7 +6780,7 @@
     },
     "widget_58": {
       "uri": "widgets/common/divider/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Contact Divider",
       "config": {
         "direction": "Vertical",
@@ -6475,7 +6805,7 @@
     },
     "widget_59": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Department Name",
       "config": {
         "text": "<p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">KENDALL COUNTY</span></p><p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">GEOGRAPHIC INFORMATION SYSTEMS</span></p>",
@@ -6489,7 +6819,7 @@
     },
     "widget_60": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Contact Information",
       "config": {
         "text": "<p style=\"line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light);\">630.553.4212</span></p><p style=\"line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light);\">kcgis@kendallcountyil.gov</span></p>",
@@ -6503,7 +6833,7 @@
     },
     "widget_63": {
       "uri": "widgets/common/menu/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Navigator",
       "config": {
         "type": "nav",
@@ -6545,7 +6875,7 @@
               "borderRadius": "0.125rem"
             },
             "hover": {
-              "color": "#076fe5",
+              "color": "var(--primary-100)",
               "border": {
                 "color": "transparent",
                 "width": "2px"
@@ -6553,7 +6883,7 @@
               "borderRadius": "0.125rem"
             },
             "active": {
-              "color": "#076fe5",
+              "color": "var(--primary-100)",
               "border": {
                 "color": "#076fe5",
                 "width": "2px"
@@ -6582,7 +6912,7 @@
     },
     "widget_64": {
       "uri": "widgets/common/divider/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Divider",
       "config": {
         "direction": "Vertical",
@@ -6607,24 +6937,9 @@
     },
     "widget_65": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Explore Map",
       "config": {
-        "toolConifg": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": true,
-          "canLayers": true,
-          "canCompass": true,
-          "canMeasure": true,
-          "canSelect": false,
-          "canSelectState": false,
-          "canScaleBar": false,
-          "canFullScreen": false,
-          "canLocate": true,
-          "canNavigation": false,
-          "canBaseMap": true
-        },
         "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_1",
         "initialMapState": {
@@ -6655,7 +6970,22 @@
         },
         "layoutIndex": 1,
         "disablePopUp": false,
-        "disableScroll": false
+        "disableScroll": false,
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canLayers": true,
+          "canCompass": true,
+          "canMeasure": true,
+          "canSelect": false,
+          "canSelectState": false,
+          "canScaleBar": false,
+          "canFullScreen": false,
+          "canLocate": true,
+          "canNavigation": false,
+          "canBaseMap": true
+        }
       },
       "id": "widget_65",
       "layouts": {
@@ -6677,10 +7007,12 @@
     },
     "widget_66": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "PBZ Map",
       "config": {
-        "toolConifg": {
+        "isUseCustomMapState": false,
+        "layoutIndex": 1,
+        "toolConfig": {
           "canZoom": true,
           "canHome": true,
           "canSearch": true,
@@ -6689,9 +7021,7 @@
           "canCompass": true,
           "canScaleBar": true,
           "canBaseMap": true
-        },
-        "isUseCustomMapState": false,
-        "layoutIndex": 1
+        }
       },
       "id": "widget_66",
       "layouts": {
@@ -6710,19 +7040,9 @@
     },
     "widget_67": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "CAMA and Sales Map",
       "config": {
-        "toolConifg": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": true,
-          "canScaleBar": true,
-          "canMeasure": true,
-          "canLayers": true,
-          "canCompass": true,
-          "canBaseMap": true
-        },
         "isUseCustomMapState": true,
         "layoutIndex": 1,
         "initialMapDataSourceID": "dataSource_6",
@@ -6751,6 +7071,16 @@
           },
           "rotation": 0,
           "viewType": "2d"
+        },
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canScaleBar": true,
+          "canMeasure": true,
+          "canLayers": true,
+          "canCompass": true,
+          "canBaseMap": true
         }
       },
       "id": "widget_67",
@@ -7196,7 +7526,7 @@
     },
     "widget_90": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Filter Sidebar",
       "config": {
         "direction": "HORIZONTAL",
@@ -7360,7 +7690,7 @@
     },
     "widget_97": {
       "uri": "widgets/common/table/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "CAMA and Sales Table",
       "config": {
         "layersConfig": [
@@ -7543,7 +7873,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "pin",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "struct_type",
@@ -7551,7 +7882,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Structure Type",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "struct_name",
@@ -7559,7 +7891,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Structure Name",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "year_built",
@@ -7571,7 +7904,8 @@
                   "digitSeparator": false,
                   "places": 0
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "sqft",
@@ -7583,7 +7917,8 @@
                   "digitSeparator": false,
                   "places": 6
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "extwall",
@@ -7591,7 +7926,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Wall Material",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "hvac",
@@ -7599,7 +7935,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "HVAC",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "roof",
@@ -7607,7 +7944,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Roof Material",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "floorallow",
@@ -7615,7 +7953,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Floor Allow",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "bed",
@@ -7627,7 +7966,8 @@
                   "digitSeparator": false,
                   "places": 0
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "fbath",
@@ -7639,7 +7979,8 @@
                   "digitSeparator": false,
                   "places": 6
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "hbath",
@@ -7651,7 +7992,8 @@
                   "digitSeparator": false,
                   "places": 6
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "rooms",
@@ -7663,7 +8005,8 @@
                   "digitSeparator": false,
                   "places": 6
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "bsmt_sqft",
@@ -7675,7 +8018,8 @@
                   "digitSeparator": false,
                   "places": 6
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "gar_sqft",
@@ -7687,7 +8031,8 @@
                   "digitSeparator": false,
                   "places": 6
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "fireplace",
@@ -7699,7 +8044,8 @@
                   "digitSeparator": false,
                   "places": 6
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "image_path",
@@ -7707,7 +8053,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Image Path",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               }
             ],
             "enableAttachements": false,
@@ -7845,7 +8192,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "property_key",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "sale_date",
@@ -7853,7 +8201,8 @@
                 "type": "DATE",
                 "esriType": "esriFieldTypeDate",
                 "alias": "Sale Date",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "sale_amount",
@@ -7865,7 +8214,8 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "sale_type",
@@ -7873,7 +8223,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Sale Type",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "valid_sale",
@@ -7885,7 +8236,8 @@
                   "digitSeparator": false,
                   "places": 0
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "grantor",
@@ -7893,7 +8245,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Grantor",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "grantee",
@@ -7901,7 +8254,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Grantee",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "sale_notes",
@@ -7909,7 +8263,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Sale Notes",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "class",
@@ -7917,7 +8272,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Class",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "document_number",
@@ -7925,7 +8281,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Document Number",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "sale_year",
@@ -7937,7 +8294,8 @@
                   "digitSeparator": false,
                   "places": 0
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               }
             ],
             "enableAttachements": false,
@@ -8237,7 +8595,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "PIN",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "alt_pin",
@@ -8245,7 +8604,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Alternate PIN",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "gross_acres",
@@ -8257,7 +8617,8 @@
                   "digitSeparator": false,
                   "places": 2
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "gis_acres",
@@ -8269,7 +8630,8 @@
                   "digitSeparator": false,
                   "places": 2
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "lot_dim",
@@ -8277,7 +8639,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Lot Dimensions",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "farm_building",
@@ -8289,7 +8652,8 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "farm_land",
@@ -8301,7 +8665,8 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "non_farm_building",
@@ -8313,7 +8678,8 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "non_farm_land",
@@ -8325,7 +8691,8 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "total_assessed",
@@ -8337,7 +8704,8 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "tax_billed",
@@ -8349,7 +8717,8 @@
                   "digitSeparator": true,
                   "places": 6
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "site_address",
@@ -8357,7 +8726,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Site Address",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "site_csz",
@@ -8365,7 +8735,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Site City, State, Zip",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "owner_name",
@@ -8373,7 +8744,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Owner Name",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "owner_addr1",
@@ -8381,7 +8753,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Owner Address 1",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "owner_addr2",
@@ -8389,7 +8762,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Owner Address 2",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "owner_csz",
@@ -8397,7 +8771,8 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Owner City, State, Zip",
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "farm_ac",
@@ -8409,7 +8784,8 @@
                   "digitSeparator": false,
                   "places": 2
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               },
               {
                 "jimuName": "homesite_ac",
@@ -8421,7 +8797,8 @@
                   "digitSeparator": false,
                   "places": 2
                 },
-                "editAuthority": true
+                "editAuthority": true,
+                "visible": true
               }
             ],
             "enableAttachements": false,
@@ -8465,7 +8842,7 @@
     },
     "widget_98": {
       "uri": "widgets/common/navigator/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Map and Table Switcher",
       "config": {
         "data": {
@@ -8640,7 +9017,7 @@
     },
     "widget_136": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Property Information Sidebar",
       "config": {
         "direction": "HORIZONTAL",
@@ -8713,20 +9090,9 @@
     },
     "widget_137": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Property Characteristics Map",
       "config": {
-        "toolConifg": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": true,
-          "canNavigation": true,
-          "canScaleBar": false,
-          "canBaseMap": true,
-          "canLocate": false,
-          "canMeasure": true,
-          "canCompass": true
-        },
         "isUseCustomMapState": true,
         "layoutIndex": 1,
         "disablePopUp": true,
@@ -8757,7 +9123,18 @@
           "rotation": 0.5602876629332494,
           "viewType": "2d"
         },
-        "initialMapDataSourceID": "dataSource_7"
+        "initialMapDataSourceID": "dataSource_7",
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canScaleBar": false,
+          "canBaseMap": true,
+          "canLocate": false,
+          "canMeasure": true,
+          "canCompass": true
+        }
       },
       "id": "widget_137",
       "layouts": {
@@ -8776,7 +9153,7 @@
     },
     "widget_138": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Parcel Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -8811,7 +9188,7 @@
     },
     "widget_139": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "CAMA Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -8846,7 +9223,7 @@
     },
     "widget_140": {
       "uri": "widgets/layout/row/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Feature Info",
       "config": {},
       "id": "widget_140",
@@ -8858,7 +9235,7 @@
     },
     "widget_141": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Parcel Info Heading",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Parcel Information</span></p>",
@@ -8872,7 +9249,7 @@
     },
     "widget_142": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Parcel Info Heading copy",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">CAMA Information</span></p>",
@@ -8886,7 +9263,7 @@
     },
     "widget_144": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Voting Map Content",
       "config": {
         "direction": "HORIZONTAL",
@@ -8959,18 +9336,9 @@
     },
     "widget_145": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Voting Map",
       "config": {
-        "toolConifg": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": true,
-          "canNavigation": true,
-          "canLayers": false,
-          "canSelect": false,
-          "canSelectState": false
-        },
         "isUseCustomMapState": true,
         "layoutIndex": 1,
         "disablePopUp": false,
@@ -9001,6 +9369,15 @@
           },
           "rotation": 0,
           "viewType": "2d"
+        },
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canLayers": false,
+          "canSelect": false,
+          "canSelectState": false
         }
       },
       "id": "widget_145",
@@ -9020,7 +9397,7 @@
     },
     "widget_168": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Zoning Map Content",
       "config": {
         "direction": "HORIZONTAL",
@@ -9093,7 +9470,7 @@
     },
     "widget_169": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Zoning Layers",
       "config": {
         "useMapWidget": true,
@@ -9106,7 +9483,7 @@
     },
     "widget_170": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Legend",
       "config": {
         "cardStyle": false
@@ -9118,7 +9495,7 @@
     },
     "widget_175": {
       "uri": "widgets/layout/column/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "About Button",
       "config": {
         "space": 0,
@@ -9142,7 +9519,7 @@
     },
     "widget_176": {
       "uri": "widgets/common/button/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "About Button",
       "config": {
         "functionConfig": {
@@ -9222,7 +9599,7 @@
     },
     "widget_177": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "About Button Text",
       "config": {
         "text": "<p style=\"line-height: 1.2; text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">About</strong></p>",
@@ -9762,7 +10139,7 @@
     },
     "widget_197": {
       "uri": "widgets/common/filter/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "CAMA and Sales Filter",
       "config": {
         "groupByLayer": false,
@@ -10074,7 +10451,7 @@
     },
     "widget_199": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Voting Map Layers",
       "config": {
         "useMapWidget": true,
@@ -10089,7 +10466,7 @@
     },
     "widget_204": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "District Filters",
       "config": {
         "direction": "HORIZONTAL",
@@ -10306,7 +10683,7 @@
     },
     "widget_208": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Voting Map Legend",
       "config": {},
       "id": "widget_208",
@@ -10835,7 +11212,7 @@
     },
     "widget_223": {
       "uri": "widgets/common/filter/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Legislative District Filters",
       "config": {
         "groupByLayer": false,
@@ -11091,7 +11468,7 @@
     },
     "widget_224": {
       "uri": "widgets/common/text/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Congress Note",
       "config": {
         "text": "<p>US Congressional District</p><p><br></p><p class=\"ql-indent-1\"><em>All of Kendall County falls within</em></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><em>District IL-14.</em></p>",
@@ -11424,7 +11801,7 @@
     },
     "widget_233": {
       "uri": "widgets/common/controller/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Widget Controller",
       "config": {
         "behavior": {
@@ -11655,7 +12032,7 @@
     },
     "widget_237": {
       "uri": "widgets/common/controller/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Widget Controller 2",
       "config": {
         "behavior": {
@@ -11754,7 +12131,7 @@
     },
     "widget_240": {
       "uri": "widgets/common/controller/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Widget Controller 3",
       "config": {
         "behavior": {
@@ -11803,7 +12180,7 @@
     },
     "widget_241": {
       "uri": "widgets/common/text/",
-      "version": "1.8.0",
+      "version": "1.10.0",
       "icon": {
         "svg": "${appResourceUrl}/images/icon_picker_in_setting/1652381228318.png",
         "properties": {
@@ -11828,7 +12205,7 @@
     },
     "widget_242": {
       "uri": "widgets/common/text/",
-      "version": "1.8.0",
+      "version": "1.10.0",
       "icon": {
         "svg": "${appResourceUrl}/images/icon_picker_in_setting/1652381626947.png",
         "properties": {
@@ -11893,7 +12270,7 @@
     },
     "widget_244": {
       "uri": "widgets/common/controller/",
-      "version": "1.8.0",
+      "version": "1.10.0",
       "label": "Widget Controller 4",
       "config": {
         "behavior": {
@@ -12034,7 +12411,7 @@
     },
     "widget_248": {
       "uri": "widgets/common/controller/",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "label": "Widget Controller 5",
       "config": {
         "behavior": {
@@ -12144,6 +12521,194 @@
         }
       },
       "id": "widget_251"
+    },
+    "widget_252": {
+      "uri": "widgets/common/embed/",
+      "version": "1.10.0",
+      "label": "Embed",
+      "config": {
+        "embedType": "url",
+        "expression": "<p>https://maps.co.kendall.il.us/portal/apps/dashboards/3261613b67e54d9e8a9e12544c01502e</p>",
+        "enableLabel": false
+      },
+      "id": "widget_252",
+      "useDataSources": []
+    },
+    "widget_253": {
+      "uri": "widgets/common/embed/",
+      "version": "1.10.0",
+      "label": "Embed 2",
+      "config": {
+        "embedType": "url",
+        "expression": "<p>https://maps.co.kendall.il.us/portal/apps/instant/lookup/index.html?appid=f6bca3b4f97b4494997a82dc20461574</p>",
+        "enableLabel": false
+      },
+      "id": "widget_253",
+      "useDataSources": []
+    },
+    "widget_254": {
+      "uri": "widgets/common/embed/",
+      "version": "1.10.0",
+      "label": "Embed 3",
+      "config": {
+        "embedType": "url",
+        "expression": "<p>https://maps.co.kendall.il.us/portal/apps/dashboards/2c477a3b0f7f4dfab689aeb5f728c363</p>",
+        "enableLabel": false
+      },
+      "id": "widget_254",
+      "useDataSources": []
+    },
+    "widget_255": {
+      "uri": "widgets/common/embed/",
+      "version": "1.10.0",
+      "label": "Embed 4",
+      "config": {
+        "embedType": "url",
+        "expression": "<p>https://maps.co.kendall.il.us/digital-change-record</p>",
+        "enableLabel": false
+      },
+      "id": "widget_255",
+      "useDataSources": []
+    },
+    "widget_256": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.10.0",
+      "label": "Time Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": false,
+          "canSearch": true,
+          "canNavigation": false,
+          "canScaleBar": true,
+          "canMeasure": true,
+          "canBaseMap": true,
+          "canLayers": true
+        },
+        "isUseCustomMapState": false,
+        "layoutIndex": 1
+      },
+      "id": "widget_256",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_218"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_11",
+          "mainDataSourceId": "dataSource_11"
+        }
+      ]
+    },
+    "widget_257": {
+      "uri": "widgets/common/timeline/",
+      "version": "1.10.0",
+      "label": "Timeline",
+      "config": {
+        "dataSourceType": "WEB_MAP",
+        "honorTimeSettings": false,
+        "timeStyle": "MODERN",
+        "enablePlayControl": false,
+        "speed": "MEDIUM",
+        "autoPlay": false,
+        "LoopContinuously": false,
+        "timeSettings": {
+          "layerList": null,
+          "startTime": {
+            "value": 1420092000000
+          },
+          "endTime": {
+            "value": "NOW",
+            "offset": {
+              "val": 0,
+              "unit": "minute"
+            }
+          },
+          "timeDisplayStrategy": "CURRENT",
+          "dividedCount": null,
+          "accuracy": "month",
+          "stepLength": {
+            "val": 1,
+            "unit": "year"
+          }
+        }
+      },
+      "id": "widget_257",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_11",
+          "mainDataSourceId": "dataSource_11"
+        }
+      ]
+    },
+    "widget_258": {
+      "uri": "widgets/common/controller/",
+      "version": "1.10.0",
+      "label": "Time Slider Widgets",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [
+            "widget_259"
+          ],
+          "displayType": "STACK",
+          "vertical": true,
+          "size": {
+            "widget_259": {
+              "width": 341,
+              "height": 641
+            }
+          }
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": false,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "lg",
+              "shape": "circle"
+            }
+          }
+        }
+      },
+      "id": "widget_258",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_219"
+        },
+        "_openwidget": {
+          "LARGE": "layout_220"
+        }
+      }
+    },
+    "widget_259": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "icon": {
+        "svg": "${appResourceUrl}/images/icon_picker_in_setting/1652381228318.png",
+        "properties": {
+          "filename": "1652381228318.png",
+          "originalName": "help-circle.png",
+          "path": "${appResourceUrl}/images/icon_picker_in_setting/1652381228318.png",
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": false
+        }
+      },
+      "label": "Time Slider Info",
+      "config": {
+        "text": "<p style=\"line-height: 1.5;\"><strong style=\"font-size: 16px;\">About</strong></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\">This page showcases some of our historic data using a <strong>time slider</strong> tool, seen at the bottom of the page.</p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\">By interacting with this tool, you can dynamically filter the features shown in the map and see how parcels, lots, etc. looked at a given point in time.</p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\"><strong style=\"font-size: 16px;\">How are they being filtered?</strong></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\">Every feature in the map is associated with a <strong>record</strong>. These can be deeds, plats, etc. The date the document is recorded with the County is associated with any features the document creates or retires.</p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\">If a parcel was created by a deed split in 2018, for example, it should be visible if the time slider is set to <em>after </em>that date, and invisible if it is set to <strong><em>before</em>.</strong></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\"><strong style=\"font-size: 16px;\">﻿Availability of Historic Data</strong></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\"><span style=\"font-size: 13px;\">Prior to 2019, created / retired dates were not maintained on a per-feature basis. As we work backwards and add more historic data to the map, it will appear here.</span></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\">Features that have no created / retired date entered yet will not be filtered by the time slider.</p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_259"
     }
   },
   "widgetsManifest": {},
@@ -12655,6 +13220,13 @@
       "itemId": "c500c8284edd4112a9ee1a96236a72fc",
       "portalUrl": "https://maps.co.kendall.il.us/portal",
       "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Current_Cadastral_Features/FeatureServer"
+    },
+    "dataSource_11": {
+      "id": "dataSource_11",
+      "type": "WEB_MAP",
+      "sourceLabel": "Cadastre - Time View",
+      "itemId": "bed076612b0d44f5be2138c606790476",
+      "portalUrl": "https://maps.co.kendall.il.us/portal"
     }
   },
   "messageConfigs": {
@@ -13279,24 +13851,29 @@
   },
   "pageStructure": [
     {
-      "page_0": []
+      "page_12": [
+        "page_0",
+        "page_14",
+        "page_15",
+        "page_16"
+      ]
     },
     {
-      "page_2": []
+      "page_13": [
+        "page_4",
+        "page_2"
+      ]
     },
     {
-      "page_4": []
+      "page_11": [
+        "page_1",
+        "page_8"
+      ]
     },
     {
-      "page_1": []
-    },
-    {
-      "page_3": []
-    },
-    {
-      "page_5": [
-        "page_6",
-        "page_7"
+      "page_9": [
+        "page_3",
+        "page_10"
       ]
     }
   ],
@@ -13355,7 +13932,7 @@
       }
     }
   },
-  "timestamp": 1669779807261,
+  "timestamp": 1684884240219,
   "sharedThemeVariables": {
     "header": {
       "bg": "#0b2931",
@@ -13381,5 +13958,5 @@
       "label": "Address Locator"
     }
   },
-  "originExbVersion": "1.8.0"
+  "originExbVersion": "1.10.0"
 }
