@@ -391,7 +391,8 @@
         "9",
         "10",
         "11",
-        "13"
+        "13",
+        "14"
       ],
       "content": {
         "8": {
@@ -400,9 +401,9 @@
             "left": "120.00px",
             "right": "67.0186%",
             "top": 8,
-            "bottom": "10.0000%",
+            "bottom": "5.00px",
             "width": 100,
-            "height": "50.00px"
+            "height": "85.00%"
           },
           "widgetId": "widget_52",
           "isPending": false,
@@ -421,9 +422,9 @@
             "left": "220.00px",
             "right": "57.2540%",
             "top": 8,
-            "bottom": "10.0000%",
+            "bottom": "5.00px",
             "width": 100,
-            "height": "50.00px"
+            "height": "85.00%"
           },
           "widgetId": "widget_55",
           "isPending": false,
@@ -513,9 +514,9 @@
             "left": "20.00px",
             "right": "69.4%",
             "top": "8px",
-            "bottom": "9.9%",
+            "bottom": "5.00px",
             "width": "100.00px",
-            "height": "50.00px"
+            "height": "85.00%"
           },
           "widgetId": "widget_175",
           "isPending": false,
@@ -528,6 +529,28 @@
               "left": false,
               "right": true
             }
+          }
+        },
+        "14": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "350.00px",
+            "right": "70.7%",
+            "top": "50%",
+            "bottom": "3.1%",
+            "width": "200.00px",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_260",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "width": "CUSTOM"
+            },
+            "vCenter": true
           }
         }
       },
@@ -6257,6 +6280,65 @@
       "order": [
         "0"
       ]
+    },
+    "layout_221": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "30.00px",
+            "right": "30.00px",
+            "top": "30.00px",
+            "bottom": "19.8%",
+            "width": "80.0%",
+            "height": "380.00px"
+          },
+          "widgetId": "widget_261",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "27.1%",
+            "top": "82.8%",
+            "bottom": "30.00px",
+            "width": "200.00px",
+            "height": "50px"
+          },
+          "widgetId": "widget_262",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": true
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
     }
   },
   "exbVersion": "1.10.0",
@@ -12709,6 +12791,99 @@
         }
       },
       "id": "widget_259"
+    },
+    "widget_260": {
+      "uri": "widgets/common/button/",
+      "version": "1.10.0",
+      "label": "Plat Button",
+      "config": {
+        "functionConfig": {
+          "text": "Improve These Maps!",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_19"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": false,
+          "customStyle": {
+            "regular": {
+              "iconProps": {
+                "color": "#181818",
+                "size": 14
+              }
+            },
+            "hover": {
+              "iconProps": {
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_260"
+    },
+    "widget_261": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Text 4",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Here's something that you might already know:</span></p><p style=\"text-align: center;\"><em style=\"font-size: 16px;\">our data is not perfect</em><span style=\"font-size: 16px;\">.</span></p><p style=\"text-align: center;\"><br></p><p><span style=\"font-size: 13px;\">Some of our parcels haven't been properly reviewe</span>d since the data was <strong>on paper</strong>. And in the conversion from paper to CAD to GIS, plus the fact that mapping staff have always been humans, errors have been introduced over time.</p><p><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Here's something you might not know:</span></p><p style=\"text-align: center;\"><em style=\"font-size: 16px;\">you can help!</em></p><p><br></p><p>When we spot inaccuracies in our data, a good plat of survey is usually all it takes to get things fixed. The problem is <em>most </em>plats of survey don't get recorded, so we never see them! If you have a plat of survey, consider sending us a copy through the form linked below.</p><p><br></p><p>Thanks!</p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_261"
+    },
+    "widget_262": {
+      "uri": "widgets/common/button/",
+      "version": "1.10.0",
+      "label": "Button 6",
+      "config": {
+        "functionConfig": {
+          "text": "Send your Plat!",
+          "textExpression": null,
+          "icon": {
+            "data": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M14 2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3.986a.5.5 0 0 1 .001-.024L0 4a2 2 0 0 1 2-2h12Zm1 2.934L8.277 9.416a.5.5 0 0 1-.554 0L1 4.935V12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4.934ZM14 3H2a1 1 0 0 0-.97.752L8 8.398l6.97-4.646A1 1 0 0 0 14 3Z\" fill=\"#000\"></path></svg>",
+            "position": "LEFT"
+          },
+          "toolTip": "",
+          "toolTipExpression": null,
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://survey123.arcgis.com/share/f7adc763c55e4f07aa3cbb9e0c57de67?portalUrl=https://maps.co.kendall.il.us/portal",
+            "expression": null
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false,
+          "customStyle": {
+            "regular": {
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 14
+              }
+            },
+            "hover": {
+              "iconProps": {
+                "color": "#050505",
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_262"
     }
   },
   "widgetsManifest": {},
@@ -12978,6 +13153,36 @@
           "configType": "GENTLE"
         }
       },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false
+    },
+    "dialog_19": {
+      "id": "dialog_19",
+      "mode": "ANCHORED",
+      "sizeMode": {
+        "LARGE": {
+          "position": null,
+          "width": "480px",
+          "height": "500px"
+        }
+      },
+      "closeWhenClickOverlay": true,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fill",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": null,
+      "layout": {
+        "LARGE": "layout_221"
+      },
+      "index": 5,
+      "isSplash": false,
+      "label": "Call for Plats",
       "interactionType": null,
       "interactionStyles": null,
       "confirmBeforeClose": true,
@@ -13897,7 +14102,7 @@
       "SMALL": "layout_38"
     },
     "height": {
-      "LARGE": "60px",
+      "LARGE": "65px",
       "SMALL": "50px"
     },
     "backgroundColor": "var(--info-900)"
@@ -13932,7 +14137,7 @@
       }
     }
   },
-  "timestamp": 1684884240219,
+  "timestamp": 1685024778742,
   "sharedThemeVariables": {
     "header": {
       "bg": "#0b2931",
