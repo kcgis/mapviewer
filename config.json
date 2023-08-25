@@ -91,19 +91,6 @@
         }
       }
     },
-    "page_8": {
-      "id": "page_8",
-      "mode": "FIT_WINDOW",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_213"
-      },
-      "isDefault": false,
-      "isVisible": true,
-      "label": "Repetitive Loss Properties",
-      "header": true,
-      "footer": true
-    },
     "page_9": {
       "id": "page_9",
       "type": "FOLDER",
@@ -188,12 +175,12 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": 0,
-            "right": 0,
-            "top": 0,
-            "bottom": 0,
-            "width": "100.0000%",
-            "height": "100.0000%"
+            "left": "0px",
+            "right": "0px",
+            "top": "0px",
+            "bottom": "0px",
+            "width": "100.0%",
+            "height": "100.0%"
           },
           "widgetId": "widget_65",
           "setting": {
@@ -852,9 +839,11 @@
           "type": "WIDGET",
           "bbox": {
             "right": "0.0%",
-            "top": "0%",
-            "width": "60.00px",
-            "height": "230.00px"
+            "top": "0.0%",
+            "width": "60px",
+            "height": "300.00px",
+            "left": "1860px",
+            "bottom": "668px"
           },
           "widgetId": "widget_240",
           "setting": {
@@ -866,7 +855,8 @@
             },
             "vCenter": false,
             "hCenter": false
-          }
+          },
+          "isPending": false
         }
       }
     },
@@ -5281,21 +5271,8 @@
     },
     "layout_188": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_236",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_189": {
       "label": "Controller layout",
@@ -5352,21 +5329,8 @@
     },
     "layout_190": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_234",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_191": {
       "label": "Controller layout",
@@ -5423,21 +5387,8 @@
     },
     "layout_192": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_234",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_193": {
       "label": "Controller layout",
@@ -5474,28 +5425,16 @@
     },
     "layout_194": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_239",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_195": {
       "label": "Controller layout",
       "order": [
         "0",
         "1",
-        "2"
+        "2",
+        "3"
       ],
       "content": {
         "0": {
@@ -5539,6 +5478,18 @@
               "height": "AUTO"
             }
           }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "60px",
+            "top": "0px",
+            "bottom": "300px",
+            "width": "60px",
+            "height": "300px"
+          },
+          "widgetId": "widget_263"
         }
       }
     },
@@ -5547,7 +5498,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_241",
+          "widgetId": "widget_263",
           "bbox": {
             "left": 0,
             "top": 0,
@@ -5613,21 +5564,8 @@
     },
     "layout_198": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_246",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_199": {
       "label": "Controller layout",
@@ -5664,21 +5602,8 @@
     },
     "layout_200": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_250",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_201": {
       "label": "Controller layout",
@@ -5715,21 +5640,8 @@
     },
     "layout_202": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_239",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_203": {
       "label": "Controller layout",
@@ -5784,21 +5696,8 @@
     },
     "layout_204": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_246",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_205": {
       "label": "Controller layout",
@@ -5835,21 +5734,8 @@
     },
     "layout_206": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_250",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_207": {
       "label": "Controller layout",
@@ -5886,21 +5772,8 @@
     },
     "layout_208": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_239",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_209": {
       "label": "Controller layout",
@@ -5955,21 +5828,8 @@
     },
     "layout_210": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_246",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_211": {
       "label": "Controller layout",
@@ -6006,53 +5866,8 @@
     },
     "layout_212": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_250",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_213": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_252",
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_214": {
       "type": "FIXED",
@@ -6265,21 +6080,8 @@
     },
     "layout_220": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_259",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_221": {
       "type": "FIXED",
@@ -6341,7 +6143,7 @@
       }
     }
   },
-  "exbVersion": "1.10.0",
+  "exbVersion": "1.12.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/shared-theme/",
   "forBuilderAttributes": {
@@ -6360,7 +6162,7 @@
   "widgets": {
     "widget_1": {
       "uri": "widgets/common/image/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Logo",
       "config": {
         "functionConfig": {
@@ -6416,7 +6218,7 @@
     },
     "widget_2": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Title",
       "config": {
         "text": "<p><span style=\"letter-spacing: 2.75px; font-size: 18px;\">KENDALL COUNTY GIS</span></p><p style=\"line-height: 1.6;\"><span style=\"letter-spacing: 2px;\">Map Viewer</span></p>",
@@ -6429,7 +6231,7 @@
     },
     "widget_4": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Disclaimer Title",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿Legal Disclaimer</strong></p>",
@@ -6442,7 +6244,7 @@
     },
     "widget_5": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Disclaimer Text",
       "config": {
         "text": "<p style=\"text-align: justify;\">The data and layers in these maps do not represent a survey. No accuracy is assumed for the data delineated herein, either expressed or implied by Kendall County or its employees.</p><p style=\"text-align: justify;\"><br></p><p style=\"text-align: justify;\">These data are compiled from official records, including plats, surveys, recorded deeds, contracts, and only contains information required for local government purposes. See the recorded documents for more detailed legal information.<span style=\"color: var(--dark-800);\">﻿</span></p>",
@@ -6618,7 +6420,7 @@
     },
     "widget_52": {
       "uri": "widgets/layout/column/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Changelog Button",
       "config": {
         "space": 0,
@@ -6642,7 +6444,7 @@
     },
     "widget_53": {
       "uri": "widgets/common/button/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Changelog Button",
       "config": {
         "functionConfig": {
@@ -6653,7 +6455,12 @@
           "text": "",
           "textExpression": null,
           "icon": {
-            "data": "${appResourceUrl}/images/icon_picker_in_setting/1599156312196.svg",
+            "data": {
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1599156312196.svg",
+              "properties": {
+                "filename": ""
+              }
+            },
             "position": "LEFT"
           }
         },
@@ -6722,7 +6529,7 @@
     },
     "widget_54": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Changelog Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Changelog</strong></p>",
@@ -6735,7 +6542,7 @@
     },
     "widget_55": {
       "uri": "widgets/layout/column/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Bugs Button",
       "config": {
         "space": 0,
@@ -6759,7 +6566,7 @@
     },
     "widget_56": {
       "uri": "widgets/common/button/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Bugs Button",
       "config": {
         "functionConfig": {
@@ -6770,7 +6577,12 @@
           "text": "",
           "textExpression": null,
           "icon": {
-            "data": "${appResourceUrl}/images/icon_picker_in_setting/1599156363968.svg",
+            "data": {
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1599156363968.svg",
+              "properties": {
+                "filename": ""
+              }
+            },
             "position": "LEFT"
           }
         },
@@ -6839,7 +6651,7 @@
     },
     "widget_57": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Bugs Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Bugs</strong></p>",
@@ -6852,7 +6664,7 @@
     },
     "widget_58": {
       "uri": "widgets/common/divider/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Contact Divider",
       "config": {
         "direction": "Vertical",
@@ -6877,7 +6689,7 @@
     },
     "widget_59": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Department Name",
       "config": {
         "text": "<p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">KENDALL COUNTY</span></p><p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">GEOGRAPHIC INFORMATION SYSTEMS</span></p>",
@@ -6890,7 +6702,7 @@
     },
     "widget_60": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Contact Information",
       "config": {
         "text": "<p style=\"line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light);\">630.553.4212</span></p><p style=\"line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light);\">kcgis@kendallcountyil.gov</span></p>",
@@ -6903,7 +6715,7 @@
     },
     "widget_63": {
       "uri": "widgets/common/menu/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Navigator",
       "config": {
         "type": "nav",
@@ -6982,7 +6794,7 @@
     },
     "widget_64": {
       "uri": "widgets/common/divider/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Divider",
       "config": {
         "direction": "Vertical",
@@ -7007,7 +6819,7 @@
     },
     "widget_65": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Explore Map",
       "config": {
         "isUseCustomMapState": true,
@@ -7048,8 +6860,8 @@
           "canLayers": true,
           "canCompass": true,
           "canMeasure": true,
-          "canSelect": false,
-          "canSelectState": false,
+          "canSelect": true,
+          "canSelectState": true,
           "canScaleBar": false,
           "canFullScreen": false,
           "canLocate": true,
@@ -9085,7 +8897,7 @@
     },
     "widget_136": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Property Information Sidebar",
       "config": {
         "direction": "HORIZONTAL",
@@ -9158,7 +8970,7 @@
     },
     "widget_137": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Property Characteristics Map",
       "config": {
         "isUseCustomMapState": true,
@@ -9221,7 +9033,7 @@
     },
     "widget_138": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Parcel Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -9256,7 +9068,7 @@
     },
     "widget_139": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "CAMA Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -9291,7 +9103,7 @@
     },
     "widget_140": {
       "uri": "widgets/layout/row/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Feature Info",
       "config": {},
       "id": "widget_140",
@@ -9303,7 +9115,7 @@
     },
     "widget_141": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Parcel Info Heading",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Parcel Information</span></p>",
@@ -9316,7 +9128,7 @@
     },
     "widget_142": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Parcel Info Heading copy",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">CAMA Information</span></p>",
@@ -9545,7 +9357,8 @@
       "id": "widget_169",
       "useMapWidgetIds": [
         "widget_66"
-      ]
+      ],
+      "enableDataAction": false
     },
     "widget_170": {
       "uri": "widgets/arcgis/legend/",
@@ -9561,7 +9374,7 @@
     },
     "widget_175": {
       "uri": "widgets/layout/column/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "About Button",
       "config": {
         "space": 0,
@@ -9585,7 +9398,7 @@
     },
     "widget_176": {
       "uri": "widgets/common/button/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "About Button",
       "config": {
         "functionConfig": {
@@ -9596,7 +9409,12 @@
           "text": "",
           "textExpression": null,
           "icon": {
-            "data": "${appResourceUrl}/images/icon_picker_in_setting/1621618192816.png",
+            "data": {
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1621618192816.png",
+              "properties": {
+                "filename": ""
+              }
+            },
             "position": "LEFT"
           }
         },
@@ -9665,7 +9483,7 @@
     },
     "widget_177": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "About Button Text",
       "config": {
         "text": "<p style=\"line-height: 1.2; text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">About</strong></p>",
@@ -10525,7 +10343,8 @@
       "id": "widget_199",
       "useMapWidgetIds": [
         "widget_145"
-      ]
+      ],
+      "enableDataAction": false
     },
     "widget_204": {
       "uri": "widgets/layout/sidebar/",
@@ -11855,7 +11674,7 @@
     },
     "widget_233": {
       "uri": "widgets/common/controller/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Widget Controller",
       "config": {
         "behavior": {
@@ -12181,7 +12000,7 @@
     },
     "widget_240": {
       "uri": "widgets/common/controller/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Widget Controller 3",
       "config": {
         "behavior": {
@@ -12201,6 +12020,10 @@
             "widget_243": {
               "width": 476,
               "height": 539
+            },
+            "widget_263": {
+              "width": 431,
+              "height": 272
             }
           }
         },
@@ -12230,7 +12053,7 @@
     },
     "widget_241": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "icon": {
         "svg": "${appResourceUrl}/images/icon_picker_in_setting/1652381228318.png",
         "properties": {
@@ -12565,18 +12388,6 @@
       },
       "id": "widget_251"
     },
-    "widget_252": {
-      "uri": "widgets/common/embed/",
-      "version": "1.10.0",
-      "label": "Embed",
-      "config": {
-        "embedType": "url",
-        "expression": "<p>https://maps.co.kendall.il.us/portal/apps/dashboards/3261613b67e54d9e8a9e12544c01502e</p>",
-        "enableLabel": false
-      },
-      "id": "widget_252",
-      "useDataSources": []
-    },
     "widget_253": {
       "uri": "widgets/common/embed/",
       "version": "1.10.0",
@@ -12754,7 +12565,7 @@
     },
     "widget_260": {
       "uri": "widgets/common/button/",
-      "version": "1.10.0",
+      "version": "1.12.0",
       "label": "Plat Button",
       "config": {
         "functionConfig": {
@@ -12843,6 +12654,46 @@
         }
       },
       "id": "widget_262"
+    },
+    "widget_263": {
+      "uri": "widgets/common/add-data/",
+      "version": "1.12.0",
+      "label": "Add Data",
+      "config": {
+        "itemCategoriesInfo": [
+          {
+            "type": "MY_CONTENT",
+            "customLabel": "",
+            "enabled": false,
+            "id": "MY_CONTENT"
+          },
+          {
+            "type": "MY_GROUP",
+            "customLabel": "",
+            "enabled": false,
+            "id": "MY_GROUP"
+          },
+          {
+            "type": "MY_ORGANIZATION",
+            "customLabel": "",
+            "enabled": true,
+            "id": "MY_ORGANIZATION"
+          },
+          {
+            "type": "PUBLIC",
+            "customLabel": "",
+            "enabled": true,
+            "id": "PUBLIC"
+          },
+          {
+            "type": "LIVING_ATLAS",
+            "customLabel": "",
+            "enabled": true,
+            "id": "LIVING_ATLAS"
+          }
+        ]
+      },
+      "id": "widget_263"
     }
   },
   "widgetsManifest": {},
@@ -14030,8 +13881,7 @@
     },
     {
       "page_11": [
-        "page_1",
-        "page_8"
+        "page_1"
       ]
     },
     {
@@ -14096,21 +13946,23 @@
       }
     }
   },
-  "timestamp": 1685024778742,
+  "timestamp": 1692994013076,
   "sharedThemeVariables": {
     "header": {
-      "bg": "#0b2931",
-      "color": "#ffffff"
-    },
-    "body": {
-      "link": "#d56740"
-    },
-    "button": {
       "bg": "#263a56",
       "color": "#ffffff"
     },
+    "body": {
+      "bg": "#ffffff",
+      "color": "#263a56",
+      "link": "#324d78"
+    },
+    "button": {
+      "bg": "#324d78",
+      "color": "#ffffff"
+    },
     "logo": {
-      "small": "https://maps.co.kendall.il.us/portal/sharing/rest/content/items/5f125690c5ae4a039d741257a8ee738d/data"
+      "small": "https://maps.co.kendall.il.us/portal/sharing/rest/content/items/54f1ef9f22cd45c097d448c7a61ab6e3/data"
     }
   },
   "utilities": {
@@ -14122,7 +13974,7 @@
       "label": "Address Locator"
     }
   },
-  "originExbVersion": "1.10.0",
+  "originExbVersion": "1.12.0",
   "historyLabels": {
     "pages": {
       "page_0": [
