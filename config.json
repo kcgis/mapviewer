@@ -375,7 +375,6 @@
       "order": [
         "12",
         "8",
-        "9",
         "10",
         "11",
         "13",
@@ -393,27 +392,6 @@
             "height": "85.00%"
           },
           "widgetId": "widget_52",
-          "isPending": false,
-          "setting": {
-            "vCenter": false,
-            "hCenter": false,
-            "autoProps": {
-              "bottom": false,
-              "top": true
-            }
-          }
-        },
-        "9": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "220.00px",
-            "right": "57.2540%",
-            "top": 8,
-            "bottom": "5.00px",
-            "width": 100,
-            "height": "85.00%"
-          },
-          "widgetId": "widget_55",
           "isPending": false,
           "setting": {
             "vCenter": false,
@@ -521,7 +499,7 @@
         "14": {
           "type": "WIDGET",
           "bbox": {
-            "left": "350.00px",
+            "left": "250.00px",
             "right": "70.7%",
             "top": "50%",
             "bottom": "3.1%",
@@ -651,71 +629,13 @@
           "bbox": {
             "left": "5.0%",
             "right": "5.0%",
-            "top": "50px",
+            "top": "45px",
             "bottom": "15px",
             "width": "90.0%",
-            "height": "85.0%"
+            "height": "86.1%"
           },
           "widgetId": "widget_16",
           "isPending": false
-        }
-      },
-      "order": [
-        "4",
-        "5"
-      ],
-      "setting": {
-        "lockDescendants": true
-      }
-    },
-    "layout_18": {
-      "type": "FIXED",
-      "label": "Default",
-      "content": {
-        "4": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "AUTO",
-              "width": "CUSTOM",
-              "left": false,
-              "right": true
-            },
-            "hCenter": true
-          },
-          "bbox": {
-            "left": "50%",
-            "right": "22.4806%",
-            "top": "0.00%",
-            "bottom": "98.4334%",
-            "width": "100.00%",
-            "height": "6.9191%"
-          },
-          "widgetId": "widget_44"
-        },
-        "5": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": true,
-              "bottom": false,
-              "height": "STRETCH"
-            },
-            "hCenter": true
-          },
-          "bbox": {
-            "left": "50%",
-            "right": "28.5%",
-            "top": "50.00px",
-            "bottom": "15.00px",
-            "width": "90.00%",
-            "height": "14.7%"
-          },
-          "widgetId": "widget_45"
         }
       },
       "order": [
@@ -778,56 +698,6 @@
         "justifyContent": "flex-start"
       }
     },
-    "layout_23": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {
-              "alignSelf": "center"
-            },
-            "autoProps": {
-              "width": "CUSTOM"
-            }
-          },
-          "bbox": {
-            "width": "30.00px",
-            "height": "30.00px"
-          },
-          "widgetId": "widget_56"
-        },
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "width": "60px",
-            "height": "22px"
-          },
-          "widgetId": "widget_57"
-        }
-      },
-      "order": [
-        "0",
-        "1"
-      ],
-      "setting": {
-        "space": 0,
-        "padding": {
-          "space": [
-            10
-          ],
-          "unit": "px"
-        },
-        "justifyContent": "flex-start"
-      }
-    },
     "layout_25": {
       "type": "FIXED",
       "label": "Map FixedLayout",
@@ -841,7 +711,7 @@
             "right": "0.0%",
             "top": "0.0%",
             "width": "60px",
-            "height": "300.00px",
+            "height": "350.00px",
             "left": "1860px",
             "bottom": "668px"
           },
@@ -873,7 +743,7 @@
             "right": "0.0%",
             "top": "0%",
             "width": "60.00px",
-            "height": "230.00px"
+            "height": "300.00px"
           },
           "widgetId": "widget_244",
           "setting": {
@@ -903,7 +773,7 @@
             "right": "0.0%",
             "top": "0%",
             "width": "60.00px",
-            "height": "230.00px"
+            "height": "300.00px"
           },
           "widgetId": "widget_237",
           "setting": {
@@ -2574,7 +2444,7 @@
             "right": "0px",
             "top": "0.00px",
             "width": "7.7%",
-            "height": "250.00px",
+            "height": "300.00px",
             "left": "92.3%",
             "bottom": "59.5%"
           },
@@ -2747,7 +2617,7 @@
             "right": "0%",
             "top": "0%",
             "width": "60.00px",
-            "height": "230.00px"
+            "height": "300.00px"
           },
           "widgetId": "widget_248",
           "setting": {
@@ -5221,7 +5091,8 @@
       "order": [
         "1",
         "2",
-        "0"
+        "0",
+        "3"
       ],
       "content": {
         "0": {
@@ -5266,13 +5137,13 @@
           },
           "widgetId": "widget_236",
           "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_264",
+          "bbox": {}
         }
       }
-    },
-    "layout_188": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
     },
     "layout_189": {
       "label": "Controller layout",
@@ -5327,11 +5198,6 @@
         }
       }
     },
-    "layout_190": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
-    },
     "layout_191": {
       "label": "Controller layout",
       "order": [
@@ -5385,16 +5251,12 @@
         }
       }
     },
-    "layout_192": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
-    },
     "layout_193": {
       "label": "Controller layout",
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "content": {
         "0": {
@@ -5420,13 +5282,13 @@
             "height": "70px"
           },
           "widgetId": "widget_239"
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_265",
+          "bbox": {}
         }
       }
-    },
-    "layout_194": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
     },
     "layout_195": {
       "label": "Controller layout",
@@ -5434,6 +5296,7 @@
         "0",
         "1",
         "2",
+        "4",
         "3"
       ],
       "content": {
@@ -5490,33 +5353,21 @@
             "height": "300px"
           },
           "widgetId": "widget_263"
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_267",
+          "bbox": {}
         }
       }
-    },
-    "layout_196": {
-      "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_263",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
     },
     "layout_197": {
       "label": "Controller layout",
       "order": [
         "0",
         "1",
-        "2"
+        "2",
+        "3"
       ],
       "content": {
         "0": {
@@ -5559,19 +5410,20 @@
               "height": "AUTO"
             }
           }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_266",
+          "bbox": {}
         }
       }
-    },
-    "layout_198": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
     },
     "layout_199": {
       "label": "Controller layout",
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "content": {
         "0": {
@@ -5597,13 +5449,13 @@
             "height": "70px"
           },
           "widgetId": "widget_250"
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_268",
+          "bbox": {}
         }
       }
-    },
-    "layout_200": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
     },
     "layout_201": {
       "label": "Controller layout",
@@ -5637,11 +5489,6 @@
         "0",
         "1"
       ]
-    },
-    "layout_202": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
     },
     "layout_203": {
       "label": "Controller layout",
@@ -5694,11 +5541,6 @@
         "2"
       ]
     },
-    "layout_204": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
-    },
     "layout_205": {
       "label": "Controller layout",
       "content": {
@@ -5732,11 +5574,6 @@
         "1"
       ]
     },
-    "layout_206": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
-    },
     "layout_207": {
       "label": "Controller layout",
       "content": {
@@ -5769,11 +5606,6 @@
         "0",
         "1"
       ]
-    },
-    "layout_208": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
     },
     "layout_209": {
       "label": "Controller layout",
@@ -5826,11 +5658,6 @@
         "2"
       ]
     },
-    "layout_210": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
-    },
     "layout_211": {
       "label": "Controller layout",
       "content": {
@@ -5863,11 +5690,6 @@
         "0",
         "1"
       ]
-    },
-    "layout_212": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
     },
     "layout_214": {
       "type": "FIXED",
@@ -6078,11 +5900,6 @@
         }
       }
     },
-    "layout_220": {
-      "label": "Open widget layout",
-      "content": {},
-      "order": []
-    },
     "layout_221": {
       "type": "FIXED",
       "content": {
@@ -6143,7 +5960,7 @@
       }
     }
   },
-  "exbVersion": "1.12.0",
+  "exbVersion": "1.13.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/shared-theme/",
   "forBuilderAttributes": {
@@ -6162,7 +5979,7 @@
   "widgets": {
     "widget_1": {
       "uri": "widgets/common/image/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Logo",
       "config": {
         "functionConfig": {
@@ -6218,7 +6035,7 @@
     },
     "widget_2": {
       "uri": "widgets/common/text/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Title",
       "config": {
         "text": "<p><span style=\"letter-spacing: 2.75px; font-size: 18px;\">KENDALL COUNTY GIS</span></p><p style=\"line-height: 1.6;\"><span style=\"letter-spacing: 2px;\">Map Viewer</span></p>",
@@ -6231,7 +6048,7 @@
     },
     "widget_4": {
       "uri": "widgets/common/text/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Disclaimer Title",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 16px;\">﻿Legal Disclaimer</strong></p>",
@@ -6244,7 +6061,7 @@
     },
     "widget_5": {
       "uri": "widgets/common/text/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Disclaimer Text",
       "config": {
         "text": "<p style=\"text-align: justify;\">The data and layers in these maps do not represent a survey. No accuracy is assumed for the data delineated herein, either expressed or implied by Kendall County or its employees.</p><p style=\"text-align: justify;\"><br></p><p style=\"text-align: justify;\">These data are compiled from official records, including plats, surveys, recorded deeds, contracts, and only contains information required for local government purposes. See the recorded documents for more detailed legal information.<span style=\"color: var(--dark-800);\">﻿</span></p>",
@@ -6257,7 +6074,7 @@
     },
     "widget_15": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Changelog Title",
       "config": {
         "text": "<p style=\"line-height: 2; text-align: center;\"><span style=\"color: var(--light); font-size: 18px;\">Changelog</span></p>",
@@ -6279,51 +6096,16 @@
     },
     "widget_16": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Changelog Text",
       "config": {
-        "text": "<p><strong style=\"font-size: 16px;\">May 2023 |  Version 2.4</strong></p><ul><li>Adding direct access to additional GIS tools from the main viewer. Several headings in the main toolbar are now dropdowns with extra links in them.</li><li><strong>New tool! </strong>We are testing out the <em>time slider</em> tool on its own page here, giving users a different way of looking at historic map features.</li></ul><p><br></p><p><strong style=\"font-size: 16px;\">November 2022 |  Version 2.3.1</strong></p><ul><li>Search bar moved back into individual maps by popular request</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">May 2022 | Version 2.3</strong></p><ul><li>Single search bar added to header, removed map-specific search widgets</li><li>Added \"sketch\" capability to maps</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">January 2022 | Version 2.2.1</strong></p><p>Minor changes.</p><ul><li>Property Information map includes basemap tool</li><li>Legislative Districts tab mobile/tablet views reconfigured for accessibility</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">January 2022 | Version 2.2</strong></p><ul><li>Voting tab now focuses on browsing the legislative districts. Voting lookup tool has been moved to own dedicated application</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">May 2021 | Version 2.1</strong></p><ul><li>Property Information tab no longer shows \"1 of XXXX\" with parcel / CAMA pre-selected. Only shows information upon selection.</li><li>Voting Lookup map also only shows info upon selection</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿May 2021 | Version 2.0﻿</strong></p><ul><li>Renamed \"Map Viewer\" -- No more beta!</li><li>CAMA and Sales data can be spatially filtered and / or exported to CSV</li><li>Added tabs for Property Characteristics and Voting Information Lookup</li><li>Broke up the Guide into separate guides per page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿January 2021 | Version 1.2.1</strong></p><ul><li>Updated the Guide panel to address various updated features</li><li>Filter panel will appear by default in CAMA viewer</li><li>Adjustments to layer symbology</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">January 2021 | Version 1.2</strong></p><ul><li>Updated maps to be compliant with ArcGIS JavaScript API v 4.18</li><li>Added \"Table View\" to CAMA &amp; Sales page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">September 2020 | Version 1.1</strong></p><ul><li style=\"text-align: left;\">Guide, changelog, and bugs list moved into side panel windows</li><li style=\"text-align: left;\">Disclaimer appears as splash upon loading viewer</li><li style=\"text-align: left;\">Published viewer to official URL</li></ul><p style=\"line-height: 2; text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px; color: var(--dark-800);\">August 2020 | Version 1.0</strong></p><ul><li>Map Viewer officially released for public use</li></ul>",
+        "text": "<p><strong style=\"font-size: 16px;\">Nov 2023 |  Version 2.4.1</strong></p><ul><li>Print widget has been added to the following maps:</li><li class=\"ql-indent-1\">Property Characteristics</li><li class=\"ql-indent-1\">CAMA &amp; Sales</li><li class=\"ql-indent-1\">Zoning</li><li class=\"ql-indent-1\">Voting</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px;\">May 2023 |  Version 2.4</strong></p><ul><li>Adding direct access to additional GIS tools from the main viewer. Several headings in the main toolbar are now dropdowns with extra links in them.</li><li><strong>New tool! </strong>We are testing out the <em>time slider</em> tool on its own page here, giving users a different way of looking at historic map features.</li></ul><p><br></p><p><strong style=\"font-size: 16px;\">November 2022 |  Version 2.3.1</strong></p><ul><li>Search bar moved back into individual maps by popular request</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">May 2022 | Version 2.3</strong></p><ul><li>Single search bar added to header, removed map-specific search widgets</li><li>Added \"sketch\" capability to maps</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">January 2022 | Version 2.2.1</strong></p><p>Minor changes.</p><ul><li>Property Information map includes basemap tool</li><li>Legislative Districts tab mobile/tablet views reconfigured for accessibility</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">January 2022 | Version 2.2</strong></p><ul><li>Voting tab now focuses on browsing the legislative districts. Voting lookup tool has been moved to own dedicated application</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">May 2021 | Version 2.1</strong></p><ul><li>Property Information tab no longer shows \"1 of XXXX\" with parcel / CAMA pre-selected. Only shows information upon selection.</li><li>Voting Lookup map also only shows info upon selection</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿May 2021 | Version 2.0﻿</strong></p><ul><li>Renamed \"Map Viewer\" -- No more beta!</li><li>CAMA and Sales data can be spatially filtered and / or exported to CSV</li><li>Added tabs for Property Characteristics and Voting Information Lookup</li><li>Broke up the Guide into separate guides per page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿January 2021 | Version 1.2.1</strong></p><ul><li>Updated the Guide panel to address various updated features</li><li>Filter panel will appear by default in CAMA viewer</li><li>Adjustments to layer symbology</li></ul><p><br></p><p><br></p><p><strong style=\"color: var(--dark-800); font-size: 16px;\">January 2021 | Version 1.2</strong></p><ul><li>Updated maps to be compliant with ArcGIS JavaScript API v 4.18</li><li>Added \"Table View\" to CAMA &amp; Sales page</li></ul><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--dark-800);\">September 2020 | Version 1.1</strong></p><ul><li style=\"text-align: left;\">Guide, changelog, and bugs list moved into side panel windows</li><li style=\"text-align: left;\">Disclaimer appears as splash upon loading viewer</li><li style=\"text-align: left;\">Published viewer to official URL</li></ul><p style=\"line-height: 1.5; text-align: left;\"><br></p><p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-size: 16px; color: var(--dark-800);\">August 2020 | Version 1.0</strong></p><ul><li>Map Viewer officially released for public use</li></ul>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
         }
       },
       "id": "widget_16"
-    },
-    "widget_44": {
-      "uri": "widgets/common/text/",
-      "version": "1.8.0",
-      "label": "Known Issues Title",
-      "config": {
-        "text": "<p style=\"line-height: 2; text-align: center;\"><span style=\"font-size: 18px; color: var(--light);\">Known Issues﻿</span></p>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_44",
-      "style": {
-        "background": {
-          "color": "#324d78",
-          "fillType": "fit",
-          "image": {
-            "url": ""
-          }
-        }
-      }
-    },
-    "widget_45": {
-      "uri": "widgets/common/text/",
-      "version": "1.8.0",
-      "label": "Known Issues List",
-      "config": {
-        "text": "<ul><li style=\"text-align: left;\"><span style=\"color: var(--dark-800);\">Print capability is missing﻿, but it should be coming sometime 2022.</span></li></ul>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_45"
     },
     "widget_50": {
       "uri": "widgets/common/button/",
@@ -6420,7 +6202,7 @@
     },
     "widget_52": {
       "uri": "widgets/layout/column/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Changelog Button",
       "config": {
         "space": 0,
@@ -6444,7 +6226,7 @@
     },
     "widget_53": {
       "uri": "widgets/common/button/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Changelog Button",
       "config": {
         "functionConfig": {
@@ -6529,7 +6311,7 @@
     },
     "widget_54": {
       "uri": "widgets/common/text/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Changelog Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Changelog</strong></p>",
@@ -6540,33 +6322,9 @@
       },
       "id": "widget_54"
     },
-    "widget_55": {
-      "uri": "widgets/layout/column/",
-      "version": "1.12.0",
-      "label": "Bugs Button",
-      "config": {
-        "space": 0,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_55",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_23"
-        }
-      }
-    },
     "widget_56": {
       "uri": "widgets/common/button/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Bugs Button",
       "config": {
         "functionConfig": {
@@ -6651,7 +6409,7 @@
     },
     "widget_57": {
       "uri": "widgets/common/text/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Bugs Button Text",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.2;\"><strong style=\"color: rgb(255, 255, 255);\">Bugs</strong></p>",
@@ -6664,7 +6422,7 @@
     },
     "widget_58": {
       "uri": "widgets/common/divider/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Contact Divider",
       "config": {
         "direction": "Vertical",
@@ -6689,7 +6447,7 @@
     },
     "widget_59": {
       "uri": "widgets/common/text/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Department Name",
       "config": {
         "text": "<p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">KENDALL COUNTY</span></p><p style=\"text-align: right; line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light); letter-spacing: 0px;\">GEOGRAPHIC INFORMATION SYSTEMS</span></p>",
@@ -6702,7 +6460,7 @@
     },
     "widget_60": {
       "uri": "widgets/common/text/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Contact Information",
       "config": {
         "text": "<p style=\"line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light);\">630.553.4212</span></p><p style=\"line-height: 1.6;\"><span style=\"font-size: 12px; color: var(--light);\">kcgis@kendallcountyil.gov</span></p>",
@@ -6715,7 +6473,7 @@
     },
     "widget_63": {
       "uri": "widgets/common/menu/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Navigator",
       "config": {
         "type": "nav",
@@ -6794,7 +6552,7 @@
     },
     "widget_64": {
       "uri": "widgets/common/divider/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Divider",
       "config": {
         "direction": "Vertical",
@@ -6819,7 +6577,7 @@
     },
     "widget_65": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Explore Map",
       "config": {
         "isUseCustomMapState": true,
@@ -6885,11 +6643,12 @@
           "dataSourceId": "dataSource_2",
           "mainDataSourceId": "dataSource_2"
         }
-      ]
+      ],
+      "enableDataAction": false
     },
     "widget_66": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "PBZ Map",
       "config": {
         "isUseCustomMapState": false,
@@ -6918,11 +6677,12 @@
           "dataSourceId": "dataSource_3",
           "mainDataSourceId": "dataSource_3"
         }
-      ]
+      ],
+      "enableDataAction": false
     },
     "widget_67": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "CAMA and Sales Map",
       "config": {
         "isUseCustomMapState": true,
@@ -6978,7 +6738,8 @@
           "dataSourceId": "dataSource_6",
           "mainDataSourceId": "dataSource_6"
         }
-      ]
+      ],
+      "enableDataAction": false
     },
     "widget_72": {
       "uri": "widgets/common/menu/",
@@ -7406,7 +7167,7 @@
     },
     "widget_90": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Filter Sidebar",
       "config": {
         "direction": "HORIZONTAL",
@@ -7570,7 +7331,7 @@
     },
     "widget_97": {
       "uri": "widgets/common/table/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "CAMA and Sales Table",
       "config": {
         "layersConfig": [
@@ -7941,9 +7702,19 @@
             "enableEdit": false,
             "allowCsv": false,
             "enableSearch": true,
-            "searchFields": "pin",
+            "searchFields": [
+              "pin"
+            ],
             "enableRefresh": false,
-            "enableSelect": true
+            "enableSelect": true,
+            "headerFontSetting": {
+              "backgroundColor": "",
+              "fontSize": 14,
+              "bold": false,
+              "color": ""
+            },
+            "showCount": false,
+            "updateText": true
           },
           {
             "id": "dataSource_6-17402270ab8-layer-14-2",
@@ -8182,9 +7953,21 @@
             "enableEdit": false,
             "allowCsv": false,
             "enableSearch": true,
-            "searchFields": "grantor,grantee,property_key",
+            "searchFields": [
+              "grantor",
+              "grantee",
+              "property_key"
+            ],
             "enableRefresh": false,
-            "enableSelect": true
+            "enableSelect": true,
+            "headerFontSetting": {
+              "backgroundColor": "",
+              "fontSize": 14,
+              "bold": false,
+              "color": ""
+            },
+            "showCount": false,
+            "updateText": true
           },
           {
             "id": "dataSource_6-17401fdc775-layer-2-3",
@@ -8685,9 +8468,22 @@
             "enableEdit": false,
             "allowCsv": false,
             "enableSearch": true,
-            "searchFields": "pin,pin_dashless,owner_name,site_address",
+            "searchFields": [
+              "pin",
+              "pin_dashless",
+              "owner_name",
+              "site_address"
+            ],
             "enableRefresh": false,
-            "enableSelect": true
+            "enableSelect": true,
+            "headerFontSetting": {
+              "backgroundColor": "",
+              "fontSize": 14,
+              "bold": false,
+              "color": ""
+            },
+            "showCount": false,
+            "updateText": true
           }
         ],
         "arrangeType": "TABS"
@@ -8722,7 +8518,7 @@
     },
     "widget_98": {
       "uri": "widgets/common/navigator/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Map and Table Switcher",
       "config": {
         "data": {
@@ -8897,7 +8693,7 @@
     },
     "widget_136": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Property Information Sidebar",
       "config": {
         "direction": "HORIZONTAL",
@@ -8970,7 +8766,7 @@
     },
     "widget_137": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Property Characteristics Map",
       "config": {
         "isUseCustomMapState": true,
@@ -9013,7 +8809,8 @@
           "canBaseMap": true,
           "canLocate": false,
           "canMeasure": true,
-          "canCompass": true
+          "canCompass": true,
+          "canExtentNavigate": true
         }
       },
       "id": "widget_137",
@@ -9029,11 +8826,12 @@
           "dataSourceId": "dataSource_7",
           "mainDataSourceId": "dataSource_7"
         }
-      ]
+      ],
+      "enableDataAction": false
     },
     "widget_138": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Parcel Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -9068,7 +8866,7 @@
     },
     "widget_139": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "CAMA Info Lookup",
       "config": {
         "limitGraphics": false,
@@ -9103,7 +8901,7 @@
     },
     "widget_140": {
       "uri": "widgets/layout/row/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Feature Info",
       "config": {},
       "id": "widget_140",
@@ -9115,7 +8913,7 @@
     },
     "widget_141": {
       "uri": "widgets/common/text/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Parcel Info Heading",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Parcel Information</span></p>",
@@ -9128,7 +8926,7 @@
     },
     "widget_142": {
       "uri": "widgets/common/text/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Parcel Info Heading copy",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">CAMA Information</span></p>",
@@ -9141,7 +8939,7 @@
     },
     "widget_144": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Voting Map Content",
       "config": {
         "direction": "HORIZONTAL",
@@ -9214,7 +9012,7 @@
     },
     "widget_145": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Voting Map",
       "config": {
         "isUseCustomMapState": true,
@@ -9271,11 +9069,12 @@
           "dataSourceId": "dataSource_9",
           "mainDataSourceId": "dataSource_9"
         }
-      ]
+      ],
+      "enableDataAction": false
     },
     "widget_168": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Zoning Map Content",
       "config": {
         "direction": "HORIZONTAL",
@@ -9348,7 +9147,7 @@
     },
     "widget_169": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Zoning Layers",
       "config": {
         "useMapWidget": true,
@@ -9362,7 +9161,7 @@
     },
     "widget_170": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Legend",
       "config": {
         "cardStyle": false
@@ -9374,7 +9173,7 @@
     },
     "widget_175": {
       "uri": "widgets/layout/column/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "About Button",
       "config": {
         "space": 0,
@@ -9398,7 +9197,7 @@
     },
     "widget_176": {
       "uri": "widgets/common/button/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "About Button",
       "config": {
         "functionConfig": {
@@ -9483,7 +9282,7 @@
     },
     "widget_177": {
       "uri": "widgets/common/text/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "About Button Text",
       "config": {
         "text": "<p style=\"line-height: 1.2; text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">About</strong></p>",
@@ -9496,7 +9295,7 @@
     },
     "widget_179": {
       "uri": "widgets/common/text/",
-      "version": "1.8.0",
+      "version": "1.13.0",
       "label": "About Title",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 2;\"><span style=\"font-size: 18px; color: var(--light);\">﻿About</span></p>",
@@ -9518,7 +9317,7 @@
     },
     "widget_180": {
       "uri": "widgets/common/text/",
-      "version": "1.8.0",
+      "version": "1.13.0",
       "label": "About Text",
       "config": {
         "text": "<p style=\"text-align: justify;\"><span style=\"color: var(--dark-800);\">﻿This web application attempts to provide a single location for many of the more popular viewers, layers, and tools that our users have come to rely upon.</span></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: justify;\"><span style=\"color: var(--dark-800);\">Use the tabs / menu button at the top of the page to navigate between the different tools. If you are unsure of how to use a particular tool, each page has its own guide panel that you can reference.</span></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: justify;\"><span style=\"color: var(--dark-800);\">We will continue to develop this application as new capabilities become available or are requested. User feedback is a crucial element to that process, and we welcome any constructive comments you may have.</span></p><p style=\"text-align: justify;\"><br></p><p style=\"text-align: justify;\">Please note! Though we attempt to make this application adaptable to tablet and mobile devices, use of a full-size screen is recommended for best results.</p>",
@@ -10020,7 +9819,7 @@
     },
     "widget_197": {
       "uri": "widgets/common/filter/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "CAMA and Sales Filter",
       "config": {
         "groupByLayer": false,
@@ -10332,7 +10131,7 @@
     },
     "widget_199": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Voting Map Layers",
       "config": {
         "useMapWidget": true,
@@ -10348,7 +10147,7 @@
     },
     "widget_204": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "District Filters",
       "config": {
         "direction": "HORIZONTAL",
@@ -10461,23 +10260,6 @@
         "alignType": "CENTER",
         "scrollStep": 2,
         "cardConfigs": {
-          "REGULAR": {
-            "cardSize": {
-              "LARGE": {
-                "width": 234.16,
-                "height": 33.11
-              }
-            },
-            "enable": true,
-            "backgroundStyle": {
-              "border": {
-                "type": "solid",
-                "color": "var(--light-400)",
-                "width": "1px"
-              }
-            },
-            "listLayout": "Custom"
-          },
           "HOVER": {
             "cardSize": {
               "LARGE": {
@@ -10511,6 +10293,23 @@
             },
             "selectionMode": "SINGLE",
             "listLayout": "Auto"
+          },
+          "DEFAULT": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
           }
         },
         "style": {
@@ -10521,7 +10320,7 @@
       },
       "id": "widget_206",
       "layouts": {
-        "REGULAR": {
+        "DEFAULT": {
           "LARGE": "layout_164"
         },
         "SELECTED": {},
@@ -10564,7 +10363,7 @@
     },
     "widget_208": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Voting Map Legend",
       "config": {},
       "id": "widget_208",
@@ -10592,23 +10391,6 @@
         "alignType": "CENTER",
         "scrollStep": 2,
         "cardConfigs": {
-          "REGULAR": {
-            "cardSize": {
-              "LARGE": {
-                "width": 234.16,
-                "height": 33.11
-              }
-            },
-            "enable": true,
-            "backgroundStyle": {
-              "border": {
-                "type": "solid",
-                "color": "var(--light-400)",
-                "width": "1px"
-              }
-            },
-            "listLayout": "Custom"
-          },
           "HOVER": {
             "cardSize": {
               "LARGE": {
@@ -10642,6 +10424,23 @@
             },
             "selectionMode": "SINGLE",
             "listLayout": "Auto"
+          },
+          "DEFAULT": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
           }
         },
         "style": {
@@ -10652,7 +10451,7 @@
       },
       "id": "widget_209",
       "layouts": {
-        "REGULAR": {
+        "DEFAULT": {
           "LARGE": "layout_165"
         },
         "SELECTED": {},
@@ -10713,23 +10512,6 @@
         "alignType": "CENTER",
         "scrollStep": 2,
         "cardConfigs": {
-          "REGULAR": {
-            "cardSize": {
-              "LARGE": {
-                "width": 234.16,
-                "height": 33.11
-              }
-            },
-            "enable": true,
-            "backgroundStyle": {
-              "border": {
-                "type": "solid",
-                "color": "var(--light-400)",
-                "width": "1px"
-              }
-            },
-            "listLayout": "Custom"
-          },
           "HOVER": {
             "cardSize": {
               "LARGE": {
@@ -10763,6 +10545,23 @@
             },
             "selectionMode": "SINGLE",
             "listLayout": "Auto"
+          },
+          "DEFAULT": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 33.11
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
           }
         },
         "style": {
@@ -10773,7 +10572,7 @@
       },
       "id": "widget_211",
       "layouts": {
-        "REGULAR": {
+        "DEFAULT": {
           "LARGE": "layout_166"
         },
         "SELECTED": {},
@@ -10834,23 +10633,6 @@
         "alignType": "CENTER",
         "scrollStep": 2,
         "cardConfigs": {
-          "REGULAR": {
-            "cardSize": {
-              "LARGE": {
-                "width": 234.16,
-                "height": 30
-              }
-            },
-            "enable": true,
-            "backgroundStyle": {
-              "border": {
-                "type": "solid",
-                "color": "var(--light-400)",
-                "width": "1px"
-              }
-            },
-            "listLayout": "Custom"
-          },
           "HOVER": {
             "cardSize": {
               "LARGE": {
@@ -10884,6 +10666,23 @@
             },
             "selectionMode": "SINGLE",
             "listLayout": "Auto"
+          },
+          "DEFAULT": {
+            "cardSize": {
+              "LARGE": {
+                "width": 234.16,
+                "height": 30
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
           }
         },
         "style": {
@@ -10894,7 +10693,7 @@
       },
       "id": "widget_213",
       "layouts": {
-        "REGULAR": {
+        "DEFAULT": {
           "LARGE": "layout_167"
         },
         "SELECTED": {},
@@ -11086,7 +10885,7 @@
     },
     "widget_223": {
       "uri": "widgets/common/filter/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Legislative District Filters",
       "config": {
         "groupByLayer": false,
@@ -11342,7 +11141,7 @@
     },
     "widget_224": {
       "uri": "widgets/common/text/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Congress Note",
       "config": {
         "text": "<p>US Congressional District</p><p><br></p><p class=\"ql-indent-1\"><em>All of Kendall County falls within</em></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><em>District IL-14.</em></p>",
@@ -11529,7 +11328,8 @@
           "dataSourceId": "dataSource_9",
           "mainDataSourceId": "dataSource_9"
         }
-      ]
+      ],
+      "enableDataAction": false
     },
     "widget_230": {
       "uri": "widgets/layout/sidebar/",
@@ -11674,7 +11474,7 @@
     },
     "widget_233": {
       "uri": "widgets/common/controller/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Widget Controller",
       "config": {
         "behavior": {
@@ -11694,6 +11494,10 @@
             "widget_236": {
               "width": 305,
               "height": 166
+            },
+            "widget_264": {
+              "width": 308,
+              "height": 409
             }
           }
         },
@@ -11717,17 +11521,12 @@
           "LARGE": "layout_187",
           "MEDIUM": "layout_189",
           "SMALL": "layout_191"
-        },
-        "_openwidget": {
-          "LARGE": "layout_188",
-          "MEDIUM": "layout_190",
-          "SMALL": "layout_192"
         }
       }
     },
     "widget_234": {
       "uri": "widgets/arcgis/draw/",
-      "version": "1.6.0",
+      "version": "1.13.0",
       "label": "Draw",
       "config": {
         "isDisplayCanvasLayer": false,
@@ -11739,21 +11538,11 @@
           "polygon"
         ],
         "measurementsInfo": {
-          "enableMeasurements": true,
-          "fontsColor": [
-            0,
-            0,
-            0,
-            1
-          ],
-          "fontsSize": 12,
-          "haloColor": [
-            255,
-            255,
-            255,
-            1
-          ],
-          "haloSize": 2
+          "decimalPlaces": {
+            "point": 5,
+            "line": 3,
+            "area": 3
+          }
         },
         "measurementsUnitsInfos": [
           {
@@ -11903,7 +11692,7 @@
     },
     "widget_237": {
       "uri": "widgets/common/controller/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Widget Controller 2",
       "config": {
         "behavior": {
@@ -11919,6 +11708,10 @@
             "widget_239": {
               "width": 328,
               "height": 176
+            },
+            "widget_265": {
+              "width": 336,
+              "height": 521
             }
           }
         },
@@ -11942,11 +11735,6 @@
           "LARGE": "layout_193",
           "MEDIUM": "layout_201",
           "SMALL": "layout_207"
-        },
-        "_openwidget": {
-          "LARGE": "layout_194",
-          "MEDIUM": "layout_202",
-          "SMALL": "layout_208"
         }
       }
     },
@@ -12000,7 +11788,7 @@
     },
     "widget_240": {
       "uri": "widgets/common/controller/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Widget Controller 3",
       "config": {
         "behavior": {
@@ -12024,6 +11812,10 @@
             "widget_263": {
               "width": 431,
               "height": 272
+            },
+            "widget_267": {
+              "width": 323,
+              "height": 519
             }
           }
         },
@@ -12045,9 +11837,6 @@
       "layouts": {
         "controller": {
           "LARGE": "layout_195"
-        },
-        "_openwidget": {
-          "LARGE": "layout_196"
         }
       }
     },
@@ -12141,7 +11930,7 @@
     },
     "widget_244": {
       "uri": "widgets/common/controller/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Widget Controller 4",
       "config": {
         "behavior": {
@@ -12161,6 +11950,10 @@
             "widget_246": {
               "width": 232,
               "height": 177
+            },
+            "widget_266": {
+              "width": 322,
+              "height": 513
             }
           }
         },
@@ -12184,11 +11977,6 @@
           "LARGE": "layout_197",
           "MEDIUM": "layout_203",
           "SMALL": "layout_209"
-        },
-        "_openwidget": {
-          "LARGE": "layout_198",
-          "MEDIUM": "layout_204",
-          "SMALL": "layout_210"
         }
       }
     },
@@ -12280,7 +12068,7 @@
     },
     "widget_248": {
       "uri": "widgets/common/controller/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Widget Controller 5",
       "config": {
         "behavior": {
@@ -12296,6 +12084,10 @@
             "widget_249": {
               "width": 377,
               "height": 573
+            },
+            "widget_268": {
+              "width": 344,
+              "height": 583
             }
           }
         },
@@ -12319,11 +12111,6 @@
           "LARGE": "layout_199",
           "MEDIUM": "layout_205",
           "SMALL": "layout_211"
-        },
-        "_openwidget": {
-          "LARGE": "layout_200",
-          "MEDIUM": "layout_206",
-          "SMALL": "layout_212"
         }
       }
     },
@@ -12390,7 +12177,7 @@
     },
     "widget_253": {
       "uri": "widgets/common/embed/",
-      "version": "1.10.0",
+      "version": "1.13.0",
       "label": "Embed 2",
       "config": {
         "embedType": "url",
@@ -12453,7 +12240,8 @@
           "dataSourceId": "dataSource_11",
           "mainDataSourceId": "dataSource_11"
         }
-      ]
+      ],
+      "enableDataAction": false
     },
     "widget_257": {
       "uri": "widgets/common/timeline/",
@@ -12533,9 +12321,6 @@
       "layouts": {
         "controller": {
           "LARGE": "layout_219"
-        },
-        "_openwidget": {
-          "LARGE": "layout_220"
         }
       }
     },
@@ -12565,7 +12350,7 @@
     },
     "widget_260": {
       "uri": "widgets/common/button/",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "label": "Plat Button",
       "config": {
         "functionConfig": {
@@ -12694,6 +12479,1618 @@
         ]
       },
       "id": "widget_263"
+    },
+    "widget_264": {
+      "uri": "widgets/common/print/",
+      "version": "1.13.0",
+      "label": "Print",
+      "config": {
+        "printServiceType": "CUSTOMIZE",
+        "printTemplateType": "CUSTOMIZE",
+        "modeType": "CLASSIC",
+        "commonSetting": {
+          "scalePreserved": true,
+          "layoutOptions": {
+            "titleText": "Kendall County GIS Parcel Viewer Export"
+          },
+          "outScale": 36978595.474472,
+          "exportOptions": {
+            "dpi": 150
+          },
+          "printExtentType": "CURRENT MAP SCALE",
+          "forceFeatureAttributes": true,
+          "wkid": 102100,
+          "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+          "enableTitle": true,
+          "enableMapPrintExtents": true,
+          "enableOutputSpatialReference": false,
+          "enableQuality": true,
+          "enableFeatureAttribution": true
+        },
+        "previewBackgroundColor": "rgba(0,216,237,1)",
+        "enablePreview": true,
+        "previewOutLine": {
+          "color": "#000",
+          "size": "4px"
+        },
+        "hasInitBorder": true,
+        "printCustomTemplate": [
+          {
+            "scalePreserved": true,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "Kendall County GIS Parcel Viewer Export",
+              "scalebarUnit": "Miles",
+              "legendLayers": null,
+              "customTextElements": [],
+              "elementOverrides": {},
+              "authorText": "Kendall County GIS",
+              "copyrightText": ""
+            },
+            "exportOptions": {
+              "dpi": 150,
+              "width": 800,
+              "height": 1100
+            },
+            "printExtentType": "CURRENT MAP SCALE",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": false,
+            "enableQuality": true,
+            "enableFeatureAttribution": false,
+            "enableMapSize": true,
+            "overrideCommonSetting": true,
+            "enableAuthor": false,
+            "enableCopyright": false,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "Portrait Map",
+            "layout": "Letter ANSI A Portrait",
+            "format": "pdf",
+            "templateId": "config_custom_9",
+            "selectedFormatList": [
+              "jpg",
+              "pdf",
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false,
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "enableMapAttribution": true
+          },
+          {
+            "scalePreserved": true,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "Kendall County GIS Parcel Viewer Export",
+              "scalebarUnit": "Miles",
+              "legendLayers": null,
+              "customTextElements": [],
+              "elementOverrides": {},
+              "authorText": "Kendall County GIS",
+              "copyrightText": ""
+            },
+            "exportOptions": {
+              "dpi": 150,
+              "width": 800,
+              "height": 1100
+            },
+            "printExtentType": "CURRENT MAP SCALE",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": false,
+            "enableQuality": true,
+            "enableFeatureAttribution": false,
+            "enableMapSize": true,
+            "overrideCommonSetting": true,
+            "enableAuthor": false,
+            "enableCopyright": false,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "Landscape Map",
+            "layout": "Letter ANSI A Landscape",
+            "format": "pdf",
+            "templateId": "config_custom_10",
+            "selectedFormatList": [
+              "jpg",
+              "pdf",
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false,
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "enableMapAttribution": true
+          }
+        ],
+        "useUtility": {
+          "utilityId": "utility_2"
+        },
+        "formatList": [
+          "pdf",
+          "png32",
+          "png8",
+          "jpg",
+          "gif",
+          "eps",
+          "svg",
+          "svgz",
+          "aix",
+          "tiff"
+        ],
+        "defaultFormat": "pdf",
+        "layoutChoiceList": [
+          {
+            "label": "A3 Landscape",
+            "layout": "A3 Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A3 Landscape",
+            "mapFrameSize": [
+              40,
+              21.17
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A3 Portrait",
+            "layout": "A3 Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A3 Portrait",
+            "mapFrameSize": [
+              27.68,
+              33.45
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A4 Landscape",
+            "layout": "A4 Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A4 Landscape",
+            "mapFrameSize": [
+              27.76,
+              15.92
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A4 Portrait",
+            "layout": "A4 Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A4 Portrait",
+            "mapFrameSize": [
+              19.02,
+              22.28
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Letter ANSI A Landscape",
+            "layout": "Letter ANSI A Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Letter ANSI A Landscape",
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Letter ANSI A Portrait",
+            "layout": "Letter ANSI A Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Letter ANSI A Portrait",
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Tabloid ANSI B Landscape",
+            "layout": "Tabloid ANSI B Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Tabloid ANSI B Landscape",
+            "mapFrameSize": [
+              16,
+              7.76
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Tabloid ANSI B Portrait",
+            "layout": "Tabloid ANSI B Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Tabloid ANSI B Portrait",
+            "mapFrameSize": [
+              10,
+              13.61
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "PNG32",
+            "layoutTemplate": "MAP_ONLY"
+          }
+        ]
+      },
+      "id": "widget_264",
+      "style": {
+        "border": {
+          "color": "var(--light-400)",
+          "type": "solid",
+          "width": "1px"
+        }
+      },
+      "useMapWidgetIds": [
+        "widget_137"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_2"
+        }
+      ]
+    },
+    "widget_265": {
+      "uri": "widgets/common/print/",
+      "version": "1.13.0",
+      "label": "Print",
+      "config": {
+        "printServiceType": "CUSTOMIZE",
+        "printTemplateType": "CUSTOMIZE",
+        "modeType": "CLASSIC",
+        "commonSetting": {
+          "scalePreserved": true,
+          "layoutOptions": {
+            "titleText": "CAMA & Sales Map"
+          },
+          "outScale": 36978595.474472,
+          "exportOptions": {
+            "dpi": 150
+          },
+          "printExtentType": "CURRENT MAP SCALE",
+          "forceFeatureAttributes": true,
+          "wkid": 102100,
+          "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+          "enableTitle": true,
+          "enableMapPrintExtents": true,
+          "enableOutputSpatialReference": false,
+          "enableQuality": true,
+          "enableFeatureAttribution": false
+        },
+        "previewBackgroundColor": "rgba(0,216,237,1)",
+        "enablePreview": true,
+        "previewOutLine": {
+          "color": "#000",
+          "size": "4px"
+        },
+        "hasInitBorder": true,
+        "printCustomTemplate": [
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "authorText": "Kendall County GIS",
+              "legendLayers": [
+                {},
+                {},
+                {},
+                {}
+              ]
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": false,
+            "enableCopyright": false,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "format": "pdf",
+            "templateId": "config_custom_0",
+            "label": "Portait Map",
+            "selectedFormatList": [
+              "jpg",
+              "pdf",
+              "png32"
+            ],
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "layout": "Letter ANSI A Portrait"
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "authorText": "Kendall County GIS",
+              "legendLayers": [
+                {},
+                {},
+                {},
+                {}
+              ]
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": false,
+            "enableCopyright": false,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "format": "pdf",
+            "templateId": "config_custom_1",
+            "label": "Landscape Map",
+            "selectedFormatList": [
+              "jpg",
+              "pdf",
+              "png32"
+            ],
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "layout": "Letter ANSI A Landscape"
+          }
+        ],
+        "useUtility": {
+          "utilityId": "utility_2"
+        },
+        "formatList": [
+          "pdf",
+          "png32",
+          "png8",
+          "jpg",
+          "gif",
+          "eps",
+          "svg",
+          "svgz",
+          "aix",
+          "tiff"
+        ],
+        "defaultFormat": "pdf",
+        "layoutChoiceList": [
+          {
+            "label": "A3 Landscape",
+            "layout": "A3 Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A3 Landscape",
+            "mapFrameSize": [
+              40,
+              21.17
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A3 Portrait",
+            "layout": "A3 Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A3 Portrait",
+            "mapFrameSize": [
+              27.68,
+              33.45
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A4 Landscape",
+            "layout": "A4 Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A4 Landscape",
+            "mapFrameSize": [
+              27.76,
+              15.92
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A4 Portrait",
+            "layout": "A4 Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A4 Portrait",
+            "mapFrameSize": [
+              19.02,
+              22.28
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Letter ANSI A Landscape",
+            "layout": "Letter ANSI A Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Letter ANSI A Landscape",
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Letter ANSI A Portrait",
+            "layout": "Letter ANSI A Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Letter ANSI A Portrait",
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Tabloid ANSI B Landscape",
+            "layout": "Tabloid ANSI B Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Tabloid ANSI B Landscape",
+            "mapFrameSize": [
+              16,
+              7.76
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Tabloid ANSI B Portrait",
+            "layout": "Tabloid ANSI B Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Tabloid ANSI B Portrait",
+            "mapFrameSize": [
+              10,
+              13.61
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "PNG32",
+            "layoutTemplate": "MAP_ONLY"
+          }
+        ]
+      },
+      "id": "widget_265",
+      "style": {
+        "border": {
+          "color": "var(--light-400)",
+          "type": "solid",
+          "width": "1px"
+        }
+      },
+      "useMapWidgetIds": [
+        "widget_67"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_2"
+        }
+      ]
+    },
+    "widget_266": {
+      "uri": "widgets/common/print/",
+      "version": "1.13.0",
+      "label": "Print",
+      "config": {
+        "printServiceType": "CUSTOMIZE",
+        "printTemplateType": "CUSTOMIZE",
+        "modeType": "CLASSIC",
+        "commonSetting": {
+          "scalePreserved": true,
+          "layoutOptions": {
+            "titleText": "PBZ Map"
+          },
+          "outScale": 36978595.474472,
+          "exportOptions": {
+            "dpi": 150
+          },
+          "printExtentType": "CURRENT MAP SCALE",
+          "forceFeatureAttributes": true,
+          "wkid": 102100,
+          "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+          "enableTitle": true,
+          "enableMapPrintExtents": true,
+          "enableOutputSpatialReference": false,
+          "enableQuality": true,
+          "enableFeatureAttribution": false
+        },
+        "previewBackgroundColor": "rgba(0,216,237,1)",
+        "enablePreview": true,
+        "previewOutLine": {
+          "color": "#000",
+          "size": "4px"
+        },
+        "hasInitBorder": true,
+        "printCustomTemplate": [
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "authorText": "Kendall County GIS"
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": false,
+            "enableCopyright": false,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "format": "pdf",
+            "templateId": "config_custom_0",
+            "label": "Portrait Map",
+            "selectedFormatList": [
+              "jpg",
+              "pdf",
+              "png32"
+            ],
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "layout": "Letter ANSI A Portrait"
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "authorText": "Kendall County GIS"
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": false,
+            "enableCopyright": false,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "format": "pdf",
+            "templateId": "config_custom_1",
+            "label": "Landscape Map",
+            "selectedFormatList": [
+              "jpg",
+              "pdf",
+              "png32"
+            ],
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "layout": "Letter ANSI A Landscape"
+          }
+        ],
+        "useUtility": {
+          "utilityId": "utility_2"
+        },
+        "formatList": [
+          "pdf",
+          "png32",
+          "png8",
+          "jpg",
+          "gif",
+          "eps",
+          "svg",
+          "svgz",
+          "aix",
+          "tiff"
+        ],
+        "defaultFormat": "pdf",
+        "layoutChoiceList": [
+          {
+            "label": "A3 Landscape",
+            "layout": "A3 Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A3 Landscape",
+            "mapFrameSize": [
+              40,
+              21.17
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A3 Portrait",
+            "layout": "A3 Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A3 Portrait",
+            "mapFrameSize": [
+              27.68,
+              33.45
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A4 Landscape",
+            "layout": "A4 Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A4 Landscape",
+            "mapFrameSize": [
+              27.76,
+              15.92
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A4 Portrait",
+            "layout": "A4 Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A4 Portrait",
+            "mapFrameSize": [
+              19.02,
+              22.28
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Letter ANSI A Landscape",
+            "layout": "Letter ANSI A Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Letter ANSI A Landscape",
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Letter ANSI A Portrait",
+            "layout": "Letter ANSI A Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Letter ANSI A Portrait",
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Tabloid ANSI B Landscape",
+            "layout": "Tabloid ANSI B Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Tabloid ANSI B Landscape",
+            "mapFrameSize": [
+              16,
+              7.76
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Tabloid ANSI B Portrait",
+            "layout": "Tabloid ANSI B Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Tabloid ANSI B Portrait",
+            "mapFrameSize": [
+              10,
+              13.61
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "PNG32",
+            "layoutTemplate": "MAP_ONLY"
+          }
+        ]
+      },
+      "id": "widget_266",
+      "style": {
+        "border": {
+          "color": "var(--light-400)",
+          "type": "solid",
+          "width": "1px"
+        }
+      },
+      "useUtilities": [
+        {
+          "utilityId": "utility_2"
+        }
+      ],
+      "useMapWidgetIds": [
+        "widget_66"
+      ]
+    },
+    "widget_267": {
+      "uri": "widgets/common/print/",
+      "version": "1.13.0",
+      "label": "Print",
+      "config": {
+        "printServiceType": "CUSTOMIZE",
+        "printTemplateType": "CUSTOMIZE",
+        "modeType": "CLASSIC",
+        "commonSetting": {
+          "scalePreserved": true,
+          "layoutOptions": {
+            "titleText": "Kendall County GIS"
+          },
+          "outScale": 36978595.474472,
+          "exportOptions": {
+            "dpi": 150
+          },
+          "printExtentType": "CURRENT MAP SCALE",
+          "forceFeatureAttributes": false,
+          "wkid": 102100,
+          "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+          "enableTitle": true,
+          "enableMapPrintExtents": true,
+          "enableOutputSpatialReference": false,
+          "enableQuality": true,
+          "enableFeatureAttribution": false
+        },
+        "previewBackgroundColor": "rgba(0,216,237,1)",
+        "enablePreview": true,
+        "previewOutLine": {
+          "color": "#000",
+          "size": "4px"
+        },
+        "hasInitBorder": true,
+        "printCustomTemplate": [
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "authorText": "Kendall County GIS"
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": false,
+            "enableCopyright": false,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "format": "pdf",
+            "templateId": "config_custom_0",
+            "label": "Portrait Map",
+            "selectedFormatList": [
+              "jpg",
+              "pdf",
+              "png32"
+            ],
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "layout": "Letter ANSI A Portrait"
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "authorText": "Kendall County GIS"
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": false,
+            "enableCopyright": false,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "format": "pdf",
+            "templateId": "config_custom_1",
+            "label": "Landscape Map",
+            "selectedFormatList": [
+              "jpg",
+              "pdf",
+              "png32"
+            ],
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "layout": "Letter ANSI A Landscape"
+          }
+        ],
+        "useUtility": {
+          "utilityId": "utility_2"
+        },
+        "formatList": [
+          "pdf",
+          "png32",
+          "png8",
+          "jpg",
+          "gif",
+          "eps",
+          "svg",
+          "svgz",
+          "aix",
+          "tiff"
+        ],
+        "defaultFormat": "pdf",
+        "layoutChoiceList": [
+          {
+            "label": "A3 Landscape",
+            "layout": "A3 Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A3 Landscape",
+            "mapFrameSize": [
+              40,
+              21.17
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A3 Portrait",
+            "layout": "A3 Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A3 Portrait",
+            "mapFrameSize": [
+              27.68,
+              33.45
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A4 Landscape",
+            "layout": "A4 Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A4 Landscape",
+            "mapFrameSize": [
+              27.76,
+              15.92
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A4 Portrait",
+            "layout": "A4 Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A4 Portrait",
+            "mapFrameSize": [
+              19.02,
+              22.28
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Letter ANSI A Landscape",
+            "layout": "Letter ANSI A Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Letter ANSI A Landscape",
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Letter ANSI A Portrait",
+            "layout": "Letter ANSI A Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Letter ANSI A Portrait",
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Tabloid ANSI B Landscape",
+            "layout": "Tabloid ANSI B Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Tabloid ANSI B Landscape",
+            "mapFrameSize": [
+              16,
+              7.76
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Tabloid ANSI B Portrait",
+            "layout": "Tabloid ANSI B Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Tabloid ANSI B Portrait",
+            "mapFrameSize": [
+              10,
+              13.61
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "PNG32",
+            "layoutTemplate": "MAP_ONLY"
+          }
+        ]
+      },
+      "id": "widget_267",
+      "style": {
+        "border": {
+          "color": "var(--light-400)",
+          "type": "solid",
+          "width": "1px"
+        }
+      },
+      "useMapWidgetIds": [
+        "widget_65"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_2"
+        }
+      ]
+    },
+    "widget_268": {
+      "uri": "widgets/common/print/",
+      "version": "1.13.0",
+      "label": "Print",
+      "config": {
+        "printServiceType": "CUSTOMIZE",
+        "printTemplateType": "CUSTOMIZE",
+        "modeType": "CLASSIC",
+        "commonSetting": {
+          "scalePreserved": true,
+          "layoutOptions": {
+            "titleText": "Kendall County Voting Map"
+          },
+          "outScale": 36978595.474472,
+          "exportOptions": {
+            "dpi": 150
+          },
+          "printExtentType": "CURRENT MAP SCALE",
+          "forceFeatureAttributes": false,
+          "wkid": 102100,
+          "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+          "enableTitle": true,
+          "enableMapPrintExtents": true,
+          "enableOutputSpatialReference": false,
+          "enableQuality": true,
+          "enableFeatureAttribution": false
+        },
+        "previewBackgroundColor": "rgba(0,216,237,1)",
+        "enablePreview": true,
+        "previewOutLine": {
+          "color": "#000",
+          "size": "4px"
+        },
+        "hasInitBorder": true,
+        "printCustomTemplate": [
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "authorText": "Kendall County GIS"
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": false,
+            "enableCopyright": false,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "format": "pdf",
+            "templateId": "config_custom_0",
+            "label": "Portrait Map",
+            "selectedFormatList": [
+              "jpg",
+              "pdf",
+              "png32"
+            ],
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "layout": "Letter ANSI A Portrait"
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "authorText": "Kendall County GIS"
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": false,
+            "enableCopyright": true,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "format": "pdf",
+            "templateId": "config_custom_1",
+            "label": "Tabloid Sized Map",
+            "selectedFormatList": [
+              "jpg",
+              "pdf",
+              "png32"
+            ],
+            "mapFrameSize": [
+              10,
+              13.61
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "layout": "Tabloid ANSI B Portrait"
+          }
+        ],
+        "useUtility": {
+          "utilityId": "utility_2"
+        },
+        "formatList": [
+          "pdf",
+          "png32",
+          "png8",
+          "jpg",
+          "gif",
+          "eps",
+          "svg",
+          "svgz",
+          "aix",
+          "tiff"
+        ],
+        "defaultFormat": "pdf",
+        "layoutChoiceList": [
+          {
+            "label": "A3 Landscape",
+            "layout": "A3 Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A3 Landscape",
+            "mapFrameSize": [
+              40,
+              21.17
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A3 Portrait",
+            "layout": "A3 Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A3 Portrait",
+            "mapFrameSize": [
+              27.68,
+              33.45
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A4 Landscape",
+            "layout": "A4 Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A4 Landscape",
+            "mapFrameSize": [
+              27.76,
+              15.92
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "A4 Portrait",
+            "layout": "A4 Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "A4 Portrait",
+            "mapFrameSize": [
+              19.02,
+              22.28
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Letter ANSI A Landscape",
+            "layout": "Letter ANSI A Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Letter ANSI A Landscape",
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Letter ANSI A Portrait",
+            "layout": "Letter ANSI A Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Letter ANSI A Portrait",
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Tabloid ANSI B Landscape",
+            "layout": "Tabloid ANSI B Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Tabloid ANSI B Landscape",
+            "mapFrameSize": [
+              16,
+              7.76
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "Tabloid ANSI B Portrait",
+            "layout": "Tabloid ANSI B Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "Tabloid ANSI B Portrait",
+            "mapFrameSize": [
+              10,
+              13.61
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "PNG32",
+            "layoutTemplate": "MAP_ONLY"
+          }
+        ]
+      },
+      "id": "widget_268",
+      "style": {
+        "border": {
+          "color": "var(--light-400)",
+          "type": "solid",
+          "width": "1px"
+        }
+      },
+      "useMapWidgetIds": [
+        "widget_145"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_2"
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -12816,44 +14213,6 @@
           "aspectRatio": false,
           "position": null,
           "height": "432px"
-        }
-      },
-      "confirmBeforeClose": true,
-      "alwaysShowConfirmation": false
-    },
-    "dialog_4": {
-      "id": "dialog_4",
-      "mode": "ANCHORED",
-      "dialogBackground": {
-        "color": "var(--light)",
-        "fillType": "fit",
-        "image": {
-          "url": ""
-        }
-      },
-      "overlayColor": null,
-      "layout": {
-        "LARGE": "layout_18"
-      },
-      "label": "Known Issues",
-      "index": 4,
-      "isSplash": false,
-      "closeWhenClickOverlay": true,
-      "effect": {
-        "type": "FLOAT_IN",
-        "option": {
-          "direction": "BOTTOM",
-          "configType": "GENTLE"
-        }
-      },
-      "interactionType": null,
-      "interactionStyles": null,
-      "sizeMode": {
-        "LARGE": {
-          "width": "260px",
-          "aspectRatio": false,
-          "position": null,
-          "height": "300px"
         }
       },
       "confirmBeforeClose": true,
@@ -12990,7 +14349,7 @@
       "layout": {
         "LARGE": "layout_221"
       },
-      "index": 5,
+      "index": 4,
       "isSplash": false,
       "label": "Call for Plats",
       "interactionType": null,
@@ -13946,7 +15305,7 @@
       }
     }
   },
-  "timestamp": 1692994013076,
+  "timestamp": 1701468134269,
   "sharedThemeVariables": {
     "header": {
       "bg": "#263a56",
@@ -13972,9 +15331,99 @@
       "source": "custom",
       "url": "https://maps.co.kendall.il.us/server/rest/services/Locator/Kendall_County_Site_Address_Locator/GeocodeServer",
       "label": "Address Locator"
+    },
+    "utility_2": {
+      "id": "utility_2",
+      "type": "PRINTING",
+      "name": "printTask",
+      "label": "Printing",
+      "url": "https://maps.co.kendall.il.us/server/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+      "source": "org",
+      "orgSetting": {
+        "templates": [
+          {
+            "label": "MAP_ONLY",
+            "format": "PNG32",
+            "layout": "MAP_ONLY",
+            "idx": 0
+          },
+          {
+            "label": "A3 Landscape",
+            "format": "PNG32",
+            "layout": "A3 Landscape",
+            "layoutOptions": {
+              "legend": false
+            },
+            "idx": 1
+          },
+          {
+            "label": "A3 Portrait",
+            "format": "PNG32",
+            "layout": "A3 Portrait",
+            "layoutOptions": {
+              "legend": false
+            },
+            "idx": 2
+          },
+          {
+            "label": "A4 Landscape",
+            "format": "PNG32",
+            "layout": "A4 Landscape",
+            "layoutOptions": {
+              "legend": false
+            },
+            "idx": 3
+          },
+          {
+            "label": "A4 Portrait",
+            "format": "PNG32",
+            "layout": "A4 Portrait",
+            "layoutOptions": {
+              "legend": false
+            },
+            "idx": 4
+          },
+          {
+            "label": "Letter ANSI A Landscape",
+            "format": "PNG32",
+            "layout": "Letter ANSI A Landscape",
+            "layoutOptions": {
+              "legend": false
+            },
+            "idx": 5
+          },
+          {
+            "label": "Letter ANSI A Portrait",
+            "format": "PNG32",
+            "layout": "Letter ANSI A Portrait",
+            "layoutOptions": {
+              "legend": false
+            },
+            "idx": 6
+          },
+          {
+            "label": "Tabloid ANSI B Landscape",
+            "format": "PNG32",
+            "layout": "Tabloid ANSI B Landscape",
+            "layoutOptions": {
+              "legend": false
+            },
+            "idx": 7
+          },
+          {
+            "label": "Tabloid ANSI B Portrait",
+            "format": "PNG32",
+            "layout": "Tabloid ANSI B Portrait",
+            "layoutOptions": {
+              "legend": false
+            },
+            "idx": 8
+          }
+        ]
+      }
     }
   },
-  "originExbVersion": "1.12.0",
+  "originExbVersion": "1.13.0",
   "historyLabels": {
     "pages": {
       "page_0": [
